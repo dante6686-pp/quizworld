@@ -70,6 +70,17 @@
 
 <div class="container">
     
+    <div id="navbar" class="navbar hidden">
+        <div class="user-profile">
+            <span id="nav-avatar" style="font-size: 24px;"></span>
+            <div>
+                <div id="nav-username" style="font-weight: bold;">Username</div>
+                <div id="nav-currency" style="font-size: 12px; color: var(--warning);">💰 0 G-Coins</div>
+            </div>
+        </div>
+        <button id="btn-logout" style="width: auto; padding: 8px 15px; margin: 0; font-size: 12px; background: var(--danger); color: white;">Wyloguj</button>
+    </div>
+
     <div id="screen-auth" class="screen active">
         <h1>Quisent Login</h1>
         
@@ -95,17 +106,6 @@
             <button id="btn-register">Stwórz konto</button>
             <button class="secondary" id="btn-cancel-register">Wróć</button>
         </div>
-    </div>
-
-    <div id="navbar" class="navbar hidden">
-        <div class="user-profile">
-            <span id="nav-avatar" style="font-size: 24px;"></span>
-            <div>
-                <div id="nav-username" style="font-weight: bold;">Username</div>
-                <div id="nav-currency" style="font-size: 12px; color: var(--warning);">💰 0 G-Coins</div>
-            </div>
-        </div>
-        <button id="btn-logout" style="width: auto; padding: 8px 15px; margin: 0; font-size: 12px; background: var(--danger); color: white;">Wyloguj</button>
     </div>
 
     <div id="screen-dashboard" class="screen">
@@ -179,10 +179,6 @@
         <div style="background: rgba(0,0,0,0.3); padding: 25px; border-radius: 8px; text-align: center; font-size: 20px; margin-bottom: 20px;" id="quiz-question-text">
             Treść pytania...
         </div>
-
-        <input type="text" id="quiz-answer-input" placeholder="Wpisz odpowiedź..." class="hidden">
-        
-        <button id="btn-submit-answer" class="hidden">Potwierdź odpowiedź</button>
         
         <div style="display: flex; gap: 10px;">
             <button id="test-btn-wrong" style="background: var(--danger); color: #fff;">Test: Źle</button>
@@ -227,38 +223,26 @@
 </div>
 
 <script type="module">
-    // TUTAJ PODMIENIASZ IMPORTY NA SWOJE Z FIREBASE
-    // import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js";
-    // import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-auth.js";
-    // import { getDatabase, ref, set, get, update, onValue } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-database.js";
-    
-      // Import the functions you need from the SDKs you need
-    
-      import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
-      import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
-      import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-auth.js";
-      import { getDatabase, ref, set, get, update, onValue } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-database.js";
-    
-      // TODO: Add SDKs for Firebase products that you want to use
-      // https://firebase.google.com/docs/web/setup#available-libraries
-    
-      // Your web app's Firebase configuration
-      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-        
-  const firebaseConfig = {
-    apiKey: "AIzaSyBeSs0i1oKNUeEbCCi8mWEs6WfxukWAebA",
-    authDomain: "quisent-8b6cd.firebaseapp.com",
-    databaseURL: "https://quisent-8b6cd-default-rtdb.europe-west1.firebasedatabase.app",
-    projectId: "quisent-8b6cd",
-    storageBucket: "quisent-8b6cd.firebasestorage.app",
-    messagingSenderId: "537252295249",
-    appId: "1:537252295249:web:7174d90b51d794ef973e70",
-    measurementId: "G-KL93NQKPZ3"
-  };
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js";
+    import { getDatabase, ref, set, get, update, onValue } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-database.js";
+    import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-auth.js";
 
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
+    // =========================================================
+    // WAŻNE: TUTAJ WKLEJ SWOJĄ KONFIGURACJĘ Z KONSOLI FIREBASE
+    // =========================================================
+    const firebaseConfig = {
+      apiKey: "AIzaSyBeSs0i1oKNUeEbCCi8mWEs6WfxukWAebA",
+      authDomain: "quisent-8b6cd.firebaseapp.com",
+      databaseURL: "https://quisent-8b6cd-default-rtdb.europe-west1.firebasedatabase.app",
+      projectId: "quisent-8b6cd",
+      storageBucket: "quisent-8b6cd.firebasestorage.app",
+      messagingSenderId: "537252295249",
+      appId: "1:537252295249:web:7174d90b51d794ef973e70",
+      measurementId: "G-KL93NQKPZ3"
+    };
+    // =========================================================
+
+    const app = initializeApp(firebaseConfig);
     const db = getDatabase(app);
     const auth = getAuth(app);
 
@@ -266,8 +250,6 @@
     let currentUser = null;
     let currentRoomId = null;
     let selectedAvatar = '👨‍🚀';
-    
-    // Zmienne quizu asynchronicznego
     let myLocalProgress = 0;
     let myLocalScore = 0;
     let roomQuestions = [];
@@ -280,7 +262,7 @@
         document.getElementById(screenId).classList.add('active');
     }
 
-    // --- LOGIKA UI (Auth) ---
+    // --- UI LOGOWANIA / REJESTRACJI ---
     document.querySelectorAll('.avatar-option').forEach(el => {
         el.addEventListener('click', (e) => {
             document.querySelectorAll('.avatar-option').forEach(a => a.classList.remove('selected'));
@@ -298,9 +280,8 @@
         document.getElementById('register-form').classList.add('hidden');
         document.getElementById('login-form').classList.remove('hidden');
     });
-    
 
-    // --- REJESTRACJA ---
+    // --- REJESTRACJA (Firebase Auth + Baza) ---
     document.getElementById('btn-register').addEventListener('click', async () => {
         const email = document.getElementById('reg-email').value.trim();
         const pass = document.getElementById('reg-pass').value;
@@ -310,11 +291,9 @@
         if(!email || !pass || !username) { alert("Wypełnij wymagane pola!"); return; }
 
         try {
-            // 1. Tworzymy użytkownika w Firebase Auth
             const userCredential = await createUserWithEmailAndPassword(auth, email, pass);
             const user = userCredential.user;
 
-            // 2. Zapisujemy jego profil do naszej bazy danych (Realtime Database)
             await set(ref(db, 'users/' + user.uid), {
                 username: username,
                 avatar: selectedAvatar,
@@ -323,16 +302,14 @@
             });
 
             alert("Konto założone! Możesz się teraz zalogować.");
-            document.getElementById('btn-cancel-register').click(); // Powrót do ekranu logowania
-
+            document.getElementById('btn-cancel-register').click(); 
         } catch (error) {
             console.error("Błąd rejestracji:", error);
             alert("Błąd: " + error.message);
         }
     });
-    
 
-    // --- LOGOWANIE ---
+    // --- LOGOWANIE (Firebase Auth + Baza) ---
     document.getElementById('btn-login').addEventListener('click', async () => {
         const email = document.getElementById('auth-email').value.trim();
         const pass = document.getElementById('auth-pass').value;
@@ -340,24 +317,22 @@
         if(!email || !pass) { alert("Wpisz email i hasło!"); return; }
 
         try {
-            // 1. Logujemy przez Firebase Auth
             const userCredential = await signInWithEmailAndPassword(auth, email, pass);
             const user = userCredential.user;
 
-            // 2. Pobieramy jego awatar i nick z Realtime Database
             const snapshot = await get(ref(db, 'users/' + user.uid));
             
             if(snapshot.exists()) {
                 currentUser = { uid: user.uid, ...snapshot.val() };
                 updateNavbar();
                 switchScreen('screen-dashboard');
-                // renderRoomList(); <- to odpalimy w kolejnym etapie
+                // renderRoomList(); // Tutaj w przyszłości podepniemy pobieranie pokoi z Firebase
             } else {
                 alert("Błąd pobierania profilu użytkownika.");
             }
         } catch (error) {
             console.error("Błąd logowania:", error);
-            alert("Błędny email lub hasło!");
+            alert("Błędny email lub hasło! Upewnij się, że wpisałeś poprawne dane.");
         }
     });
 
@@ -380,8 +355,7 @@
         }
     });
 
-    
-    // --- LOGIKA POKOI (Dashboard) ---
+    // --- LOGIKA POKOI (Dashboard MOCK) ---
     document.getElementById('btn-show-create-room').addEventListener('click', () => {
         switchScreen('screen-create-room');
     });
@@ -395,21 +369,17 @@
         else document.getElementById('room-password-container').classList.add('hidden');
     });
 
-    // --- TWORZENIE POKOJU ---
+    // --- TWORZENIE POKOJU (MOCK) ---
     document.getElementById('btn-create-room-confirm').addEventListener('click', () => {
         const isPrivate = document.getElementById('room-privacy').value === 'private';
-        const password = document.getElementById('room-password').value;
-        const maxP = document.getElementById('room-max-players').value;
-        
-        // Zmockowane utworzenie pokoju (w Firebase zrobisz `set(ref(db, 'rooms/'+roomId), {...})`)
         currentRoomId = 'ROOM-' + Math.floor(1000 + Math.random() * 9000);
         
         document.getElementById('room-view-title').innerText = `Pokój: ${currentRoomId} ${isPrivate ? '🔒' : '🌍'}`;
         switchScreen('screen-room');
-        renderRoomPlayersMock(); // Tu podepniesz `onValue` na pokój w bazie
+        renderRoomPlayersMock();
     });
 
-    // --- SYMULACJA POKOJU (Asynchroniczna) ---
+    // --- SYMULACJA POCZEKALNI POKOJU ---
     function renderRoomPlayersMock() {
         const list = document.getElementById('room-players-list');
         list.innerHTML = `
@@ -430,10 +400,9 @@
 
     // --- START WŁASNEGO QUIZU ---
     document.getElementById('btn-start-my-quiz').addEventListener('click', () => {
-        // Kiedy gracz klika start, ustawiasz w Firebase jego status w pokoju na "in_progress"
         myLocalProgress = 0;
         myLocalScore = 0;
-        roomQuestions = [ { q: "Test 1" }, { q: "Test 2" }, { q: "Test 3" } ]; // Te pobierzesz z `roomData.questions`
+        roomQuestions = [ { q: "Ile to 2+2?" }, { q: "Stolica Polski?" }, { q: "Największa planeta?" } ]; // Przykładowe pytania
         
         switchScreen('screen-quiz');
         loadNextAsyncQuestion();
@@ -448,17 +417,13 @@
         const qTotal = roomQuestions.length;
         document.getElementById('quiz-progress-text').innerText = `Pytanie ${myLocalProgress + 1} / ${qTotal}`;
         document.getElementById('quiz-progress-bar').style.width = `${((myLocalProgress) / qTotal) * 100}%`;
-        document.getElementById('quiz-question-text').innerText = `Treść pytania nr ${myLocalProgress + 1}`;
+        document.getElementById('quiz-question-text').innerText = roomQuestions[myLocalProgress].q;
     }
 
     // --- OBSŁUGA ODPOWIEDZI ---
     function handleAnswer(isCorrect) {
         if (isCorrect) myLocalScore++;
         myLocalProgress++;
-        
-        // ZTUTAJ UPDATE DO FIREBASE, żeby inni widzieli Twój postęp w poczekalni:
-        // update(ref(db, `rooms/${currentRoomId}/players/${currentUser.uid}`), { progress: myLocalProgress, score: myLocalScore })
-
         loadNextAsyncQuestion();
     }
 
@@ -467,16 +432,14 @@
 
     // --- ZAKOŃCZENIE QUIZU GRACZA ---
     function finishMyQuiz() {
-        // update(ref(db, `rooms/${currentRoomId}/players/${currentUser.uid}`), { status: 'completed' })
         switchScreen('screen-results');
         
-        // Funkcja nasłuchująca powinna sprawdzić, czy WSZYSCY mają status 'completed'. 
-        // Zmockujmy tu sytuację, gdy wszyscy już skończyli:
+        // Symulacja czekania na resztę graczy, a potem pokazanie wyników
         setTimeout(() => {
             document.getElementById('waiting-message').classList.add('hidden');
             document.getElementById('podium-container').classList.remove('hidden');
             renderFinalLeaderboardMock();
-        }, 1500); // Symulacja opóźnienia
+        }, 1500); 
     }
 
     function renderFinalLeaderboardMock() {
@@ -501,8 +464,12 @@
         `;
     }
 
+    document.getElementById('btn-leave-room').addEventListener('click', () => {
+        currentRoomId = null;
+        switchScreen('screen-dashboard');
+    });
+
     document.getElementById('btn-return-to-dash').addEventListener('click', () => {
-        // Wyjście z pokoju (usuwanie nasłuchiwaczy itp.)
         currentRoomId = null;
         switchScreen('screen-dashboard');
     });
