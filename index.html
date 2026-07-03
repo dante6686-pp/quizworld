@@ -224,7 +224,7 @@
 
 <script type="module">
     import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js";
-    import { getDatabase, ref, set, get, update, onValue } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-database.js";
+    import { getDatabase, ref, set, get, update, onValue, push } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-database.js";
     import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-auth.js";
 
     // =========================================================
@@ -281,7 +281,7 @@
         document.getElementById('login-form').classList.remove('hidden');
     });
 
-    // --- REJESTRACJA (Firebase Auth + Baza) ---
+    // --- REJESTRACJA ---
     document.getElementById('btn-register').addEventListener('click', async () => {
         const email = document.getElementById('reg-email').value.trim();
         const pass = document.getElementById('reg-pass').value;
@@ -309,7 +309,7 @@
         }
     });
 
-    // --- LOGOWANIE (Firebase Auth + Baza) ---
+    // --- LOGOWANIE ---
     document.getElementById('btn-login').addEventListener('click', async () => {
         const email = document.getElementById('auth-email').value.trim();
         const pass = document.getElementById('auth-pass').value;
@@ -326,13 +326,13 @@
                 currentUser = { uid: user.uid, ...snapshot.val() };
                 updateNavbar();
                 switchScreen('screen-dashboard');
-                // renderRoomList(); // Tutaj w przyszłości podepniemy pobieranie pokoi z Firebase
+                listenToAllRooms();
             } else {
                 alert("Błąd pobierania profilu użytkownika.");
             }
         } catch (error) {
             console.error("Błąd logowania:", error);
-            alert("Błędny email lub hasło! Upewnij się, że wpisałeś poprawne dane.");
+            alert("Błędny email lub hasło!");
         }
     });
 
@@ -355,7 +355,43 @@
         }
     });
 
-    // --- LOGIKA POKOI (Dashboard MOCK) ---
+    // --- NASŁUCHIWANIE I RENDEROWANIE POKOI NA DASHBOARDZIE ---
+    function listenToAllRooms() {
+        onValue(ref(db, 'rooms'), (snapshot) => {
+            const roomList = document.getElementById('room-list');
+            roomList.innerHTML = '';
+            
+            if (!snapshot.exists()) {
+                roomList.innerHTML = '<p style="text-align:center; color:#94a3b8;">Brak aktywnych pokoi. Stwórz pierwszy!</p>';
+                return;
+            }
+
+            const rooms = snapshot.val();
+            for (const roomId in rooms) {
+                const room = rooms[roomId];
+                const playersCount = room.players ? Object.keys(room.players).length : 0;
+                const isFull = playersCount >= room.maxPlayers;
+                
+                const roomDiv = document.createElement('div');
+                roomDiv.className = 'room-item';
+                
+                roomDiv.innerHTML = `
+                    <div class="room-info">
+                        <span class="room-title">Pokój: ${room.hostName} ${room.isPrivate ? '<span class="badge-private">🔒 HASŁO</span>' : ''}</span>
+                        <span class="room-meta">Kategoria: ${room.category} | Pytań: ${room.questionCount} | Czas: ${room.timeLimit}h</span>
+                    </div>
+                    <div class="room-status ${isFull ? 'status-full' : 'status-open'}">
+                        ${playersCount}/${room.maxPlayers} ${isFull ? '(Pełny)' : ''}
+                    </div>
+                `;
+
+                roomDiv.addEventListener('click', () => joinRoom(roomId, room, isFull));
+                roomList.appendChild(roomDiv);
+            }
+        });
+    }
+
+    // --- TWORZENIE NOWEGO POKOJU ---
     document.getElementById('btn-show-create-room').addEventListener('click', () => {
         switchScreen('screen-create-room');
     });
@@ -369,41 +405,120 @@
         else document.getElementById('room-password-container').classList.add('hidden');
     });
 
-    // --- TWORZENIE POKOJU (MOCK) ---
-    document.getElementById('btn-create-room-confirm').addEventListener('click', () => {
+    document.getElementById('btn-create-room-confirm').addEventListener('click', async () => {
+        const category = document.getElementById('room-category').value;
+        const qCount = parseInt(document.getElementById('room-q-count').value);
+        const maxPlayers = parseInt(document.getElementById('room-max-players').value);
+        const timeLimit = parseInt(document.getElementById('room-time-limit').value);
         const isPrivate = document.getElementById('room-privacy').value === 'private';
-        currentRoomId = 'ROOM-' + Math.floor(1000 + Math.random() * 9000);
+        const password = document.getElementById('room-password').value;
+
+        if (isPrivate && !password) { alert("Wpisz hasło dla prywatnego pokoju!"); return; }
+
+        const newRoomRef = push(ref(db, 'rooms')); 
+        currentRoomId = newRoomRef.key;
+
+        const roomData = {
+            hostId: currentUser.uid,
+            hostName: currentUser.username,
+            status: 'open',
+            category: category,
+            questionCount: qCount,
+            maxPlayers: maxPlayers,
+            timeLimit: timeLimit,
+            isPrivate: isPrivate,
+            password: isPrivate ? password : "",
+            createdAt: Date.now(),
+            players: {}
+        };
+
+        roomData.players[currentUser.uid] = {
+            username: currentUser.username,
+            avatar: currentUser.avatar,
+            progress: 0,
+            score: 0,
+            status: 'waiting'
+        };
+
+        await set(newRoomRef, roomData);
         
-        document.getElementById('room-view-title').innerText = `Pokój: ${currentRoomId} ${isPrivate ? '🔒' : '🌍'}`;
+        document.getElementById('room-view-title').innerText = `Pokój: ${currentRoomId.slice(-5)} ${isPrivate ? '🔒' : '🌍'}`;
         switchScreen('screen-room');
-        renderRoomPlayersMock();
+        listenToCurrentRoom();
     });
 
-    // --- SYMULACJA POCZEKALNI POKOJU ---
-    function renderRoomPlayersMock() {
-        const list = document.getElementById('room-players-list');
-        list.innerHTML = `
-            <div class="player-row">
-                <span class="user-profile"><span style="font-size:20px;">${currentUser.avatar}</span> ${currentUser.username} (Ty)</span>
-                <span style="color: var(--warning);">Czeka na start</span>
-            </div>
-            <div class="player-row">
-                <span class="user-profile"><span style="font-size:20px;">👨‍🚀</span> InnyGracz99</span>
-                <span>Pytanie 3/10</span>
-            </div>
-            <div class="player-row">
-                <span class="user-profile"><span style="font-size:20px;">🧙‍♂️</span> ProGamer</span>
-                <span class="player-completed">Ukończono</span>
-            </div>
-        `;
+    // --- LOGIKA DOŁĄCZANIA DO ISTNIEJĄCEGO POKOJU ---
+    async function joinRoom(roomId, roomData, isFull) {
+        const isAlreadyInRoom = roomData.players && roomData.players[currentUser.uid];
+
+        if (isFull && !isAlreadyInRoom) {
+            alert("Ten pokój jest już pełny!");
+            return;
+        }
+
+        if (roomData.isPrivate && !isAlreadyInRoom) {
+            const userPass = prompt("Pokój jest prywatny. Podaj hasło:");
+            if (userPass !== roomData.password) {
+                alert("Nieprawidłowe hasło!");
+                return;
+            }
+        }
+
+        currentRoomId = roomId;
+
+        if (!isAlreadyInRoom) {
+            await update(ref(db, `rooms/${roomId}/players/${currentUser.uid}`), {
+                username: currentUser.username,
+                avatar: currentUser.avatar,
+                progress: 0,
+                score: 0,
+                status: 'waiting'
+            });
+        }
+
+        document.getElementById('room-view-title').innerText = `Pokój: ${roomId.slice(-5)} ${roomData.isPrivate ? '🔒' : '🌍'}`;
+        switchScreen('screen-room');
+        listenToCurrentRoom();
     }
 
-    // --- START WŁASNEGO QUIZU ---
-    document.getElementById('btn-start-my-quiz').addEventListener('click', () => {
+    // --- NOCLECH / POCZEKALNIA POKOJU ---
+    function listenToCurrentRoom() {
+        onValue(ref(db, `rooms/${currentRoomId}`), (snapshot) => {
+            if(!snapshot.exists()) return;
+            const room = snapshot.val();
+            
+            const list = document.getElementById('room-players-list');
+            list.innerHTML = '';
+            
+            for (const playerId in room.players) {
+                const player = room.players[playerId];
+                const isMe = playerId === currentUser.uid;
+                
+                list.innerHTML += `
+                    <div class="player-row">
+                        <span class="user-profile"><span style="font-size:20px;">${player.avatar}</span> ${player.username} ${isMe ? '(Ty)' : ''}</span>
+                        <span style="color: ${player.status === 'completed' ? 'var(--success)' : 'var(--warning)'};">
+                            ${player.status === 'completed' ? 'Ukończono' : `Pytań: ${player.progress}/${room.questionCount}`}
+                        </span>
+                    </div>
+                `;
+            }
+        });
+    }
+
+    // --- WYJŚCIE Z POKOJU ---
+    document.getElementById('btn-leave-room').addEventListener('click', () => {
+        currentRoomId = null;
+        switchScreen('screen-dashboard');
+    });
+
+    // --- ROZPOCZĘCIE WŁASNEGO QUIZU ---
+    document.getElementById('btn-start-my-quiz').addEventListener('click', async () => {
         myLocalProgress = 0;
         myLocalScore = 0;
-        roomQuestions = [ { q: "Ile to 2+2?" }, { q: "Stolica Polski?" }, { q: "Największa planeta?" } ]; // Przykładowe pytania
+        roomQuestions = [ { q: "Ile to 2+2?" }, { q: "Stolica Polski?" }, { q: "Największa planeta?" } ]; 
         
+        await update(ref(db, `rooms/${currentRoomId}/players/${currentUser.uid}`), { status: 'in_progress' });
         switchScreen('screen-quiz');
         loadNextAsyncQuestion();
     });
@@ -420,21 +535,25 @@
         document.getElementById('quiz-question-text').innerText = roomQuestions[myLocalProgress].q;
     }
 
-    // --- OBSŁUGA ODPOWIEDZI ---
-    function handleAnswer(isCorrect) {
+    async function handleAnswer(isCorrect) {
         if (isCorrect) myLocalScore++;
         myLocalProgress++;
+        
+        await update(ref(db, `rooms/${currentRoomId}/players/${currentUser.uid}`), { 
+            progress: myLocalProgress, 
+            score: myLocalScore 
+        });
+
         loadNextAsyncQuestion();
     }
 
     document.getElementById('test-btn-correct').addEventListener('click', () => handleAnswer(true));
     document.getElementById('test-btn-wrong').addEventListener('click', () => handleAnswer(false));
 
-    // --- ZAKOŃCZENIE QUIZU GRACZA ---
-    function finishMyQuiz() {
+    async function finishMyQuiz() {
+        await update(ref(db, `rooms/${currentRoomId}/players/${currentUser.uid}`), { status: 'completed' });
         switchScreen('screen-results');
         
-        // Symulacja czekania na resztę graczy, a potem pokazanie wyników
         setTimeout(() => {
             document.getElementById('waiting-message').classList.add('hidden');
             document.getElementById('podium-container').classList.remove('hidden');
@@ -453,21 +572,8 @@
                 <span>1. ${currentUser.avatar} ${currentUser.username}</span>
                 <span class="player-completed">${myLocalScore} pkt</span>
             </div>
-            <div class="player-row">
-                <span>2. 🧙‍♂️ ProGamer</span>
-                <span class="player-completed">2 pkt</span>
-            </div>
-            <div class="player-row">
-                <span>3. 👨‍🚀 InnyGracz99</span>
-                <span class="player-completed">1 pkt</span>
-            </div>
         `;
     }
-
-    document.getElementById('btn-leave-room').addEventListener('click', () => {
-        currentRoomId = null;
-        switchScreen('screen-dashboard');
-    });
 
     document.getElementById('btn-return-to-dash').addEventListener('click', () => {
         currentRoomId = null;
