@@ -233,10 +233,12 @@
     // import { getDatabase, ref, set, get, update, onValue } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-database.js";
     
       // Import the functions you need from the SDKs you need
+    
       import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
       import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
       import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-auth.js";
       import { getDatabase, ref, set, get, update, onValue } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-database.js";
+    
       // TODO: Add SDKs for Firebase products that you want to use
       // https://firebase.google.com/docs/web/setup#available-libraries
     
@@ -257,6 +259,8 @@
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
   const analytics = getAnalytics(app);
+    const db = getDatabase(app);
+    const auth = getAuth(app);
 
     // --- ZMIENNE GLOBALNE ---
     let currentUser = null;
@@ -294,30 +298,89 @@
         document.getElementById('register-form').classList.add('hidden');
         document.getElementById('login-form').classList.remove('hidden');
     });
+    
 
-    // --- PRZYKŁADOWY PRZEPŁYW DLA FRONTENDU ---
-    // (Zastąpisz to autentykacją Firebase `signInWithEmailAndPassword`)
-    document.getElementById('btn-login').addEventListener('click', () => {
-        // Zmockowane logowanie
-        currentUser = { uid: 'user_' + Math.floor(Math.random()*1000), username: 'TestUser', avatar: '🥷', currency: 150 };
-        updateNavbar();
-        switchScreen('screen-dashboard');
-        renderRoomList(); // Tu podepniesz nasłuchiwanie na `rooms/` w Firebase
+    // --- REJESTRACJA ---
+    document.getElementById('btn-register').addEventListener('click', async () => {
+        const email = document.getElementById('reg-email').value.trim();
+        const pass = document.getElementById('reg-pass').value;
+        const username = document.getElementById('reg-username').value.trim();
+        const tagline = document.getElementById('reg-tagline').value.trim();
+
+        if(!email || !pass || !username) { alert("Wypełnij wymagane pola!"); return; }
+
+        try {
+            // 1. Tworzymy użytkownika w Firebase Auth
+            const userCredential = await createUserWithEmailAndPassword(auth, email, pass);
+            const user = userCredential.user;
+
+            // 2. Zapisujemy jego profil do naszej bazy danych (Realtime Database)
+            await set(ref(db, 'users/' + user.uid), {
+                username: username,
+                avatar: selectedAvatar,
+                tagline: tagline,
+                currency: 0
+            });
+
+            alert("Konto założone! Możesz się teraz zalogować.");
+            document.getElementById('btn-cancel-register').click(); // Powrót do ekranu logowania
+
+        } catch (error) {
+            console.error("Błąd rejestracji:", error);
+            alert("Błąd: " + error.message);
+        }
+    });
+    
+
+    // --- LOGOWANIE ---
+    document.getElementById('btn-login').addEventListener('click', async () => {
+        const email = document.getElementById('auth-email').value.trim();
+        const pass = document.getElementById('auth-pass').value;
+
+        if(!email || !pass) { alert("Wpisz email i hasło!"); return; }
+
+        try {
+            // 1. Logujemy przez Firebase Auth
+            const userCredential = await signInWithEmailAndPassword(auth, email, pass);
+            const user = userCredential.user;
+
+            // 2. Pobieramy jego awatar i nick z Realtime Database
+            const snapshot = await get(ref(db, 'users/' + user.uid));
+            
+            if(snapshot.exists()) {
+                currentUser = { uid: user.uid, ...snapshot.val() };
+                updateNavbar();
+                switchScreen('screen-dashboard');
+                // renderRoomList(); <- to odpalimy w kolejnym etapie
+            } else {
+                alert("Błąd pobierania profilu użytkownika.");
+            }
+        } catch (error) {
+            console.error("Błąd logowania:", error);
+            alert("Błędny email lub hasło!");
+        }
     });
 
     function updateNavbar() {
         document.getElementById('navbar').classList.remove('hidden');
         document.getElementById('nav-avatar').innerText = currentUser.avatar;
         document.getElementById('nav-username').innerText = currentUser.username;
-        document.getElementById('nav-currency').innerText = `💰 ${currentUser.currency} G-Coins`;
+        document.getElementById('nav-currency').innerText = `💰 ${currentUser.currency || 0} G-Coins`;
     }
 
-    document.getElementById('btn-logout').addEventListener('click', () => {
-        currentUser = null;
-        document.getElementById('navbar').classList.add('hidden');
-        switchScreen('screen-auth');
+    // --- WYLOGOWANIE ---
+    document.getElementById('btn-logout').addEventListener('click', async () => {
+        try {
+            await signOut(auth);
+            currentUser = null;
+            document.getElementById('navbar').classList.add('hidden');
+            switchScreen('screen-auth');
+        } catch (error) {
+            console.error("Błąd wylogowywania:", error);
+        }
     });
 
+    
     // --- LOGIKA POKOI (Dashboard) ---
     document.getElementById('btn-show-create-room').addEventListener('click', () => {
         switchScreen('screen-create-room');
