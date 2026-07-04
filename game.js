@@ -6,14 +6,14 @@ import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, si
 // WAŻNE: TUTAJ WKLEJ SWOJĄ KONFIGURACJĘ Z KONSOLI FIREBASE
 // =========================================================
 const firebaseConfig = {
-  apiKey: "TWOJ_KLUCZ_API",
-  authDomain: "twoj-projekt.firebaseapp.com",
-  databaseURL: "https://twoj-projekt.firebasedatabase.app",
-  projectId: "twoj-projekt",
-  storageBucket: "twoj-projekt.appspot.com",
-  messagingSenderId: "123456789",
-  appId: "1:123456789:web:abcdef123456",
-  measurementId: "G-ABCDEF12"
+  apiKey: "AIzaSyBeSs0i1oKNUeEbCCi8mWEs6WfxukWAebA",
+  authDomain: "quisent-8b6cd.firebaseapp.com",
+  databaseURL: "https://quisent-8b6cd-default-rtdb.europe-west1.firebasedatabase.app",
+  projectId: "quisent-8b6cd",
+  storageBucket: "quisent-8b6cd.firebasestorage.app",
+  messagingSenderId: "537252295249",
+  appId: "1:537252295249:web:7174d90b51d794ef973e70",
+  measurementId: "G-KL93NQKPZ3"
 };
 // =========================================================
 
