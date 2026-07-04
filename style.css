@@ -145,3 +145,8 @@ button.secondary {
 .btn-game-container { display: flex; gap: 15px; margin-top: 20px; }
 .btn-correct { background-color: var(--success); color: #111; }
 .btn-wrong { background-color: var(--danger); color: #111; }
+
+/* ... reszta stylów jak poprzednio ... */
+#quiz-answer-buttons button { padding: 20px; background: var(--card-color); border: 1px solid var(--accent-color); color: white; }
+#quiz-answer-buttons button:hover { background: var(--accent-color); color: #000; }
+
