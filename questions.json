@@ -1,0 +1,2942 @@
+[
+  {
+    "id": 1,
+    "category": "Telewizja i Popkultura",
+    "question": "Jaki program dla dzieci prowadzony przez ciocię Klotę i Pana Tik-Taka (Krzysztofa Marca) gromadził miliony przed telewizorami w latach 80. i 90.?",
+    "answer": "Tik-Tak",
+    "hint": "Program telewizyjny z piosenką o zegarze, który robi tik-tak."
+  },
+  {
+    "id": 2,
+    "category": "Telewizja i Popkultura",
+    "question": "Jak nazywał się kultowy program z wielkim niebieskim stworem, w którym dzieci śpiewały piosenki, a prowadził go m.in. Krzysztof Antkowiak czy Piotr Pręgowski?",
+    "answer": "Dyskoteka Pana Dżeka",
+    "hint": "Muzyczny program z Jackiem Cyganem w tle."
+  },
+  {
+    "id": 3,
+    "category": "Telewizja i Popkultura",
+    "question": "Jak nazywał się program muzyczny prowadzony przez Wojciecha Manna i Krzysztofa Maternę, w którym amatorzy śpiewali hity znanych gwiazd, a nagrodą był występ w Opolu?",
+    "answer": "Szansa na sukces",
+    "hint": "Kultowy program Elżbiety Skrętkowskiej, gdzie losowano taśmy."
+  },
+  {
+    "id": 4,
+    "category": "Telewizja i Popkultura",
+    "question": "Jak nazywał się teleturniej interaktywny w Polsacie, w którym sterowało się postacią trolla za pomocą klawiatury telefonu stacjonarnego?",
+    "answer": "Hugo",
+    "hint": "Troll walczący ze złą wiedźmą Scyllą."
+  },
+  {
+    "id": 5,
+    "category": "Telewizja i Popkultura",
+    "question": "Kto prowadził kultowy teleturniej 'Idź na całość', w którym można było wygrać samochód albo maskotkę Kota w worku (Zonka)?",
+    "answer": "Zygmunt Chajzer",
+    "hint": "Ojciec Filipa, znany z zaraźliwego uśmiechu i rozdawania Zonków."
+  },
+  {
+    "id": 6,
+    "category": "Telewizja i Popkultura",
+    "question": "Jak wabił się pies z kultowego serialu animowanego o dwójce przyjaciół-konstruktorów: czeskim i słowackim (Sąsiedzi)?",
+    "answer": "W tym serialu nie było psa (to podchwytliwe pytanie, bohaterowie to Pat i Mat!)",
+    "hint": "Zastanów się dobrze, czy w ogóle kręcił się tam jakiś czworonóg."
+  },
+  {
+    "id": 7,
+    "category": "Telewizja i Popkultura",
+    "question": "Jak nazywała się fikcyjna miejscowość, w której rozgrywała się akcja serialu 'Świat według Kiepskich'?",
+    "answer": "Wrocław (ulica Ćwiartki 3/4)",
+    "hint": "Duże miasto na Dolnym Śląsku."
+  },
+  {
+    "id": 8,
+    "category": "Telewizja i Popkultura",
+    "question": "Które anime emitowane na RTL7 i Polsacie opowiadało o poszukiwaniu siedmiu magicznych kul spełniających życzenia i wojownikach Saiyan?",
+    "answer": "Dragon Ball (Dragon Ball Z)",
+    "hint": "Główny bohater to Son Goku."
+  },
+  {
+    "id": 9,
+    "category": "Telewizja i Popkultura",
+    "question": "Jak nazywał się popularny popołudniowy blok programowy dla młodzieży na antenie TVP2 w latach 90., prowadzony m.in. przez Marcin Tyszkę?",
+    "answer": "5-10-15",
+    "hint": "Nazwa składa się z trzech liczb oznaczających wiek widzów."
+  },
+  {
+    "id": 10,
+    "category": "Telewizja i Popkultura",
+    "question": "Jaki tytuł nosił program informacyjny dla dzieci i młodzieży nadawany w TVP1, którego maskotką był animowany ludzik z antenką?",
+    "answer": "Rower Błażeja",
+    "hint": "Dwuwyrazowa nazwa ze środkiem lokomocji napędzanym nogami."
+  },
+  {
+    "id": 11,
+    "category": "Telewizja i Popkultura",
+    "question": "Jak nazywało się pierwsze polskie reality-show, w którym uczestnicy żyli zamknięci w jednym domu w Sękocinie pod Warszawą w 2001 roku?",
+    "answer": "Big Brother",
+    "hint": "Wielki Brat patrzy."
+  },
+  {
+    "id": 12,
+    "category": "Telewizja i Popkultura",
+    "question": "Która wokalistka śpiewała kultową czołówkę do polskiej wersji serialu animowanego 'Pokemony'?",
+    "answer": "Janusz Radek / Edyta Górniak (Czołówkę śpiewał Marcin Sanakiewicz, ale powszechnie kojarzy się z energią rockową)",
+    "hint": "Główny męski głos polskiego rocka i musicalu (choć krążą legendy o diwie)."
+  },
+  {
+    "id": 13,
+    "category": "Gry i Technologie",
+    "question": "Jak nazywał się najpopularniejszy w Polsce klon konsoli NES/Famicom, sprzedawany na bazarach w charakterystycznych żółtych kartridżach?",
+    "answer": "Pegasus",
+    "hint": "Skrzydlaty koń z mitologii."
+  },
+  {
+    "id": 14,
+    "category": "Gry i Technologie",
+    "question": "Jaki nomor telefonu (modemowy) trzeba było wykręcić, aby połączyć się z internetem przez TPSA, co blokowało linię telefoniczną i słychać było charakterystyczne piszczenie?",
+    "answer": "0202122",
+    "hint": "Zaczyna się od zera, a kończy dwiema dwójkami."
+  },
+  {
+    "id": 15,
+    "category": "Gry i Technologie",
+    "question": "Jak nazywał się kultowy polski komunikator internetowy stworzony przez Łukasza Foltyna, uruchomiony w 2000 roku, przypisujący użytkownikom unikalne numery?",
+    "answer": "Gadu-Gadu (GG)",
+    "hint": "Słoneczko w logo."
+  },
+  {
+    "id": 16,
+    "category": "Gry i Technologie",
+    "question": "Jak nazywało się wirtualne zwierzątko z Japonii zamknięte w breloczku z trzema przyciskami, które trzeba było karmić, sprzątać po nim i kłaść spać?",
+    "answer": "Tamagotchi",
+    "hint": "Elektroniczne jajko z pikselowym stworkiem."
+  },
+  {
+    "id": 17,
+    "category": "Gry i Technologie",
+    "question": "Z jakiej strony internetowej pobierało się legalne i nielegalne pliki MP3, tapety na telefon i dzwonki polifoniczne w latach 2000? Miała w logo niebieskiego ludzika.",
+    "answer": "Wrzuta.pl (lub Chomikuj.pl)",
+    "hint": "Nazwa pochodzi od 'wrzucania' tam plików."
+  },
+  {
+    "id": 18,
+    "category": "Gry i Technologie",
+    "question": "Jak nazywał się kultowy portal społecznościowy założony przez studentów z Wrocławia w 2006 roku, gdzie główną walutą towarzyską były 'Eurogąbki'?",
+    "answer": "Nasza-Klasa (NK.pl)",
+    "hint": "Szukanie starych znajomych z ławki szkolnej."
+  },
+  {
+    "id": 19,
+    "category": "Gry i Technologie",
+    "question": "W jaką grę systemową na Windowsie zagrywali się wszyscy w pracowniach komputerowych, polegającą na odkrywaniu pól i unikaniu min na podstawie cyfr?",
+    "answer": "Saper (Minesweeper)",
+    "hint": "Wojskowy specjalista od rozminowywania."
+  },
+  {
+    "id": 20,
+    "category": "Gry i Technologie",
+    "question": "Jak nazywała się technologia przesyłania plików między telefonami komórkowymi, która wymagała przyłożenia aparatów do siebie bardzo blisko, zanim upowszechnił się Bluetooth?",
+    "answer": "IrDA (podczerwień)",
+    "hint": "Skrót na cztery litery, port podczerwieni."
+  },
+  {
+    "id": 21,
+    "category": "Smaki Dzieciństwa",
+    "question": "Jak nazywały się gumy do żucia z obrazkami/naklejkami samochodów, których zapach i smak znikał po minucie, ale zbierało się je na potęgę?",
+    "answer": "Turbo",
+    "hint": "Słowo kojarzące się z dużą prędkością i doładowaniem silnika."
+  },
+  {
+    "id": 22,
+    "category": "Smaki Dzieciństwa",
+    "question": "Jak nazywał się proszek w małych saszetkach, który teoretycznie rozpuszczało się w wodzie, ale dzieciaki lizały go prosto z palca?",
+    "answer": "Tang (lub Vibovit)",
+    "hint": "Krótka, czteroliterowa nazwa legendarnego napoju z USA."
+  },
+  {
+    "id": 23,
+    "category": "Smaki Dzieciństwa",
+    "question": "Kultowe chrupki z lat 90., do których dorzucano plastikowe Tazo (krążki) z Gwiezdnych Wojen czy Pokemonów. O jaką markę chodzi?",
+    "answer": "Chio Chips (lub Lays / Star Chips)",
+    "hint": "Marka na cztery litery zaczynająca się od Ch."
+  },
+  {
+    "id": 24,
+    "category": "Smaki Dzieciństwa",
+    "question": "Jak nazywały się tanie, podłużne lody wodne w foliowych tubkach, które zamrażało się w zamrażalniku, a potem odgryzało czubek?",
+    "answer": "Lody pałeczki (lub lody rurki)",
+    "hint": "Kształtem przypominały drewniane pałki do bębnów."
+  },
+  {
+    "id": 25,
+    "category": "Smaki Dzieciństwa",
+    "question": "Jaki gazowany napój, będący polską odpowiedzią na Coca-Colę, triumfował w czasach PRL i powrócił jako symbol nostalgii w latach 90.?",
+    "answer": "Polo Cockta",
+    "hint": "Napój pity litrami w filmie 'Kingsajz'."
+  },
+  {
+    "id": 26,
+    "category": "Smaki Dzieciństwa",
+    "question": "Jak nazywały się słynne, twarde wafle przekładane kremem kakaowym lub orzechowym, produkowane w Kaliszu, które kupowało się do szkoły?",
+    "answer": "Grześki",
+    "hint": "Popularne polskie imię męskie w liczbie mnogiej."
+  },
+  {
+    "id": 27,
+    "category": "Podwórko i Styl Życia",
+    "question": "W jaką grę podwórkową grano za pomocą rozciągniętej gumy pasmanteryjnej trzymanej przez dwie osoby na wysokości kostek, łydek lub kolan?",
+    "answer": "Gra w gumę",
+    "hint": "Skakanie przez elastyczny sznurek."
+  },
+  {
+    "id": 28,
+    "category": "Podwórko i Styl Życia",
+    "question": "Jak nazywały się małe metalowe lub plastikowe krążki, które odbijało się od ziemi lub stołu, próbując odwrócić krążki przeciwnika?",
+    "answer": "Caps / Pogi (Pog)",
+    "hint": "Zbierane w chipsach krążki z grafikami."
+  },
+  {
+    "id": 29,
+    "category": "Podwórko i Styl Życia",
+    "question": "Jak nazywał się gruby, papierowy zeszyt, w którym znajdowały się pytania (np. 'Kto Ci się podoba?'), a znajomi wpisywali tam swoje sekrety w ponumerowanych kopertach?",
+    "answer": "Złote myśli",
+    "hint": "Szlachetny kruszec w nazwie pamiętnika pełnego sekretów."
+  },
+  {
+    "id": 30,
+    "category": "Podwórko i Styl Życia",
+    "question": "Jak nazywał się popularny przyrząd do skakania składający się z drążka, sprężyny i podnóżków, na którym próbowało się pobić rekordy skoków bez wywrotki?",
+    "answer": "Pogo (drążek pogo)",
+    "hint": "Nazwa identyczna jak nazwa dynamicznego tańca punkowego."
+  },
+  {
+    "id": 31,
+    "category": "Telewizja i Popkultura",
+    "question": "Jak nazywał się nadawany w TVP2 teleturniej, w którym trzy dwuosobowe rodziny rywalizowały w konkurencjach sprawnościowych i wiedzowych, a nagrodą główną była wycieczka zagraniczna? Charakterystycznym elementem były kolorowe stroje drużyn.",
+    "answer": "Czar Par",
+    "hint": "Prowadził to Krzysztof Ibisz, chodzi o magię dwójek osób."
+  },
+  {
+    "id": 32,
+    "category": "Telewizja i Popkultura",
+    "question": "Którzy znany prezenter prowadził kultowy teleturniej 'Miliard w rozumie'?",
+    "answer": "Janusz Weiss",
+    "hint": "Współtwórca Radia Zet, dzwonił do ludzi w audycji 'Dzwonię do Pana/Pani w bardzo nietypowej sprawie'."
+  },
+  {
+    "id": 33,
+    "category": "Telewizja i Popkultura",
+    "question": "Jak nazywało się legendarne rodzeństwo z reality show 'Bar' (Polsat), znane z ciągłych kłótni, specyficznego śmiechu i miłości do solarium?",
+    "answer": "Bliźniacy (Jacek i Sławek Oborscy)",
+    "hint": "Dwaj bracia urodzeni tego samego dnia."
+  },
+  {
+    "id": 34,
+    "category": "Telewizja i Popkultura",
+    "question": "Jaki polski serial komediowy z lat 90. opowiadał o perypetiach inżyniera Stefana Karwowskiego i jego rodziny, będąc kontynuacją hitu z czasów PRL?",
+    "answer": "40-latek. 20 lat później",
+    "hint": "Do czterdziestki dodaj dwadzieścia lat."
+  },
+  {
+    "id": 35,
+    "category": "Telewizja i Popkultura",
+    "question": "Jak nazywał się kultowy program rozrywkowy Szymona Majewskiego emitowany w TVN, w którym parodiowano znanych polityków w sekcji 'Rozmowy w tłoku'?",
+    "answer": "Szymon Majewski Show",
+    "hint": "Imię i nazwisko showmana w nazwie programu."
+  },
+  {
+    "id": 36,
+    "category": "Telewizja i Popkultura",
+    "question": "Które kultowe amerykańskie pismo dla dzieci z komiksami (np. o Kaczorze Donaldzie) miało w Polsce swój miesięcznik, do którego zawsze dołączany był jakiś plastikowy gadżet (np. lupa detektywa)?",
+    "answer": "Kaczor Donald",
+    "hint": "Kultowy ptak z uniwersum Disneya mieszkający w Kaczogrodzie."
+  },
+  {
+    "id": 37,
+    "category": "Telewizja i Popkultura",
+    "question": "Jak nazywał się zwariowany czeski serial animowany, emitowany w 'Wieczorynce', opowiadający o przygodach dwóch majstrów?",
+    "answer": "Sąsiedzi (Pat i Mat)",
+    "hint": "Ludzie mieszkający przez ścianę obok siebie."
+  },
+  {
+    "id": 38,
+    "category": "Telewizja i Popkultura",
+    "question": "Jak wabiła się maskotka-małpka, która towarzyszyła słynnemu podróżnikowi Tony'emu Halikowi w programach 'Pieprz i wanilia'?",
+    "answer": "W programie nie było żywej małpki, ale maskotka nazywała się Elżbieta (Halik miał też papugę)",
+    "hint": "Imię królewskie, tak samo nazywała się jego żona, Elżbieta Dzikowska."
+  },
+  {
+    "id": 39,
+    "category": "Telewizja i Popkultura",
+    "question": "Jak nazywał się pierwszy komercyjny kanał telewizyjny w Polsce, wystartowany zza granicy w grudniu 1992 roku przez Zygmunta Solorza?",
+    "answer": "Polsat",
+    "hint": "Słoneczna stacja ze słowem 'Pol' na początku."
+  },
+  {
+    "id": 40,
+    "category": "Telewizja i Popkultura",
+    "question": "Dokończ słynny wers z czołówki serialu 'Zbuntowany Anioł' śpiewany przez Natalię Oreiro: 'Cambio dolor por...'",
+    "answer": "libertad",
+    "hint": "Hiszpańskie słowo oznaczające wolność."
+  },
+  {
+    "id": 41,
+    "category": "Telewizja i Popkultura",
+    "question": "Jak nazywał się grany przez Cezarego Pazurę starszy posterunkowy w serialu '13 posterunek'?",
+    "answer": "Cezary Cezary",
+    "hint": "Imię podwojone jako nazwisko."
+  },
+  {
+    "id": 42,
+    "category": "Telewizja i Popkultura",
+    "question": "Jak nazywał się teleturniej edukacyjny dla młodzieży prowadzony przez Jarosława Kulczyckiego na TVP2, w którym na ekranie pojawiała się animowana postać komputerowego gryzonia?",
+    "answer": "Cyber-Mycha (lub: 'Krzyżówka Szczęścia')",
+    "hint": "Technologiczna mysz w tytule."
+  },
+  {
+    "id": 43,
+    "category": "Telewizja i Popkultura",
+    "question": "Które pasmo muzyczne oglądało się na przełomie lat 90. i 2000., by zobaczyć programy takie jak 'Viva Sunset' czy 'Charter'?",
+    "answer": "VIVA Polska",
+    "hint": "Niemiecka konkurencja dla MTV w polskiej wersji językowej."
+  },
+  {
+    "id": 44,
+    "category": "Telewizja i Popkultura",
+    "question": "Jak nazywał się program ukrytej kamery w TVN prowadzony przez Szymona Majewskiego, w którym wkręcano gwiazdy?",
+    "answer": "Mamy Cię!",
+    "hint": "Okrzyk radości po udanym żarcie, gdy ktoś dał się nabrać."
+  },
+  {
+    "id": 45,
+    "category": "Telewizja i Popkultura",
+    "question": "Kto był pierwszym prowadzącym reality show 'Agent' kręconego w egzotycznych krajach w 2000 roku?",
+    "answer": "Marcin Meller",
+    "hint": "Naczelny 'Playboya', później prowadzący Drugie Śniadanie Mistrzów."
+  },
+  {
+    "id": 46,
+    "category": "Telewizja i Popkultura",
+    "question": "Jak nazywał się kultowy program interwencyjny Michała Fajbusiewicza, w którym rekonstruowano zbrodnie?",
+    "answer": "997 (Magazyn Kryminalny 997)",
+    "hint": "Dawny numer alarmowy na milicję/policję."
+  },
+  {
+    "id": 47,
+    "category": "Telewizja i Popkultura",
+    "question": "Który teleturniej Polsatu wymagał od uczestników licytowania pytań na czas, a prowadził go słynący z dynamicznego stylu Krzysztof Ibisz?",
+    "answer": "Awantura o kasę",
+    "hint": "Biorę po trzysta z każdej drużyny i słucham państwa!"
+  },
+  {
+    "id": 48,
+    "category": "Telewizja i Popkultura",
+    "question": "Jak nazywał się program publicystyczny Mariusza Szczygła, w którym rozmawiano na kontrowersyjne, obyczajowe tematy pod koniec lat 90.?",
+    "answer": "Na każdy temat",
+    "hint": "Slogan oznaczający, że nie ma tam tematów tabu."
+  },
+  {
+    "id": 49,
+    "category": "Telewizja i Popkultura",
+    "question": "Jaki zwierzak był głównym bohaterem wieczorynki 'Wuzzle' emitowanej w latach 90.?",
+    "answer": "Wuzzle były hybrydami dwóch różnych zwierząt (np. Trzmielolew)",
+    "hint": "Stworki te były miksem dwóch różnych gatunków."
+  },
+  {
+    "id": 50,
+    "category": "Telewizja i Popkultura",
+    "question": "Jak nazywała się postać grana przez Janusza Rewińskiego w filmie 'Kiler', która miała słynne powiedzenie 'Mają rozmach, sk***ysyny'?",
+    "answer": "Stefan 'Siara' Siarzewski",
+    "hint": "Gangster od 'Siary' i wszystko jasne."
+  },
+  {
+    "id": 51,
+    "category": "Telewizja i Popkultura",
+    "question": "Które pasmo z kreskówkami oglądało się głównie z satelity Astra / Hotbird po angielsku, zanim powstała polska wersja stacji?",
+    "answer": "Cartoon Network",
+    "hint": "Słynna amerykańska stacja z czarno-białym logo w szachownicę."
+  },
+  {
+    "id": 52,
+    "category": "Telewizja i Popkultura",
+    "question": "Jak nazywał się lekarz z serialu 'Na dobre i na złe' grany przez Artura Żmijewskiego, do którego wzdychały wszystkie mamy w latach 2000.?",
+    "answer": "Jakub Burski",
+    "hint": "Mąż serialowej Zosi, ordynator w Leśnej Górze."
+  },
+  {
+    "id": 53,
+    "category": "Telewizja i Popkultura",
+    "question": "Jaki teleturniej TVP opierał się na pojedynkach miast, w których mieszkańcy przeciągali liny lub ścigali się na rurach?",
+    "answer": "Turniej Miast",
+    "hint": "Rywalizacja dwóch miejscowości."
+  },
+  {
+    "id": 54,
+    "category": "Telewizja i Popkultura",
+    "question": "How miała na imię niania z popularnego serialu TVN, w którą wcieliła się Agnieszka Dygant?",
+    "answer": "Frania Maj",
+    "hint": "Przyszła z Pruszkowa, dziewczyna z charakterem."
+  },
+  {
+    "id": 55,
+    "category": "Telewizja i Popkultura",
+    "question": "Jak nazywał się luksusowy dom towarowy w Warszawie, w którym kręcono sceny do filmu i serialu 'Tygrysy Europy'?",
+    "answer": "Panorama",
+    "hint": "Słowo oznaczające szeroki widok, centrum na rogu Witosa."
+  },
+  {
+    "id": 56,
+    "category": "Telewizja i Popkultura",
+    "question": "W którym reality show Polsatu uczestnicy musieli pracować w zamkniętej restauracji pod okiem kamer?",
+    "answer": "Bar",
+    "hint": "Lokal z drinkami i Krzysztofem Ibiszem jako prowadzącym."
+  },
+  {
+    "id": 57,
+    "category": "Telewizja i Popkultura",
+    "question": "Jak nazywał się program kulinarny Roberta Makłowicza, w którym podróżował po świecie i gotował na świeżym powietrzu?",
+    "answer": "Podróże kulinarne Roberta Makłowicza",
+    "hint": "Wyprawy połączone ze smakami świata."
+  },
+  {
+    "id": 58,
+    "category": "Telewizja i Popkultura",
+    "question": "Które lalki-podróbki Barbie z wielkimi głowami i mocnym makijażem stały się hitem dziewczynek wczesnych lat 2000.?",
+    "answer": "Bratz",
+    "hint": "Nazwa brzmi jak angielskie słowo oznaczające nieznośne dzieciaki."
+  },
+  {
+    "id": 59,
+    "category": "Telewizja i Popkultura",
+    "question": "Jak wabił się słynny owczarek niemiecki z austriackiego serialu kryminalnego, który uwielbiał bułki z szynką?",
+    "answer": "Rex (Komisarz Rex)",
+    "hint": "Imię oznaczające po łacinie 'Króla'."
+  },
+  {
+    "id": 60,
+    "category": "Telewizja i Popkultura",
+    "question": "Jak nazywała się wieczorynka o niebieskich stworkach, które ciągle uciekały przed złośliwym czarownikiem Gargamelem?",
+    "answer": "Smerfy",
+    "hint": "Mieszkały w domkach z grzybów, przewodził im Papa."
+  },
+  {
+    "id": 61,
+    "category": "Gry i Technologie",
+    "question": "Z jakiej słynnej serii gier strategicznych pochodzi kultowy tekst 'Musisz wybudować dodatkowe pylony' (You must construct additional pylons)?",
+    "answer": "StarCraft",
+    "hint": "Kosmiczny RTS od Blizzard, rasa Protossów."
+  },
+  {
+    "id": 62,
+    "category": "Gry i Technologie",
+    "question": "Jak nazywała się dyskietka o mniejszej pojemności (zazwyczaj 1.44 MB), która wyparła stare, giętkie dyskietki 5.25 cala?",
+    "answer": "Dyskietka 3.5 cala",
+    "hint": "Rozmiar podany w calach, mniejszy od 4."
+  },
+  {
+    "id": 63,
+    "category": "Gry i Technologie",
+    "question": "Która gra MMO, stworzona w Niemczech, była absolutnym hitem w polskich kafejkach internetowych w okolicach 2003-2006 roku, mimo prostej grafiki 2D?",
+    "answer": "Tibia",
+    "hint": "Nazwa anatomiczna kości podudzia."
+  },
+  {
+    "id": 64,
+    "category": "Gry i Technologie",
+    "question": "Jak potocznie nazywano obudowy komputerów, które nie stały pionowo (jak wieża/tower), ale leżały płasko na biurku, a na nich stawiano monitor kineskopowy?",
+    "answer": "Desktop",
+    "hint": "Z angielskiego: na biurko."
+  },
+  {
+    "id": 65,
+    "category": "Gry i Technologie",
+    "question": "Jaka kultowa marka telefonów zasłynęła modelem 3310, na którym wszyscy zagrywali się w grę Snake?",
+    "answer": "Nokia",
+    "hint": "Fiński gigant telekomunikacyjny."
+  },
+  {
+    "id": 66,
+    "category": "Gry i Technologie",
+    "question": "Jak nazywał się program peer-to-peer do ściągania muzyki, który miał w logo zieloną limonkę i zrewolucjonizował internet w latach 2000.?",
+    "answer": "LimeWire",
+    "hint": "Kombinacja zielonego owocu i słowa oznaczającego przewód/drut."
+  },
+  {
+    "id": 67,
+    "category": "Gry i Technologie",
+    "question": "Która gra wyścigowa z 2003 roku pozwalała na tuningowanie aut i miała genialny soundtrack z utworem 'Get Low' (Lil Jon)?",
+    "answer": "Need for Speed: Underground",
+    "hint": "Nocne nielegalne wyścigi spod szyldu NFS."
+  },
+  {
+    "id": 68,
+    "category": "Gry i Technologie",
+    "question": "Jak nazywał się system operacyjny Microsoftu wprowadzony w 2001 roku, który charakteryzował się domyślną zielono-niebieską tapetą z idyllicznym wzgórzem (Bliss)?",
+    "answer": "Windows XP",
+    "hint": "Dwie litery po słowie Windows, następca 98 i ME."
+  },
+  {
+    "id": 69,
+    "category": "Gry i Technologie",
+    "question": "Jak potocznie nazywało się osiedlowe sieci komputerowe, w których gracze łączyli się kablami (skrętkami) rzucanymi z okna do okna, by grać w Counter-Strike'a?",
+    "answer": "LAN (lub sieć osiedlowa)",
+    "hint": "Trzyliterowy skrót od Local Area Network."
+  },
+  {
+    "id": 70,
+    "category": "Gry i Technologie",
+    "question": "Jak nazywała się przenośna konsola Nintendo z monochromatycznym ekranem, na której grało się w Tetrisa lub Pokemony w latach 90.?",
+    "answer": "Game Boy",
+    "hint": "Z angielskiego: growy chłopiec."
+  },
+  {
+    "id": 71,
+    "category": "Gry i Technologie",
+    "question": "Jaki kod (cheat) w grze The Sims dodawał pieniądze do budżetu rodziny?",
+    "answer": "rosebud (lub motherlode)",
+    "hint": "Słowo oznaczające pączek róży lub główną żyłę złota."
+  },
+  {
+    "id": 72,
+    "category": "Gry i Technologie",
+    "question": "Jak nazywała się wyszukiwarka internetowa, która w latach 90. i wczesnych 2000. konkurowała w Polsce z Google, a jej nazwa kojarzyła się z dużym portalem na literę O?",
+    "answer": "Onet (lub: Wirtualna Polska / Altavista)",
+    "hint": "Portal z żółtym kropkowym logo na O."
+  },
+  {
+    "id": 73,
+    "category": "Gry i Technologie",
+    "question": "Która polska gra strategiczna z 1997 roku opowiadała o walce trzech klanów na zniszczonej Ziemi?",
+    "answer": "Earth 2140",
+    "hint": "Angielskie słowo oznaczające Ziemię oraz rok z przyszłości."
+  },
+  {
+    "id": 74,
+    "category": "Gry i Technologie",
+    "question": "Co trzeba było zrobić z kulką w myszce komputerowej z lat 90., kiedy kursor zaczynał przeskakiwać i ciężko było celować?",
+    "answer": "Wyjąć ją (odkręcając plastikową klapkę) i wyczyścić z brudu rolki w środku",
+    "hint": "Operacja czyszczenia mechanicznego elementu wskazującego."
+  },
+  {
+    "id": 75,
+    "category": "Gry i Technologie",
+    "question": "Jak nazywał się program do odtwarzania muzyki MP3 na komputerze, do którego wgrywało się wymyślne skórki (skins), a jego kultowy dźwięk powitalny wspominał o lami?",
+    "answer": "Winamp",
+    "hint": "Program na literę W, odtwarzacz muzyczny z equalizerem."
+  },
+  {
+    "id": 76,
+    "category": "Gry i Technologie",
+    "question": "W jakiej legendarnej strzelance FPP z 1996 roku główny bohater rzucał tekstami w stylu 'It's time to kick ass and chew bubble gum'?",
+    "answer": "Duke Nukem 3D",
+    "hint": "Bohater o blond czuprynie, twardziel walczący z kosmitami-świniami."
+  },
+  {
+    "id": 77,
+    "category": "Gry i Technologie",
+    "question": "Jak nazywało się urządzenie, które nosiło się przypięte do paska spodni w latach 90. – wyświetlało krótkie wiadomości tekstowe i numery telefonów?",
+    "answer": "Pager",
+    "hint": "Urządzenie na pięć liter, wyparte przez SMS-y."
+  },
+  {
+    "id": 78,
+    "category": "Gry i Technologie",
+    "question": "Która gra RPG od studia BioWare, wydana w Polsce w 1999 roku z genialnym dubbingiem (m.in. Piotr Fronczewski), zaczynała się od słów: 'Przed wyruszeniem w drogę należy zebrać drużynę'?",
+    "answer": "Baldur's Gate",
+    "hint": "Wrota Baldura."
+  },
+  {
+    "id": 79,
+    "category": "Gry i Technologie",
+    "question": "Jak nazywał się popularny pakiet biurowy, w którym asystentem użytkownika był animowany spinacz biurowy o imieniu Pan Spinacz (Clippy)?",
+    "answer": "Microsoft Office",
+    "hint": "Zestaw programów biurowych z Wordem i Excelem."
+  },
+  {
+    "id": 80,
+    "category": "Gry i Technologie",
+    "question": "Jak nazywał się polski blok programowy o grach wideo nadawany na stacji Canal+, który później stał się osobną stacją?",
+    "answer": "Cyberia / Hyper (blok programowy)",
+    "hint": "Nazwa kojarząca się ze stanem nadaktywności lub przestrzenią wirtualną."
+  },
+  {
+    "id": 81,
+    "category": "Smaki Dzieciństwa",
+    "question": "Jak nazywał się margarynowy hit lat 90., reklamowany piosenką 'Płyń dalej, Smaku...'?",
+    "answer": "Rama",
+    "hint": "Czteroliterowa nazwa tłuszczu do smarowania chleba, rymuje się z mama."
+  },
+  {
+    "id": 82,
+    "category": "Smaki Dzieciństwa",
+    "question": "Jak nazywały się małe, kolorowe cukierki w plastikowych dozownikach z głowami postaci z bajek, które wysuwały się po odchyleniu głowy?",
+    "answer": "PEZ",
+    "hint": "Trzyliterowa nazwa, prostokątne miętówki lub owocowe pastylki."
+  },
+  {
+    "id": 83,
+    "category": "Smaki Dzieciństwa",
+    "question": "Jaki proszek do robienia galaretek lub kisielu z charakterystycznym bobasem w logo gościł w każdej kuchni w latach 90.?",
+    "answer": "Gellwe",
+    "hint": "Polska firma na literę G, konkurent Dr. Oetkera."
+  },
+  {
+    "id": 84,
+    "category": "Smaki Dzieciństwa",
+    "question": "Jak nazywały się chrupki kukurydziane w kształcie duszka, o smaku ketchupu, które były hitem szkolnych sklepików?",
+    "answer": "Cheetos",
+    "hint": "Maskotką jest gepard Chester."
+  },
+  {
+    "id": 85,
+    "category": "Smaki Dzieciństwa",
+    "question": "Jaki tani, gazowany napój w szklanych butelkach zamykanych na kapsel (często o smaku landrynkowym) kupowało się na podwórku?",
+    "answer": "Kaskada (lub: Oranżada tradycyjna)",
+    "hint": "Tradycyjny polski napój gazowany w kolorze czerwonym lub żółtym."
+  },
+  {
+    "id": 86,
+    "category": "Smaki Dzieciństwa",
+    "question": "Jak nazywał się kultowy batonik kokosowy w czekoladzie, którego reklama z rajską plażą i palmami była puszczana na okrągło w telewizji?",
+    "answer": "Bounty",
+    "hint": "Smak raju."
+  },
+  {
+    "id": 87,
+    "category": "Smaki Dzieciństwa",
+    "question": "Który napój herbaciany w plastikowych butelkach zrewolucjonizował polski rynek napojów w latach 2000., konkurując z Coca-Colą?",
+    "answer": "Nestea (lub Lipton Ice Tea)",
+    "hint": "Mrożona herbata od koncernu Nestlé."
+  },
+  {
+    "id": 88,
+    "category": "Smaki Dzieciństwa",
+    "question": "Jak nazywały się owocowe gumy rozpuszczalne, które reklamowały się hasłem: 'Kto rano wstaje, temu ... daje'?",
+    "answer": "Mamba",
+    "hint": "Wszyscy mają Mambę, mam i ja!"
+  },
+  {
+    "id": 89,
+    "category": "Smaki Dzieciństwa",
+    "question": "Jak nazywał się proszek kakaowy instant z królikiem w żółtym opakowaniu, który piło się rano przed szkołą?",
+    "answer": "Nesquik",
+    "hint": "Szybkie kakao od Nestlé z królikiem Quickym."
+  },
+  {
+    "id": 90,
+    "category": "Smaki Dzieciństwa",
+    "question": "Jaki rodzaj chipsów o specyficznym, podłużnym i falowanym kształcie, pakowanych w kartonowe tuby, był synonimem luksusu?",
+    "answer": "Pringles",
+    "hint": "Chipsy z panem z wąsem na tubie, idealnie równe krążki."
+  },
+  {
+    "id": 91,
+    "category": "Smaki Dzieciństwa",
+    "question": "Jak nazywał się napój gazowany o smaku ziołowym, sprowadzany z Czech lub Słowacji, stanowiący konkurencję dla coli?",
+    "answer": "Kofola",
+    "hint": "Czeski odpowiednik Coca-Coli."
+  },
+  {
+    "id": 92,
+    "category": "Smaki Dzieciństwa",
+    "question": "Jak nazywały się kwaśne cukierki/lizaki z lat 90., które wykręcały twarz na drugą stronę?",
+    "answer": "Shock (Center Shock)",
+    "hint": "Wstrząsające gumy z płynnym środkiem."
+  },
+  {
+    "id": 93,
+    "category": "Smaki Dzieciństwa",
+    "question": "Jaki serek homogenizowany z rysunkową krówką lub po prostu Danio z Małym Głodem był najpopularniejszym deserem dzieciństwa?",
+    "answer": "Serek Rolmlecz (z krówką) lub Danio (z Małym Głodem)",
+    "hint": "Tradycyjny serek z Radomia lub wersja z żółtym stworkiem."
+  },
+  {
+    "id": 94,
+    "category": "Smaki Dzieciństwa",
+    "question": "Jak nazywały się chrupki w kształcie trójkątów z kukurydzy, które weszły na polski rynek na fali popularności kina z USA?",
+    "answer": "Nachos (lub konkretna marka Doritos)",
+    "hint": "Meksykańska przekąska kinowa do maczania w sosie salsa."
+  },
+  {
+    "id": 95,
+    "category": "Smaki Dzieciństwa",
+    "question": "Które lody na patyku, produkowane przez firmę Algida, miały charakterystyczny kształt zakręconego wiru dwóch smaków?",
+    "answer": "Tornado (lub Twister)",
+    "hint": "Zakręcone lody owocowo-śmietankowe."
+  },
+  {
+    "id": 96,
+    "category": "Smaki Dzieciństwa",
+    "question": "Jak nazywał się napój w szklanej butelce z kapslem, produkowany przez firmę z Tymbarku, z kultowym hasłem pod kapslem?",
+    "answer": "Tymbark (kapselki)",
+    "hint": "Kupowało się go, żeby przeczytać napis pod metalowym zamknięciem."
+  },
+  {
+    "id": 97,
+    "category": "Smaki Dzieciństwa",
+    "question": "Jaka marka kawy zbożowej instant w brązowo-czerwonej puszce była pita przez dzieci jako 'dorosła kawa' z mlekiem?",
+    "answer": "Inka",
+    "hint": "Zdrowa polska kawa zbożowa z cykorii."
+  },
+  {
+    "id": 98,
+    "category": "Smaki Dzieciństwa",
+    "question": "Jak nazywał się okrągły lizak, którego plastikowy patyczek był jednocześnie gwizdkiem?",
+    "answer": "Melody Pops (Chupa Chups)",
+    "hint": "Muzyczny lizak od Chupa Chups."
+  },
+  {
+    "id": 99,
+    "category": "Smaki Dzieciństwa",
+    "question": "Jak potocznie nazywano bardzo tanie wina robione z jabłek, które piło się na ławkach w parku w czasach liceum?",
+    "answer": "Jabol / Alpagos / żur",
+    "hint": "Słowo pochodzi od słowa 'jabłko'."
+  },
+  {
+    "id": 100,
+    "category": "Smaki Dzieciństwa",
+    "question": "Jakie okrągłe wafle z nadrukiem gwiazdy/krzyża, kupowane w paczkach, były suchym i chrupkim przysmakiem na podwórku?",
+    "answer": "Andruty",
+    "hint": "Lekkie, suche wafle, często kojarzone z Kaliszem."
+  },
+  {
+    "id": 101,
+    "category": "Podwórko i Styl Życia",
+    "question": "Z czego robiło się tzw. 'plujki' lub 'spluwaczki' do strzelania jarzębiną lub kulkami z papieru na lekcjach i podwórku?",
+    "answer": "Z plastikowej rurki (np. po rozkręconym długopisie)",
+    "hint": "Obudowa plastikowego pisaka pozbawiona wkładu."
+  },
+  {
+    "id": 102,
+    "category": "Podwórko i Styl Życia",
+    "question": "Jak nazywała się zabawa ruchowa, w której jedna osoba stała tyłem do reszty przy ścianie i krzyczała: 'Raz, dwa, trzy...', a reszta musiała zastygnąć bez ruchu?",
+    "answer": "Raz, dwa, three, Baba Jaga patrzy!",
+    "hint": "W tytule występuje znana czarownica z chatki na kurzej łapce."
+  },
+  {
+    "id": 103,
+    "category": "Podwórko i Styl Życia",
+    "question": "Jak nazywały się kolekcjonerskie karty z piłkarzami (np. na Mistrzostwa Świata 1998), które kupowało się w kioskach Ruchu?",
+    "answer": "Panini (naklejki lub karty)",
+    "hint": "Włoska firma będąca synonimem albumów z naklejkami piłkarskimi."
+  },
+  {
+    "id": 104,
+    "category": "Podwórko i Styl Życia",
+    "question": "Co oznaczało hasło 'Sikać do ogniska' lub 'Masz cykora' w slangu podwórkowym lat 90.?",
+    "answer": "Oznaczało to, że ktoś się boi zrobić coś odważnego",
+    "hint": "Chodzi o strach i brak odwagi."
+  },
+  {
+    "id": 105,
+    "category": "Podwórko i Styl Życia",
+    "question": "Jak nazywała się podwórkowa gra w piłkę nożną, w której strzelało się tylko na jedną bramkę, a przegrany stawał tyłem do kopiących?",
+    "answer": "Gra w tysiąca / król / jedenastka / dupek",
+    "hint": "Karą była egzekucja piłką na pośladki przegranego."
+  },
+  {
+    "id": 106,
+    "category": "Podwórko i Styl Życia",
+    "question": "Jak nazywał się popularny przyrząd do skakania składający się z drążka, sprężyny i podnóżków?",
+    "answer": "Pogo (drążek pogo)",
+    "hint": "Sprężynowy drążek do skakania pionowo."
+  },
+  {
+    "id": 107,
+    "category": "Podwórko i Styl Życia",
+    "question": "Jak potocznie nazywano szerokie, ortalionowe spodnie z charakterystycznymi trzema paskami z boku, które szeleściły przy każdym kroku?",
+    "answer": "Szelesty (lub dresy ortalionowe)",
+    "hint": "Słowo pochodzi od dźwięku, jaki wydawał materiał przy chodzeniu."
+  },
+  {
+    "id": 108,
+    "category": "Podwórko i Styl Życia",
+    "question": "Co robiło się ze starym kluczem i gwoździem połączonym sznurkiem, do którego wkładało się siarkę z zapałek?",
+    "answer": "Robiło się tzw. 'strzelak' z klucza (rzucało się nim o ścianę/chodnik)",
+    "hint": "Podwórkowy sposób na robienie bezpiecznych petard z domowych odpadków."
+  },
+  {
+    "id": 109,
+    "category": "Podwórko i Styl Życia",
+    "question": "Jak nazywał się kultowy plecak z lat 90., zrobiony z grubej zielonej lub czarnej tkaniny z metalowymi sprzączkami, na którym fani rocka pisali markerami?",
+    "answer": "Kostka (plecak wojskowy)",
+    "hint": "Nazwa bryły geometrycznej o sześciu równych ścianach."
+  },
+  {
+    "id": 110,
+    "category": "Podwórko i Styl Życia",
+    "question": "Jak nazywała się gra kredą na chodniku, w której skakało się na jednej lub dwóch nogach po ponumerowanych polach?",
+    "answer": "Gra w klasy",
+    "hint": "Powiązana ze szkołą i salami lekcyjnymi w nazwie."
+  },
+  {
+    "id": 111,
+    "category": "Muzyka i Styl Życia",
+    "question": "Jak nazywała się polska grupa hip-hopowa, która w 2000 roku wydała album 'Kinematografia' z legendarnym utworem 'Jestem Bogiem'?",
+    "answer": "Paktofonika",
+    "hint": "Skrót paktu zawiązanego przy fonii, Magik, Rahim i Fokus."
+  },
+  {
+    "id": 112,
+    "category": "Muzyka i Styl Życia",
+    "question": "Jaki przenośny odtwarzacz kaset magnetofonowych (często z plastikowym klipsem na pasek) był marzeniem każdego dzieciaka w latach 90.?",
+    "answer": "Walkman",
+    "hint": "Z angielskiego: chodzący człowiek, marka Sony."
+  },
+  {
+    "id": 113,
+    "category": "Muzyka i Styl Życia",
+    "question": "Która wokalistka wywołała skandal i zachwyciła Polskę na Eurowizji w 1994 roku utworem 'To nie ja!'?",
+    "answer": "Edyta Górniak",
+    "hint": "Polska diwa o potężnym głosie, zajęła 2. miejsce na Eurowizji."
+  },
+  {
+    "id": 114,
+    "category": "Muzyka i Styl Życia",
+    "question": "Jak nazywało się urządzenie, które zastąpiło Walkmana na początku lat 2000., odtwarzające płyty CD?",
+    "answer": "Discman",
+    "hint": "Człowiek z dyskiem."
+  },
+  {
+    "id": 115,
+    "category": "Muzyka i Styl Życia",
+    "question": "Jaki niemiecki zespół techno, z charyzmatycznym frontmanem H.P. Baxxterem, stworzył hity takie jak 'How Much Is the Fish?' słuchane na szkolnych dyskotekach?",
+    "answer": "Scooter",
+    "hint": "Nazwa hulajnogi lub motoroweru po angielsku."
+  },
+  {
+    "id": 116,
+    "category": "Muzyka i Styl Życia",
+    "question": "Który polski zespół rockowy, założony przez braci Golec, podbił listy przebojów utworami 'Lornetka' czy 'Ściernisko'?",
+    "answer": "Golec uOrkiestra",
+    "hint": "Góralski zespół z Milówki prowadzony przez bliźniaków Łukasza i Pawła."
+  },
+  {
+    "id": 117,
+    "category": "Muzyka i Styl Życia",
+    "question": "Jak nazywał się kultowy program muzyczny w TVP1 prowadzony przez Artura Orzecha, w którym prezentowano polską listę przebojów?",
+    "answer": "Muzyczna Jedynka",
+    "hint": "Muzyka na pierwszym kanale Telewizji Polskiej."
+  },
+  {
+    "id": 118,
+    "category": "Muzyka i Styl Życia",
+    "question": "Jaki amerykański boysband z Nickiem Carterem na czele był głównym rywalem zespołu 'N Sync w pokojach nastolatek lat 90.?",
+    "answer": "Backstreet Boys",
+    "hint": "Chłopcy z tylnej ulicy."
+  },
+  {
+    "id": 119,
+    "category": "Muzyka i Styl Życia",
+    "question": "Który raper z Katowic, lider zespołu Kaliber 44, stał się ikoną polskiego rapu dzięki utworowi 'Plus i minus'?",
+    "answer": "Magik",
+    "hint": "Iluzjonista, który odszedł tragicznie w grudniu 2000 roku."
+  },
+  {
+    "id": 120,
+    "category": "Muzyka i Styl Życia",
+    "question": "Jak nazywał się coroczny festiwal muzyki rockowej organizowany przez Jerzego Owsiaka, który w latach 90. odbywał się w Żarach?",
+    "answer": "Przystanek Woodstock",
+    "hint": "Nawiązanie do legendarnego amerykańskiego festiwalu z 1969 roku i kultowego serialu 'Przystanek Alaska'."
+  },
+  {
+    "id": 121,
+    "category": "Reklamy i Kultowe Hasła",
+    "question": "Z jakiej reklamy pochodzi kultowy tekst: 'A świstak siedzi i zawija je w te sreberka'?",
+    "answer": "Milka (czekolada)",
+    "hint": "Reklama czekolady z fioletową krową z Alp."
+  },
+  {
+    "id": 122,
+    "category": "Reklamy i Kultowe Hasła",
+    "question": "Jak miały na imię dwa animowane serca z reklam Telekomunikacji Polskiej z lat 2000.?",
+    "answer": "Serce i Rozum",
+    "hint": "Dwa organy ludzkie – jeden od uczuć, drugi od logicznego myślenia."
+  },
+  {
+    "id": 123,
+    "category": "Reklamy i Kultowe Hasła",
+    "question": "Dokończ słynne hasło reklamowe proszku do prania: 'A Pollena Rex pierze...'",
+    "answer": "czysto i biało",
+    "hint": "Dwa przymiotniki oznaczające idealną czystość i kolor śniegu."
+  },
+  {
+    "id": 124,
+    "category": "Reklamy i Kultowe Hasła",
+    "question": "Jaki produkt reklamował wampir, który bał się słońca, ale uwielbiał czerwony, gęsty płyn i powtarzał hasło 'w paszczę lwa'?",
+    "answer": "Sok Frugo",
+    "hint": "Kultowy napój o soczystych kolorach z lat 90."
+  },
+  {
+    "id": 125,
+    "category": "Reklamy i Kultowe Hasła",
+    "question": "Która sieć komórkowa wprowadziła kultowe maskotki 'Plushaki' oraz taryfę z hasłem 'Siała baba mak'?",
+    "answer": "Plus (Sami Swoi / Simplus)",
+    "hint": "Znak matematycznego dodawania w nazwie operatora."
+  },
+  {
+    "id": 126,
+    "category": "Reklamy i Kultowe Hasła",
+    "question": "Z jakiej reklamy piwa pochodzi seria biesiadnych haseł: 'Mariola ocieka i ociemnieje' lub 'A może i tak, ale... Olo ratuj'?",
+    "answer": "Piwo EB",
+    "hint": "Dwie litery, kultowy browar z Elbląga i Braniewa."
+  },
+  {
+    "id": 127,
+    "category": "Reklamy i Kultowe Hasła",
+    "question": "Jak nazywała się postać z reklamy chipsów Lays, grana przez Pawła Wilczaka, która nie chciała oddać ani jednej sztuki?",
+    "answer": "Koleszka (reklama 'Lays - prosto z pieca' / 'Oddaj chipsa')",
+    "hint": "Slangowe określenie kumpla, kumpla, kolegi."
+  },
+  {
+    "id": 128,
+    "category": "Reklamy i Kultowe Hasła",
+    "question": "Dokończ słynny slogan reklamowy margaryny z lat 90.: 'Zawsze rano, zawsze...'",
+    "answer": "Rama",
+    "hint": "Czteroliterowa nazwa margaryny w żółtym pudełku."
+  },
+  {
+    "id": 129,
+    "category": "Reklamy i Kultowe Hasła",
+    "question": "Jak nazywał się animowany stworek z reklam chipsów Star Chips, który ciągle uciekał przed głodnymi dziećmi?",
+    "answer": "Chrupki Star Chips (postać Starboba) lub Chester Cheetah (z Cheetosów)",
+    "hint": "Ziemniaczana przekąska ze strukturą duszka lub gwiazdy."
+  },
+  {
+    "id": 130,
+    "category": "Reklamy i Kultowe Hasła",
+    "question": "Jaka marka proszku do prania wprowadziła postać legendarnej 'Zygmuntowej', która wiedziała jak doprać plamy?",
+    "answer": "Vizir",
+    "hint": "Nazwa kojarząca się z dawnym doradcą sułtana (wezyrem), pisana przez V."
+  },
+  {
+    "id": 131,
+    "category": "Wokół Szkoły",
+    "question": "How nazywał się charakterystyczny, niebieski, podłużny przedmiot z gumy, którym zmazywało się atrament z pióra wiecznego?",
+    "answer": "Zmazywacz do piór / Korektor (np. Pirat)",
+    "hint": "Nazywano go często 'Korektorem do atramentu' lub 'Piratem'."
+  },
+  {
+    "id": 132,
+    "category": "Wokół Szkoły",
+    "question": "Co wpisywało się koledze lub koleżance na ostatniej stronie zeszytu na koniec roku szkolnego w latach 90., co zaczynało się od słów 'Ku pamięci... '?",
+    "answer": "Wpis do pamiętnika / wierszyk",
+    "hint": "Rymowany tekst zostawiany na pamiątkę w specjalnym notesie."
+  },
+  {
+    "id": 133,
+    "category": "Wokół Szkoły",
+    "question": "Jak nazywało się pismo dla młodzieży szkolnej, w którym można było przeczytać fotoblogi i znaleźć plakaty gwiazd?",
+    "answer": "Bravo",
+    "hint": "Słowo, które krzyczymy po udanym spektaklu w teatrze."
+  },
+  {
+    "id": 134,
+    "category": "Wokół Szkoły",
+    "question": "Jaki przedmiot szkolny wymagał noszenia na lekcje bloku technicznego, plasteliny i farb plakatowych?",
+    "answer": "Plastyka",
+    "hint": "Zajęcia artystyczne z malowania i rzeźbienia."
+  },
+  {
+    "id": 135,
+    "category": "Wokół Szkoły",
+    "question": "Jak nazywał się popularny w latach 90. metalowy cyrkiel w plastikowym etui, do którego wkładało się mały ołówek (rysik)?",
+    "answer": "Cyrkiel szkolny (często marki Skala)",
+    "hint": "Narzędzie kreślarskie do rysowania okręgów."
+  },
+  {
+    "id": 136,
+    "category": "Wokół Szkoły",
+    "question": "Co oznaczała ocena 'mierny' w polskiej szkole przed reformą wprowadzającą ocenę dopuszczającą?",
+    "answer": "Mierny to była ocena 2 (dwója)",
+    "hint": "Liczba parzysta, najniższa ocena pozytywna."
+  },
+  {
+    "id": 137,
+    "category": "Wokół Szkoły",
+    "question": "Jak nazywały się buty sportowe z białą gumową podeszwą i czarnym materiałem, które były obowiązkowym obuwiem zamiennym?",
+    "answer": "Tenisówki / Halówki / Trampki",
+    "hint": "Klasyczne buty sznurowane do biegania po sali gimnastycznej."
+  },
+  {
+    "id": 138,
+    "category": "Wokół Szokeły",
+    "question": "Jaki kultowy podręcznik do języka polskiego dla klas 1-3 szkół podstawowych w latach 80. i 90. opowiadał o przygodach Ali i Asa?",
+    "answer": "Elementarz (Falskiego)",
+    "hint": "Książka Mariana Falskiego do nauki czytania liter."
+  },
+  {
+    "id": 139,
+    "category": "Wokół Szkoły",
+    "question": "Jak nazywał się specjalny, gruby papier, którym obkładało się podręczniki szkolne, żeby się nie niszczyły?",
+    "answer": "Papier pakowy / okładka na książki",
+    "hint": "Papier ochronny na okładki."
+  },
+  {
+    "id": 140,
+    "category": "Wokół Szkoły",
+    "question": "Które legendarne piórniki z lat 90. miały magnetyczne zamknięcia i wysuwane szufladki uruchamiane przyciskami?",
+    "answer": "Piórniki z bajerami / piórniki magnetyczne (często chińskie)",
+    "hint": "Piórniki automatyczne z fizycznymi guzikami otwierającymi schowki."
+  },
+  {
+    "id": 141,
+    "category": "Telewizja i Popkultura",
+    "question": "Jak nazywała się słynna argentyńska telenowela emitowana na TVN, w której główną bohaterką była Milagros (Cholito) pracująca w rezydencji rodziny Di Carlo?",
+    "answer": "Zbuntowany anioł",
+    "hint": "Tytuł składa się z przymiotnika oznaczającego nieposłuszeństwo i istoty ze skrzydłami."
+  },
+  {
+    "id": 142,
+    "category": "Telewizja i Popkultura",
+    "question": "Który polski skoczek narciarski wywołał ogólnokrajową manię (małyszomanię) na przełomie 2000 i 2001 roku, wygrywając Turniej Czterech Skoczni?",
+    "answer": "Adam Małysz",
+    "hint": "Orzeł z Wisły, zdobywca czterech Kryształowych Kul."
+  },
+  {
+    "id": 143,
+    "category": "Telewizja i Popkultura",
+    "question": "Jak nazywał się talk-show prowadzony przez Ewę Drzyzgę w TVN od 2000 roku, w którym goście opowiadali o swoich nietypowych problemach życiowych?",
+    "answer": "Rozmowy w toku",
+    "hint": "Dyskusje prowadzone na żywo w ciągłym procesie."
+  },
+  {
+    "id": 144,
+    "category": "Telewizja i Popkultura",
+    "question": "Jaki tytuł nosił emitowany na Polsacie serial komediowy o losach dwóch zaprzyjaźnionych rodzin kontrolerów ruchu tramwajowego i kanalizatorów pracujących w Warszawie?",
+    "answer": "Miodowe lata",
+    "hint": "Określenie na pierwszy okres po ślubie, słodki czas."
+  },
+  {
+    "id": 145,
+    "category": "Telewizja i Popkultura",
+    "question": "Jak wabił się gadający kot, wierny towarzysz nastoletniej czarownicy Sabriny w popularnym serialu komediowym z przełomu wieków?",
+    "answer": "Salem",
+    "hint": "Nazwa miasta w USA znanego z historycznych procesów czarownic."
+  },
+  {
+    "id": 146,
+    "category": "Telewizja i Popkultura",
+    "question": "Który kultowy polski teleturniej, prowadzony niezmiennie przez Tadeusza Sznuka, wymagał od uczestników wyznaczania kolejnych graczy do odpowiedzi?",
+    "answer": "Jeden z dziesięciu",
+    "hint": "Matematyczny ułamek – 1 z 10."
+  },
+  {
+    "id": 147,
+    "category": "Telewizja i Popkultura",
+    "question": "Jak nazywał się bezlitosny program muzyczny (talent show) na TV4 i Polsacie, w którym Elżbieta Zapendowska i Robert Leszczyński oceniali młodych wokalistów?",
+    "answer": "Idol",
+    "hint": "Osoba będąca obiektem ślepego uwielbienia, autorytet muzyczny."
+  },
+  {
+    "id": 148,
+    "category": "Telewizja i Popkultura",
+    "question": "Jak nazywał się grany przez Janusza Gajosa bohater serialu 'Alternatywy 4', który był surowym gospodarzem domu?",
+    "answer": "Stanisław Anioł",
+    "hint": "Imię króla Leszczyńskiego oraz niebiański wysłannik jako nazwisko."
+  },
+  {
+    "id": 149,
+    "category": "Telewizja i Popkultura",
+    "question": "Jak brzmiało imię i nazwisko słynnego detektywa bez licencji, który prowadził program 'Detektyw' w TVN, tropiąc przestępców w asyście kamer?",
+    "answer": "Krzysztof Rutkowski",
+    "hint": "Znany z noszenia kwadratowej fryzury, czarnych okularów i kamizelki kuloodpornej."
+  },
+  {
+    "id": 150,
+    "category": "Telewizja i Popkultura",
+    "question": "Które kultowe rodzeństwo z sagi 'Gwiezdne Wojny' było motywem przewodnim słynnej kolekcji Tazo w chipsach Chio w 1997 roku?",
+    "answer": "Luke i Leia (Luke Skywalker i Księżniczka Leia)",
+    "hint": "Bliźnięta, dzieci Dartha Vadera."
+  },
+  {
+    "id": 151,
+    "category": "Gry i Technologie",
+    "question": "Jak nazywał się kultowy, polski portal internetowy założony w Gdańsku, który w latach 90. miał w logo charakterystyczne litery WP?",
+    "answer": "Wirtualna Polska",
+    "hint": "Dwuwyrazowa nazwa – przymiotnik oznaczający cyberprzestrzeń oraz nazwa naszego kraju."
+  },
+  {
+    "id": 152,
+    "category": "Gry i Technologie",
+    "question": "Który model konsoli Sony zrewolucjonizował rynek w Polsce pod koniec lat 90., pozwalając na odpalanie gier z płyt CD?",
+    "answer": "PlayStation (PS1 / PSX)",
+    "hint": "Stacja do grania, szare pudełko z padem bez analogów na starcie."
+  },
+  {
+    "id": 153,
+    "category": "Gry i Technologie",
+    "question": "Jak nazywała się legendarna gra strategiczna czasu rzeczywistego (RTS), w której zbierało się surowiec zwany 'Przyprawą' (Spice) na pustynnej planecie?",
+    "answer": "Dune II (Duna)",
+    "hint": "Piaszczysta kupa piachu na pustyni – tytuł dzieła Franka Herberta."
+  },
+  {
+    "id": 154,
+    "category": "Gry i Technologie",
+    "question": "Jaki popularny format plików muzycznych o mniejszym rozmiarze wyparł płyty Audio CD z odtwarzaczy pod koniec lat 90.?",
+    "answer": "MP3",
+    "hint": "Skrót z cyfrą trzy na końcu, rewolucja w cyfrowym audio."
+  },
+  {
+    "id": 155,
+    "category": "Gry i Technologie",
+    "question": "Jak nazywała się pierwsza generacja telefonów komórkowych w Polsce, działająca w systemie analogowym (wielkie walizki lub cegły)?",
+    "answer": "Centertel",
+    "hint": "Nazwa firmy łączącej słowa 'Centrala' i 'Telefon'."
+  },
+  {
+    "id": 156,
+    "category": "Gry i Technologie",
+    "question": "W jakiej kultowej grze platformowej sterowało się sympatycznym, pomarańczowym jamrajem pasiastym biegającym po planszach 3D na konsoli PlayStation?",
+    "answer": "Crash Bandicoot",
+    "hint": "Imię zaczyna się na C, torbacz rozbijający drewniane skrzynki z jabłkami."
+  },
+  {
+    "id": 157,
+    "category": "Gry i Technologie",
+    "question": "Jak nazywał się program Microsoftu służący do tworzenia prostych grafik rastrowych, w którym każdy z nas uczył się obsługi myszki w Windowsie 95/98?",
+    "answer": "Paint",
+    "hint": "Angielskie słowo oznaczające malowanie/farbę."
+  },
+  {
+    "id": 158,
+    "category": "Gry i Technologie",
+    "question": "Który popularny symulator życia z 2000 roku pozwalał na budowanie domów, usuwanie drabinek z basenu i sterowanie codziennymi potrzebami postaci?",
+    "answer": "The Sims",
+    "hint": "Gra o ludzikach stworzona przez Willa Wrighta i studio Maxis."
+  },
+  {
+    "id": 159,
+    "category": "Gry i Technologie",
+    "question": "Jak potocznie nazywano monitory komputerowe o ogromnych, ciężkich tyłach, zanim na biurka weszły płaskie ekrany LCD?",
+    "answer": "Monitory kineskopowe (CRT)",
+    "hint": "Skrót CRT lub nazwa lampy szklanej generującej obraz strumieniem elektronów."
+  },
+  {
+    "id": 160,
+    "category": "Gry i Technologie",
+    "question": "Jak nazywała się kultowa polska gra przygodowa z 1995 roku, stworzona przez Adriana Chmielarza, w której nastoletni bohater zostaje tajnym agentem?",
+    "answer": "Teenagent",
+    "hint": "Połączenie angielskich słów oznaczających nastolatka i szpiega."
+  },
+  {
+    "id": 161,
+    "category": "Smaki Dzieciństwa",
+    "question": "Jak nazywały się lody w plastikowym opakowaniu w kształcie owocu (np. truskawki lub pomarańczy), które po zjedzeniu loda służyło jako zabawka?",
+    "answer": "Lody w owocach",
+    "hint": "Deser lodowy zamknięty w plastikowej imitacji jabłka czy cytryny."
+  },
+  {
+    "id": 162,
+    "category": "Smaki Dzieciństwa",
+    "question": "Jaka marka proszków instant do robienia napojów, konkurująca z Tangiem, miała w nazwie słowo sugerujące taniec hiszpański?",
+    "answer": "Bolero",
+    "hint": "Kojarzy się ze słynnym utworem Maurice’a Ravela lub tradycyjnym tańcem."
+  },
+  {
+    "id": 163,
+    "category": "Smaki Dzieciństwa",
+    "question": "Jak nazywały się słynne, małe drażetki w tekturowych pudełeczkach produkowane przez firmę Skawa z Wadowic (np. Korsarze)?",
+    "answer": "Draże Skawa (Korsarze / Clownie)",
+    "hint": "Małe słodkie kuleczki – drażetki w charakterystycznych opakowaniach z piratami."
+  },
+  {
+    "id": 164,
+    "category": "Smaki Dzieciństwa",
+    "question": "Jaki serek z czekoladowymi drażetkami pod wieczkiem, produkowany przez firmę Campina, był hitem śniadaniowym lat 2000.?",
+    "answer": "Puddis (lub serek z okienkiem / Gratka)",
+    "hint": "Nazwa handlowa deseru budyniowego z okienkiem."
+  },
+  {
+    "id": 165,
+    "category": "Smaki Dzieciństwa",
+    "question": "Jak nazywał się gazowany napój z lat 90. o silnym, chemicznym smaku jabłkowym, sprzedawany w dużych butelkach?",
+    "answer": "Kaskada",
+    "hint": "Słowo oznaczające stopnie wodne lub wodospad."
+  },
+  {
+    "id": 166,
+    "category": "Smaki Dzieciństwa",
+    "question": "Które czekoladowe jajko z niespodzianką w środku zbierało się masowo w latach 90., polując na figurki hipopotamów?",
+    "answer": "Kinder Niespodzianka (Kinder Surprise)",
+    "hint": "Niemieckie słowo oznaczające dzieci oraz polskie słowo na coś nieoczekiwanego."
+  },
+  {
+    "id": 167,
+    "category": "Smaki Dzieciństwa",
+    "question": "Jak nazywały się długie, żelowe paski pokryte bardzo kwaśną posypką, które kupowało się na wagę w sklepikach?",
+    "answer": "Kable / żelki paski",
+    "hint": "Słowo potoczne oznaczające przewody elektryczne."
+  },
+  {
+    "id": 168,
+    "category": "Smaki Dzieciństwa",
+    "question": "Jaki fast-food, sprzedawany z budek w latach 90., składał się z podłużnej bułki z dziurą, w którą wciskano parówkę?",
+    "answer": "Hot-dog francuski (lub po prostu hot-dog z budki)",
+    "hint": "Gorący pies w wersji z Paryża."
+  },
+  {
+    "id": 169,
+    "category": "Smaki Dzieciństwa",
+    "question": "Jak nazywały się herbatniki w kształcie zwierzątek, które chrupało się w szkole w latach 90.?",
+    "answer": "Zoo (Herbatniki Zoo)",
+    "hint": "Trzyliterowe słowo oznaczające ogród zoologiczny."
+  },
+  {
+    "id": 170,
+    "category": "Smaki Dzieciństwa",
+    "question": "Jaki kultowy smak gumy Orbit dla dzieci (w różowym opakowaniu) był uwielbardzany za słodki aromat?",
+    "answer": "Orbit dla dzieci (Donald/klasyczny smak gumy balonowej)",
+    "hint": "Smak gumy balonowej z dzieciństwa."
+  },
+  {
+    "id": 171,
+    "category": "Podwórko i Styl Życia",
+    "question": "Jak nazywały się buty na kółkach lub plastikowe platformy mocowane do butów, które były poprzednikami wwrotek w latach 90.?",
+    "answer": "Wrotki retro (wrotki na paski)",
+    "hint": "Plastikowe nakładki z kółkami zapinane na rzemienie."
+  },
+  {
+    "id": 172,
+    "category": "Podwórko i Styl Życia",
+    "question": "W jaką grę podwórkową grano przy użyciu noża, rzucając go w ziemię, aby odkrajać kawałki terytorium przeciwnika?",
+    "answer": "Gra w noża (lub: państwa-miasta na noże / pikuty)",
+    "hint": "Zabawa w przejmowanie 'państw' ostrym narzędziem ogrodowym."
+  },
+  {
+    "id": 173,
+    "category": "Podwórko i Styl Życia",
+    "question": "Jak nazywał się jojo-podobny szał z lat 90., polegający na kręceniu na sznurku plastikowego stożka za pomocą dwóch patyczków?",
+    "answer": "Diabolo",
+    "hint": "Nazwa brzmiąca jak imię diabła po włosku/hiszpańsku."
+  },
+  {
+    "id": 174,
+    "category": "Podwórko i Styl Życia",
+    "question": "Co oznaczało w slangu lat 90. słowo 'Zgredzi'?",
+    "answer": "Rodzice",
+    "hint": "Opiekunowie prawni, mama i tata w oczach zbuntowanego nastolatka."
+  },
+  {
+    "id": 175,
+    "category": "Podwórko i Styl Życia",
+    "question": "How nazywały się plastikowe pistolety na małe, plastikowe kulki (zazwyczaj 6mm), które kupowało się na odpustach?",
+    "answer": "Pistolety na kulki (BB guns)",
+    "hint": "Zabawkowa broń palna na plastikową amunicję."
+  },
+  {
+    "id": 176,
+    "category": "Podwórko i Styl Życia",
+    "question": "Jak nazywał się metalowy lub betonowy element osiedlowego podwórka, służący do czyszczenia dywanów, będący bazą do berka?",
+    "answer": "Trzepak",
+    "hint": "Konstrukcja z rur do uderzania dywanów trzepaczką."
+  },
+  {
+    "id": 177,
+    "category": "Podwórko i Styl Życia",
+    "question": "Jak nazywały się elastyczne, kolorowe żyłki z plastiku, które zaplatało się w breloczki w 2005 roku?",
+    "answer": "Scoubidou (skubidu)",
+    "hint": "Nazwa brzmiąca jak imię psa ze znanej kreskówki o potworach (Scooby-Doo)."
+  },
+  {
+    "id": 178,
+    "category": "Podwórko i Styl Życia",
+    "question": "Jak nazywano małe sklepy z zagraniczną odzieżą używaną, które zaczęły masowo powstawać w Polsce w latach 90.?",
+    "answer": "Lumpeks / Ciucholand / Second-hand",
+    "hint": "Nazwa pochodzi od słowa 'lumpe' – szmata, gałgan."
+  },
+  {
+    "id": 179,
+    "category": "Podwórko i Styl Życia",
+    "question": "Co oznaczało podwórkowe zawołanie 'Zamawiam!' lub 'Zaklepane!' podczas gry w chowanego?",
+    "answer": "Zabezpieczenie pozycji lub uratowanie się przed szukającym (tzw. zapieczętowanie bazy)",
+    "hint": "Uderzenie w drzewo/ścianę oznaczające bezpieczeństwo."
+  },
+  {
+    "id": 180,
+    "category": "Podwórko i Styl Życia",
+    "question": "Jak nazywały się rowery z grubymi oponami, bez przerzutek, z charakterystyczną piankową osłoną na ramie, będące hitem komunijnym?",
+    "answer": "Brat / Rowery typu BMX",
+    "hint": "Trzyliterowy skrót od Bicycle Motocross."
+  },
+  {
+    "id": 181,
+    "category": "Świat według Kiepskich",
+    "question": "Jak miał na imię syn Ferdynanda i Haliny?",
+    "answer": "Waldemar (Walduś)",
+    "hint": "Często śmiał się w charakterystyczny sposób i wyjechał do Ameryki z Jolasia."
+  },
+  {
+    "id": 182,
+    "category": "Świat według Kiepskich",
+    "question": "Jaki był ulubiony browar Ferdynanda?",
+    "answer": "Mocny Full",
+    "hint": "Kosztował zazwyczaj złoty pięćdziesiąt za puszkę."
+  },
+  {
+    "id": 183,
+    "category": "Świat według Kiepskich",
+    "question": "Kim z zawodu był Marian Paździoch?",
+    "answer": "Handlarzem (bazarzany)",
+    "hint": "Sprzedawał bieliznę i męskie gacie na pobliskim bazarze."
+  },
+  {
+    "id": 184,
+    "category": "Świat według Kiepskich",
+    "question": "Jak nazywał się sąsiad mieszkający nad Kiepskimi, grany przez Ryszarda Kotysa?",
+    "answer": "Marian Paździoch",
+    "hint": "Ferdek często nazywał go mądralą, łysym lub wrzodem na zdrowym organizmie narodu."
+  },
+  {
+    "id": 185,
+    "category": "Świat według Kiepskich",
+    "question": "Jak wabił się pies podwórkowy, który często pojawiał się w rozmowach lub na korytarzu?",
+    "answer": "Burek",
+    "hint": "Tradycyjne polskie imię dla psa na cztery litery."
+  },
+  {
+    "id": 186,
+    "category": "Świat według Kiepskich",
+    "question": "Pod jakim adresem kamienicy mieszkali bohaterowie serialu?",
+    "answer": "Ćwiartki 3 m. 4",
+    "hint": "Ulica to Podwale, a numer mieszkania to jedna czwarta litra."
+  },
+  {
+    "id": 187,
+    "category": "Świat według Kiepskich",
+    "question": "Jak nazywało się legendarne, wspólne pomieszczenie na korytarzu kamienicy?",
+    "answer": "Wspólne WC (ubikacja/toaleta)",
+    "hint": "Miejsce licznych kłótni, kolejek i czytania gazety przez Ferdka."
+  },
+  {
+    "id": 188,
+    "category": "Świat według Kiepskich",
+    "question": "Kim z zawodu była Halina Kiepska?",
+    "answer": "Pielęgniarką",
+    "hint": "Pracowała w szpitalu i jako jedyna w domu przynosiła stałą pensję."
+  },
+  {
+    "id": 189,
+    "category": "Świat według Kiepskich",
+    "question": "Jak nazywała się żona Marian Paździocha?",
+    "answer": "Helena",
+    "hint": "Imię na literę H, słynęła z głośnego krzyczenia na męża i noszenia wałków we włosach."
+  },
+  {
+    "id": 190,
+    "category": "Świat według Kiepskich",
+    "question": "Jak nazywał się potężny sąsiad, grany przez Dariusz Gnatowskiego?",
+    "answer": "Arnold Boczek",
+    "hint": "Pracował w rzeźni i uwielbiał tłuste potrawy, zwłaszcza kaszankę."
+  },
+  {
+    "id": 191,
+    "category": "Świat według Kiepskich",
+    "question": "Gdzie pracował Arnold Boczek?",
+    "answer": "W rzeźni (w masarni)",
+    "hint": "Miejsce, z którego przynosił świeże mięso, podroby i kiełbasy."
+  },
+  {
+    "id": 192,
+    "category": "Świat według Kiepskich",
+    "question": "Jak nazywała się ekscentryczna żona Waldusia, grana przez Annę Ilczuk?",
+    "answer": "Jolasia (Jolanta)",
+    "hint": "Miała charakterystyczny, piskliwy głos i uwielbiał wydawać pieniądze na głupoty."
+  },
+  {
+    "id": 193,
+    "category": "Świat według Kiepskich",
+    "question": "Jakie było popisowe, bardzo częste powiedzenie Ferdka na temat pracy?",
+    "answer": "W tym kraju nie ma pracy dla ludzi z moim wykształceniem",
+    "hint": "Wymówka, którą Ferdek powtarzał Halinie siedząc przed telewizorem."
+  },
+  {
+    "id": 194,
+    "category": "Świat według Kiepskich",
+    "question": "Jak miała na imię córka Ferdynanda i Haliny?",
+    "answer": "Mariola (Mariolka)",
+    "hint": "Młodsza siostra Waldusia, grana przez Barbarę Mularczyk."
+  },
+  {
+    "id": 195,
+    "category": "Świat według Kiepskich",
+    "question": "Jak nazywała się matka Haliny, grana przez Krystynę Feldman?",
+    "answer": "Rozalia (Babka Kiepska)",
+    "hint": "Ciągle polował na jej rentę, a ona chowała pieniądze w szafie."
+  },
+  {
+    "id": 196,
+    "category": "Świat według Kiepskich",
+    "question": "Gdzie Babka Rozalia chowała swoją rentę przed Ferdkiem?",
+    "answer": "W szafie (w biblioteczce)",
+    "hint": "Mebel stojący w pokoju babki, często zamknięty na klucz."
+  },
+  {
+    "id": 197,
+    "category": "Świat według Kiepskich",
+    "question": "Jak nazywał się listonosz, który regularnie przynosił rentę babki i listy?",
+    "answer": "Edzio",
+    "hint": "Słynął z rymowania i układania wierszyków na każdą okazję."
+  },
+  {
+    "id": 198,
+    "category": "Świat według Kiepskich",
+    "question": "Jani program telewizyjny Ferdek oglądał najchętniej z piwem w ręku?",
+    "answer": "Mecze piłki nożnej (futbol)",
+    "hint": "Sport, w którym Polacy według Ferdka zawsze grali 'piach'."
+  },
+  {
+    "id": 199,
+    "category": "Świat według Kiepskich",
+    "question": "Jak na nazwisko miała Jolasia, żona Waldusia, zanim wyszła za mąż?",
+    "answer": "Pupcia",
+    "hint": "Bardzo zabawne, anatomiczne wręcz nazwisko na literę P."
+  },
+  {
+    "id": 200,
+    "category": "Świat według Kiepskich",
+    "question": "Kto był najlepszym przyjacielem Mariana Paździocha z czasów młodości, o którym często wspominał?",
+    "answer": "Janusz (lub wspomnienia o handlu)",
+    "hint": "Paździoch często wspominał swoje międzynarodowe interesy m.in. na giełdzie w Turcji."
+  },
+  {
+    "id": 201,
+    "category": "Świat według Kiepskich",
+    "question": "Jak nazywał się prezes spółdzielni mieszkaniowej, który często nachodził mieszkańców?",
+    "answer": "Andrzej Kozłowski",
+    "hint": "Często organizował dziwne akcje społeczne i kontrole lokatorskie."
+  },
+  {
+    "id": 202,
+    "category": "Świat według Kiepskich",
+    "question": "Co Boczek regularnie podkradał z korytarza lub zostawiał na wycieraczce u Kiepskich?",
+    "answer": "Gazety (lub korzystał z ich WC bez pytania)",
+    "hint": "Powód, dla którego Ferdek krzyczał: 'Panie Boczek, pan u siebie nie jesteś!'."
+  },
+  {
+    "id": 203,
+    "category": "Świat według Kiepskich",
+    "question": "Do jakiego kraju wyjechał Walduś w trakcie trwania serialu?",
+    "answer": "Do USA (Ameryki)",
+    "hint": "Kraj za oceanem, do którego jechało się 'za chlebem'."
+  },
+  {
+    "id": 204,
+    "category": "Świat według Kiepskich",
+    "question": "Jak nazywało się ulubione danie Boczka, które uwielbiał jeść u Kiepskich w nocy?",
+    "answer": "Kaszanka",
+    "hint": "Wyrób wędliniarski z krwi i kaszy."
+  },
+  {
+    "id": 205,
+    "category": "Świat według Kiepskich",
+    "question": "Jak inwazyjnie w serialu nazywano luksusowy alkohol, który Ferdek pił od święta?",
+    "answer": "Wódka Zagłoba",
+    "hint": "Trunek z panem z sarmackim wąsem na etykiecie."
+  },
+  {
+    "id": 206,
+    "category": "Świat według Kiepskich",
+    "question": "Jak Ferdek nazywał telewizor, przed którym spędzał całe dnie?",
+    "answer": "Oko (lub pudełko)",
+    "hint": "Mówił często, że patrzy w 'szklane ...'."
+  },
+  {
+    "id": 207,
+    "category": "Świat według Kiepskich",
+    "question": "Jak na imię miał syn Mariana Paździocha, który niespodziewanie pojawił się z Romanii?",
+    "answer": "Janusz",
+    "hint": "Popularne polskie imię, postać grana przez Sławomira Szczęśniaka."
+  },
+  {
+    "id": 208,
+    "category": "Świat według Kiepskich",
+    "question": "Jakie zwierzę było symbolem partii, którą Ferdek próbował założyć w jednym z odcinków?",
+    "answer": "Borsuk (lub Świnia)",
+    "hint": "Zwierzę leśne znane z pasiastej głowy lub hodowlane."
+  },
+  {
+    "id": 209,
+    "category": "Świat według Kiepskich",
+    "question": "Jani instrument muzyczny potrafił na korytarzu uruchomić przedziwne zjawiska paranormalne?",
+    "answer": "Akordeon",
+    "hint": "Instrument klawiszowo-miechowy, na którym grano biesiadne pieśni."
+  },
+  {
+    "id": 210,
+    "category": "Świat według Kiepskich",
+    "question": "Do kogo należał słynny czerwony fotel przed telewizorem?",
+    "answer": "Do Ferdka",
+    "hint": "Nikt inny nie miał prawa na nim usiąść bez awantury."
+  },
+  {
+    "id": 211,
+    "category": "Świat według Kiepskich",
+    "question": "Co znajdowało się na dachu kamienicy i było miejscem wielu tajnych zebrań męskiej części lokatorów?",
+    "answer": "Gołębnik (lub taras)",
+    "hint": "Miejsce hodowli ptaków pokojowych."
+  },
+  {
+    "id": 212,
+    "category": "Świat według Kiepskich",
+    "question": "Jak nazywał się lekarz, do którego Ferdek i sąsiedzi przychodzili z absurdalnymi dolegliwościami?",
+    "answer": "Doktor Kazula",
+    "hint": "Specjalista w kitlu, grany m.in. przez Tadeusza Szymkowa."
+  },
+  {
+    "id": 213,
+    "category": "Świat według Kiepskich",
+    "question": "Kto napisał słynną piosenkę czołówkową do serialu?",
+    "answer": "Big Cyc",
+    "hint": "Polski zespół rockowy z Krzysztofem Skibą na czele."
+  },
+  {
+    "id": 214,
+    "category": "Świat według Kiepskich",
+    "question": "Jak brzmiało drugie imię syna Ferdka, Waldusia?",
+    "answer": "Andrzej",
+    "hint": "Imię po wujku lub popularne imię na literę A."
+  },
+  {
+    "id": 215,
+    "category": "Świat według Kiepskich",
+    "question": "Jani pseudonim nosił miejscowy handlarz złomem i kumpel Ferdka, grany przez Bohdana Smolenia?",
+    "answer": "Edi",
+    "hint": "Krótkie imię na trzy litery pasujące do dawnego kabareciarza TEY."
+  },
+  {
+    "id": 216,
+    "category": "Świat według Kiepskich",
+    "question": "W jakim mieście znajduje się ulica Podwale i kamienica Kiepskich?",
+    "answer": "We Wrocławiu",
+    "hint": "Stolica Dolnego Śląska."
+  },
+  {
+    "id": 217,
+    "category": "Świat według Kiepskich",
+    "question": "Co Marian Paździoch trzymał na strychu i nikomu nie pozwalał tam wchodzić?",
+    "answer": "Maszynę do szycia / Towar",
+    "hint": "Związane z jego tajemniczą przeszłością wywiadowczą lub bazarem."
+  },
+  {
+    "id": 218,
+    "category": "Świat według Kiepskich",
+    "question": "How miał na imię brat Ferdynanda, który od czasu do czasu przysyłał listy lub paczki?",
+    "answer": "Staszek (Stanisław)",
+    "hint": "Mieszkał na wsi i miał gospodarstwo."
+  },
+  {
+    "id": 219,
+    "category": "Świat według Kiepskich",
+    "question": "Jak na imię miała matka Mariana Paździocha?",
+    "answer": "Janina",
+    "hint": "Starsza pani, o której Marian mówił z ogromnym szacunkiem."
+  },
+  {
+    "id": 220,
+    "category": "Świat według Kiepskich",
+    "question": "Jaki napój Ferdek przygotowywał rano, gdy nie było w domu piwa?",
+    "answer": "Kawę (często 'plujkę')",
+    "hint": "Czarny, gorący napój budzący Polaków."
+  },
+  {
+    "id": 221,
+    "category": "Świat według Kiepskich",
+    "question": "Kto był idolem muzycznym Waldusia?",
+    "answer": "Krzysztof Krawczyk (lub Disco Polo)",
+    "hint": "Legendarny polski piosenkarz od 'Parostatku'."
+  },
+  {
+    "id": 222,
+    "category": "Świat według Kiepskich",
+    "question": "Ile pięter miała kamienica, w której żyli Kiepscy?",
+    "answer": "3 piętra",
+    "hint": "Paździoch mieszkał na samej górze, Boczek w środku, Ferdek na dole."
+  },
+  {
+    "id": 223,
+    "category": "Świat według Kiepskich",
+    "question": "Co Halina najczęściej kazała zrobić Ferdkowi, gdy ten siedział bezczynnie?",
+    "answer": "Wynieść śmieci",
+    "hint": "Kultowy domowy obowiązek z wiadrem w roli głównej."
+  },
+  {
+    "id": 224,
+    "category": "Świat według Kiepskich",
+    "question": "How nazywał się bogaty wujek z Ameryki, który miał zapisać Kiepskim spadek?",
+    "answer": "Wujek Władek",
+    "hint": "Imię zbieżne z imieniem Waldusia."
+  },
+  {
+    "id": 225,
+    "category": "Świat według Kiepskich",
+    "question": "Jakie nakrycie głowy Ferdek nosił najczęściej, gdy wychodził z domu na podwórko?",
+    "answer": "Czapka z daszkiem (bejsbolówka)",
+    "hint": "Popularna sportowa czapka chroniąca przed słońcem."
+  },
+  {
+    "id": 226,
+    "category": "Świat według Kiepskich",
+    "question": "Jak nazywało się tanie wino, które Ferdek i kumpel ze złomowiska popijali w kryzysowych momentach?",
+    "answer": "Mocny Halny",
+    "hint": "Często nazywane potocznie 'mamrotem' lub 'jabcokiem'."
+  },
+  {
+    "id": 227,
+    "category": "Świat według Kiepskich",
+    "question": "Na czym polegał słynny 'biznes' Ferdka z hodowlą zwierząt w mieszkaniu?",
+    "answer": "Hodowla dżdżownic",
+    "hint": "Robaki używane przez wędkarzy jako przynęta."
+  },
+  {
+    "id": 228,
+    "category": "Świat według Kiepskich",
+    "question": "Kim z pochodzenia była żona Janusza Paździocha?",
+    "answer": "Romką (Z Cyganów)",
+    "hint": "Nawiązanie do rumuńskich korzeni młodego Paździocha."
+  },
+  {
+    "id": 229,
+    "category": "Świat według Kiepskich",
+    "question": "Jakie kapcie nosił Ferdek przez większość odcinków?",
+    "answer": "Skórzane bambosze (klapki)",
+    "hint": "Tradycyjne domowe obuwie bez pięty."
+  },
+  {
+    "id": 230,
+    "category": "Świat według Kiepskich",
+    "question": "Jaki kultowy rekwizyt stał w rogu salonu Kiepskich, za fotelem Ferdka?",
+    "answer": "Marek (Manekin)",
+    "hint": "Służył jako ozdoba lub wieszak na ubrania."
+  },
+  {
+    "id": 231,
+    "category": "13 posterunek",
+    "question": "Jak nazywał się główny, niezdarny policjant grany przez Cezarego Pazurę?",
+    "answer": "Cezary Cezary",
+    "hint": "Jego imię i nazwisko brzmią dokładnie tak samo."
+  },
+  {
+    "id": 232,
+    "category": "13 posterunek",
+    "question": "Jak miał na imię komendant posterunku, grany przez Marka Perepeczkę?",
+    "answer": "Władysław (Władek)",
+    "hint": "Był wielkim fanem swojego psa Pershinga i filmów akcji."
+  },
+  {
+    "id": 233,
+    "category": "13 posterunek",
+    "question": "Jak nazywał się ukochany pies komendanta Władysława?",
+    "answer": "Pershing",
+    "hint": "Rasa to buldog angielski, nazwany tak jak słynny amerykański pocisk."
+  },
+  {
+    "id": 234,
+    "category": "13 posterunek",
+    "question": "Kim dla Cezarego była Agnieszka, grana przez Agnieszkę Włodarczyk?",
+    "answer": "Siostrą",
+    "hint": "Młodsza nastolatka, która często uczyła się na posterunku i podkochiwała w policjantach."
+  },
+  {
+    "id": 235,
+    "category": "13 posterunek",
+    "question": "Jak nazywała się policjantka, która była szaleńczo zakochana w Czarku?",
+    "answer": "Kasia",
+    "hint": "Postać grana przez Aleksandrę Woźniak, nosiła okulary."
+  },
+  {
+    "id": 236,
+    "category": "13 posterunek",
+    "question": "Jaka była główna cecha charakterystyczna policjanta o imieniu Luksus?",
+    "answer": "Był erotomanem (podrywaczem)",
+    "hint": "Uwielbiał czytać pisma dla dorosłych i podrywać każdą kobietę."
+  },
+  {
+    "id": 237,
+    "category": "13 posterunek",
+    "question": "Jak nazywał się niewidomy, starszy policjant, który potrafił strzelać na słuch?",
+    "answer": "Stępień",
+    "hint": "Grany przez Marka Walczewskiego, ciągle narzekał na swoją żonę."
+  },
+  {
+    "id": 238,
+    "category": "13 posterunek",
+    "question": "O co Stępień nieustannie kłócił się ze swoją żoną w rozmowach telefonicznych?",
+    "answer": "O zupę (o obiad)",
+    "hint": "Kultowy tekst: 'Słuchaj no, zołzo!'."
+  },
+  {
+    "id": 239,
+    "category": "13 posterunek",
+    "question": "Jak nazywał się potężny, powolny policjant, który rzadko się odzywał, ale miał ogromną siłę?",
+    "answer": "Arnie",
+    "hint": "Jego idolem był Arnold Schwarzenegger."
+  },
+  {
+    "id": 240,
+    "category": "13 posterunek",
+    "question": "Kim z zawodu lub zamiłowania była filmowa brunetka Jola, dziewczyna Czarka?",
+    "answer": "Prostytutką",
+    "hint": "Pracowała przy drodze lub w klubie, grana przez Dorotę Chotecką."
+  },
+  {
+    "id": 241,
+    "category": "13 posterunek",
+    "question": "Kto reżyserował ten kultowy serial komediowy?",
+    "answer": "Maciej Ślesicki",
+    "hint": "Reżyser znany również z filmu 'Sara'."
+  },
+  {
+    "id": 242,
+    "category": "13 posterunek",
+    "question": "Jaki numer nosił ten warszawski posterunek policji?",
+    "answer": "13",
+    "hint": "Liczba uważana pechowo za pechową."
+  },
+  {
+    "id": 243,
+    "category": "13 posterunek",
+    "question": "Jak nazywał się starszy aspirant, inspektor z komendy głównej, grany przez Arkadiusza Jakubika?",
+    "answer": "Rysio (Aspirant Ryszard)",
+    "hint": "Miał bardzo specyficzny głos, tik nerwowy i brakowało mu kilku klepek."
+  },
+  {
+    "id": 244,
+    "category": "13 posterunek",
+    "question": "Co stało na biurku komendanta i było dla niego cenniejsze niż bezpieczeństwo miasta?",
+    "answer": "Zdjęcie Pershinga",
+    "hint": "Związane z jego czworonożnym pupilem."
+  },
+  {
+    "id": 245,
+    "category": "13 posterunek",
+    "question": "Jak nazywał się posterunkowy, który w drugim sezonie zastąpił Luksusa?",
+    "answer": "Janek (Rubin)",
+    "hint": "Młdy chłopak z prowincji, bardzo skromny i religijny."
+  },
+  {
+    "id": 246,
+    "category": "13 posterunek",
+    "question": "Jakie nietypowe hobby miał filmowy Arnie?",
+    "answer": "Oglądanie filmów akcji",
+    "hint": "Uwielbiał strzelać ze wszystkiego, co popadnie i czcić Schwarzeneggera."
+  },
+  {
+    "id": 247,
+    "category": "13 posterunek",
+    "question": "Gdzie znajdowało się wejście do celi dla zatrzymanych na posterunku?",
+    "answer": "Za kratą po prawej stronie",
+    "hint": "Pomieszczenie, w którym Czarek często sam lądował przez przypadek."
+  },
+  {
+    "id": 248,
+    "category": "13 posterunek",
+    "question": "Jak miała na imię suczka, którą komendant próbował swatać z Pershingiem?",
+    "answer": "Alfa",
+    "hint": "Pierwsza litera greckiego alfabetu."
+  },
+  {
+    "id": 249,
+    "category": "13 posterunek",
+    "question": "Jaki przedmiot Czarek najczęściej niszczył na biurku komendanta?",
+    "answer": "Telefon",
+    "hint": "Urządzenie służące do odbierania połączeń."
+  },
+  {
+    "id": 250,
+    "category": "13 posterunek",
+    "question": "Kto grał postać Luksusa w pierwszym sezonie?",
+    "answer": "Paweł Burczyk",
+    "hint": "Aktor o rudych włosach i charakterystycznym uśmiechu."
+  },
+  {
+    "id": 251,
+    "category": "13 posterunek",
+    "question": "How miała na imię wysoka, atrakcyjna ruda policjantka z drugiego sezonu?",
+    "answer": "Agnieszka",
+    "hint": "Nosi takie samo imię jak serialowa siostra Czarka."
+  },
+  {
+    "id": 252,
+    "category": "13 posterunek",
+    "question": "Co Stępień nosił na nosie przez cały serial?",
+    "answer": "Grube okulary (bryle)",
+    "hint": "Miały szkła jak denka od butelek z powodu jego wady wzroku."
+  },
+  {
+    "id": 253,
+    "category": "13 posterunek",
+    "question": "Jak na imię miał bezdomny, który regularnie nocował na posterunku?",
+    "answer": "Janek",
+    "hint": "Czarek traktował go jak stałego lokatora, grany przez Macieja Kozłowskiego."
+  },
+  {
+    "id": 254,
+    "category": "13 posterunek",
+    "question": "Jakie zwierzę rzekomo zaatakowało posterunek w jednym z najbardziej absurdalnych odcinków?",
+    "answer": "Niedźwiedź",
+    "hint": "Wielki drapieżnik z lasu, za którego przebrał się jeden z bohaterów."
+  },
+  {
+    "id": 255,
+    "category": "13 posterunek",
+    "question": "Co było ulubioną bronią Arniego?",
+    "answer": "Bazooka (lub miotacz ognia)",
+    "hint": "Ciężki sprzęt wojskowy, nie pasujący do policji miejskiej."
+  },
+  {
+    "id": 256,
+    "category": "13 posterunek",
+    "question": "Jaki auto było oficjalnym radiowozem 13 posterunku?",
+    "answer": "Polonez",
+    "hint": "Kultowy samochód polskiej produkcji z FSO."
+  },
+  {
+    "id": 257,
+    "category": "13 posterunek",
+    "question": "Co Stępień chował w kaburze zamiast prawdziwego pistoletu?",
+    "answer": "Kanapkę",
+    "hint": "Coś do jedzenia, co żona przygotowała mu do pracy."
+  },
+  {
+    "id": 258,
+    "category": "13 posterunek",
+    "question": "Jakie pasje fizyczne na posterunku realizował Arnie (Piotr Zelt)?",
+    "answer": "Kulturystykę",
+    "hint": "Wyciskał ogromne ciężary bezpośrednio w biurze."
+  },
+  {
+    "id": 259,
+    "category": "13 posterunek",
+    "question": "Jak nazywał się minister, który często kontrolował posterunek i wpadał w szał?",
+    "answer": "Minister Pierdzioch",
+    "hint": "Wysoki urzędnik państwowy o niezbyt dostojnym nazwisku."
+  },
+  {
+    "id": 260,
+    "category": "13 posterunek",
+    "question": "Gdzie Czarek ukrywał się przed Kasią, gdy ta zbyt mocno go naciskała na ślub?",
+    "answer": "W szafie",
+    "hint": "Mebel z dokumentami stojący na środku sali."
+  },
+  {
+    "id": 261,
+    "category": "13 posterunek",
+    "question": "Ile żon miał według własnych opowieści Luksus?",
+    "answer": "Żadnej",
+    "hint": "Był rasowym singlem polującym na każdą kobietę."
+  },
+  {
+    "id": 262,
+    "category": "13 posterunek",
+    "question": "Co znajdowało się w centralnym punkcie głównej sali posterunku, gdzie siedzieli policjanci?",
+    "answer": "Biurka połączone na środku",
+    "hint": "Miejsce pracy, wokół którego kręciła się cała akcja."
+  },
+  {
+    "id": 263,
+    "category": "13 posterunek",
+    "question": "Jak reagował komendant, gdy ktoś obraził jego psa Pershinga?",
+    "answer": "Wyciągał broń i wpadał w szał",
+    "hint": "Agresywny atak wściekłości z użyciem siły i krzyku."
+  },
+  {
+    "id": 264,
+    "category": "13 posterunek",
+    "question": "W jakim mieście kręcono i osadzono akcję 13 posterunku?",
+    "answer": "W Warszawie",
+    "hint": "Stolica Polski."
+  },
+  {
+    "id": 265,
+    "category": "13 posterunek",
+    "question": "Który znany polski wokalista nagrał piosenkę tytułową '13 posterunek'?",
+    "answer": "Andrzej Krzywy",
+    "hint": "Wokalista zespołu De Mono, śpiewającego 'Statki na niebie'."
+  },
+  {
+    "id": 266,
+    "category": "13 posterunek",
+    "question": "Co z oczami miał Stępień pod koniec pierwszego sezonu po operacji?",
+    "answer": "Widział wszystko do góry nogami",
+    "hint": "Komediowa wada wzroku po fatalnie przeprowadzonym zabiegu."
+  },
+  {
+    "id": 267,
+    "category": "13 posterunek",
+    "question": "Jak Czarek nazywał Agnieszkę, gdy ta sprawiała problemy wychowawcze?",
+    "answer": "Gówniarą",
+    "hint": "Słowo określające młodą, niesforną i pyskatą dziewczynę."
+  },
+  {
+    "id": 268,
+    "category": "13 posterunek",
+    "question": "Co Kasia nosiła wpięte we włosy przez większość odcinków?",
+    "answer": "Kokardę",
+    "hint": "Ozdoba dziewczęca na głowie, pasująca do jej szkolnego stylu."
+  },
+  {
+    "id": 269,
+    "category": "13 posterunek",
+    "question": "Jaki stopień policyjny posiadał Cezary Cezary?",
+    "answer": "Posterunkowy",
+    "hint": "Najniższy stopień w hierarchii policyjnej."
+  },
+  {
+    "id": 270,
+    "category": "13 posterunek",
+    "question": "Kto był największym wrogiem publicznym komendanta Władysława w bajkach, które opowiadał?",
+    "answer": "Al Capone",
+    "hint": "Słynny amerykański gangster z czasów prohibicji."
+  },
+  {
+    "id": 271,
+    "category": "13 posterunek",
+    "question": "Co Czarek robił z policyjną czapką, gdy wpadał w szał radości?",
+    "answer": "Gryzł ją",
+    "hint": "Nietypowe i zwierzęce zachowanie z elementem umundurowania."
+  },
+  {
+    "id": 272,
+    "category": "13 posterunek",
+    "question": "Jak nazywał się ksiądz, który odwiedzał posterunek w celach duszpasterskich?",
+    "answer": "Ksiądz Proboszcz",
+    "hint": "Duchowny w sutannie z pobliskiej parafii."
+  },
+  {
+    "id": 273,
+    "category": "13 posterunek",
+    "question": "Jaki charakterystyczny taniec Czarek wykonywał na środku komisariatu?",
+    "answer": "Taniec w stylu Michaela Jacksona",
+    "hint": "Dynamiczne ruchy nóg, łapanie się za krok i głośne krzyki."
+  },
+  {
+    "id": 274,
+    "category": "13 posterunek",
+    "question": "Co Luksus zawsze nosił rozpięte w swoim mundurze?",
+    "answer": "Koszulę (klata na wierzchu)",
+    "hint": "Element podrywu na owłosioną męską klatkę piersiową."
+  },
+  {
+    "id": 275,
+    "category": "13 posterunek",
+    "question": "Kim z profesji był rzekomy brat bliźniak Czarka, który pojawił się na posterunku?",
+    "answer": "Mafioso / Przestępcą",
+    "hint": "Czarny charakter szukający ucieczki przed policją."
+  },
+  {
+    "id": 276,
+    "category": "13 posterunek",
+    "question": "Gdzie Kasia i Czarek spędzili swoją pierwszą (nieudaną) randkę?",
+    "answer": "Na posterunku (w pracy)",
+    "hint": "Nigdzie nie wyszli, zostali uwięzieni na nocnym dyżurze."
+  },
+  {
+    "id": 277,
+    "category": "13 posterunek",
+    "question": "Co Arnie nosił na głowie zamiast policyjnej czapki w sekwencjach bojowych?",
+    "answer": "Chustę (bandanę Rambo)",
+    "hint": "Czerwona lub czarna opaska wokół czoła."
+  },
+  {
+    "id": 278,
+    "category": "13 posterunek",
+    "question": "Jaki prezent komendant dostał od policjantów na urodziny, który okazał się bombą?",
+    "answer": "Tort",
+    "hint": "Słodki wypiek ze świeczkami, który spektakularnie eksplodował."
+  },
+  {
+    "id": 279,
+    "category": "13 posterunek",
+    "question": "Jak kończył się niemal każdy odcinek serialu na posterunku?",
+    "answer": "Totalną demolką (wybuchem)",
+    "hint": "Zniszczenie całego biura, gruz, dym i zniszczone meble."
+  },
+  {
+    "id": 280,
+    "category": "13 posterunek",
+    "question": "Kto grał postać inspektora Pieca, regularnie gnębiącego komendanta?",
+    "answer": "Aleksander Pociej",
+    "hint": "Aktor o poważnym, urzędowym wyglądzie."
+  },
+  {
+    "id": 281,
+    "category": "Daleko od noszy",
+    "question": "Jak nazywał się ordynator szpitala, grany przez Krzysztofa Kowalewskiego?",
+    "answer": "Zygmunt Łubicz",
+    "hint": "Słynął z noszenia wielkich okularów i miłości do luksusu oraz polowań."
+  },
+  {
+    "id": 282,
+    "category": "Daleko od noszy",
+    "question": "Jak nazywał się najbardziej pechowy i niezdarny doktor, grany przez Pawła Wawrzeckiego?",
+    "answer": "Roman Kidler",
+    "hint": "Uważał się za wielkiego podrywacza, nosił wąsy i hawajskie koszule pod fartuchem."
+  },
+  {
+    "id": 283,
+    "category": "Daleko od noszy",
+    "question": "Kim w szpitalu był basowy i potężny pan Kraśniak, grany przez Jerzego Turowicza?",
+    "answer": "Salowym (noszowym)",
+    "hint": "Nosił pacjentów i rzadko cokolwiek rozumiał z medycyny."
+  },
+  {
+    "id": 284,
+    "category": "Daleko od noszy",
+    "question": "Jak nazywała się urocza, ale niezbyt rozgarnięta pielęgniarka, grana przez Annę Przybylską?",
+    "answer": "Karina",
+    "hint": "Imię na literę K, była miss i stałym obiektem westchnień doktora Kidlera."
+  },
+  {
+    "id": 285,
+    "category": "Daleko od noszy",
+    "question": "Jak nazywał się lekarz-biznesmen, kumpel Kidlera, grany przez Piotra Gąsowskiego?",
+    "answer": "Czesław Basen",
+    "hint": "Jego nazwisko to również naczynie na mocz dla pacjentów leżących."
+  },
+  {
+    "id": 286,
+    "category": "Daleko od noszy",
+    "question": "Jak miała na imię żona doktora Basena, która również była pielęgniarką?",
+    "answer": "Magda (Magdalena)",
+    "hint": "Grana przez Hannę Śleszyńską, całkowicie rządziła mężem za pomocą wałka."
+  },
+  {
+    "id": 287,
+    "category": "Daleko od noszy",
+    "question": "Jak nazywała się bezwzględna i surowa przełożona pielęgniarek?",
+    "answer": "Siostra Gerarda",
+    "hint": "Twarda kobieta o tradycyjnym imieniu zakonnym na literę G."
+  },
+  {
+    "id": 288,
+    "category": "Daleko od noszy",
+    "question": "Jaki numer nosiła słynna sala chorych, na której leżeli stali pacjenci?",
+    "answer": "Sala numer 3",
+    "hint": "Cyfra mniejsza od 4, większa od 2."
+  },
+  {
+    "id": 289,
+    "category": "Daleko od noszy",
+    "question": "Jak nazywał się wieczny pacjent szpitala, grany przez Bogusława Kupczaka?",
+    "answer": "Nowak",
+    "hint": "Najpopularniejsze nazwisko w Polsce, leżał w łóżku przez długie lata."
+  },
+  {
+    "id": 290,
+    "category": "Daleko od noszy",
+    "question": "Jak miał na imię brat Czesława, salowy grany przez Krzysztofa Tyńca?",
+    "answer": "Rudolf (Rudolf Basen)",
+    "hint": "Imię czerwononosego renifera Świętego Mikołaja."
+  },
+  {
+    "id": 291,
+    "category": "Daleko od noszy",
+    "question": "Co ordynator Łubicz najchętniej robił w swoim gabinecie zamiast leczenia ludzi?",
+    "answer": "Grał w golfa (mini-golf)",
+    "hint": "Sport polegający na wbijaniu małej piłeczki do dołka za pomocą kija."
+  },
+  {
+    "id": 292,
+    "category": "Daleko od noszy",
+    "question": "Na czym polegały słynne 'eksperymenty' medyczne doktora Kidlera?",
+    "answer": "Na zamianie kart pacjentów",
+    "hint": "Robił to najczęściej po to, żeby ukryć swoje rażące błędy lekarskie."
+  },
+  {
+    "id": 293,
+    "category": "Daleko od noszy",
+    "question": "Jak lekarze potocznie nazywali łapówki, które brali od pacjentów w kopertach?",
+    "answer": "Dowody wdzięczności",
+    "hint": "Eleganckie, dwuwyrazowe określenie na nielegalne opłacenie lekarza."
+  },
+  {
+    "id": 294,
+    "category": "Daleko od noszy",
+    "question": "Jak nazywał się młody, naiwny stażysta, doktor grany przez Rafała Rutkowskiego?",
+    "answer": "Doktor Zawisza",
+    "hint": "Nazwisko jak słynny czarny rycerz z polskiej historii."
+  },
+  {
+    "id": 295,
+    "category": "Daleko od noszy",
+    "question": "Co było głównym tematem stałej rywalizacji między doktorem Basenem a Kidlerem?",
+    "answer": "Pieniądze i pielęgniarki",
+    "hint": "Chodziło o zyski z dyżurów oraz o względy pięknej Kariny."
+  },
+  {
+    "id": 296,
+    "category": "Daleko od noszy",
+    "question": "Jaka była oficjalna specjalizacja medyczna tego osobliwego szpitala?",
+    "answer": "Chirurgia",
+    "hint": "Dziedzina medycyny zajmująca się operacjami, krojeniem i szyciem ludzi."
+  },
+  {
+    "id": 297,
+    "category": "Daleko od noszy",
+    "question": "Co pacjent Nowak stale próbował zrobić, ale personel zawsze mu uniemożliwiał?",
+    "answer": "Uciec ze szpitala",
+    "hint": "Opuszczenie placówki medycznej bez zgody lekarza prowadzącego."
+  },
+  {
+    "id": 298,
+    "category": "Daleko od noszy",
+    "question": "Jaki nadrzędny urzędnik państwowy regularnie nawiedzał szpital w celach kontroli?",
+    "answer": "Minister Zdrowia",
+    "hint": "Szef resortu odpowiedzialnego za szpitale."
+  },
+  {
+    "id": 299,
+    "category": "Daleko od noszy",
+    "question": "Co salowi robili z pacjentami, gdy dramatycznie brakowało wolnych łóżek na oddziale?",
+    "answer": "Kładli ich na korytarzu",
+    "hint": "Wąskie miejsce przejścia między salami pacjentów."
+  },
+  {
+    "id": 300,
+    "category": "Daleko od noszy",
+    "question": "Jaki nietypowy instrument Kidler stosował do badania odruchów neurologicznych kolana?",
+    "answer": "Zwykły młotek budowlany",
+    "hint": "Narzędzie, którym normalnie wbija się gwoździe w ścianę."
+  },
+  {
+    "id": 301,
+    "category": "Daleko od noszy",
+    "question": "How ordynator Łubicz wpadał w szał i krzyczał na lekarzy, to jak ich nazywał?",
+    "answer": "Mordercy (konowały)",
+    "hint": "Słowo oznaczające kogoś, kto pozbawia życia, lub fatalnego medyka."
+  },
+  {
+    "id": 302,
+    "category": "Daleko od noszy",
+    "question": "Kto grał postać złośliwego pacjenta Wstrząsa, który bez przerwy pisał skargi?",
+    "answer": "Wojciech Pokora",
+    "hint": "Legendarny polski aktor komediowy, znany z filmu 'Poszukiwany, poszukiwana'."
+  },
+  {
+    "id": 303,
+    "category": "Daleko od noszy",
+    "question": "Co doktor Basen nałogowo ukrywał w szpitalnej lodówce przeznaczonej na szczepionki?",
+    "answer": "Wódkę (alkohol)",
+    "hint": "Zimny trunek wysokoprocentowy używany do celów 'towarzyskich'."
+  },
+  {
+    "id": 304,
+    "category": "Daleko od noszy",
+    "question": "Jak miała na imię nowa, młoda blond pielęgniarka, grana przez Magdalenę Mazur?",
+    "answer": "Paulinka",
+    "hint": "Zdrobnienie od imienia Paula."
+  },
+  {
+    "id": 305,
+    "category": "Daleko od noszy",
+    "question": "Jaki kolor fartuchów roboczych nosili salowi w tej placówce?",
+    "answer": "Niebieski",
+    "hint": "Kolor bezchmurnego nieba."
+  },
+  {
+    "id": 306,
+    "category": "Daleko od noszy",
+    "question": "Gdzie doktor Kidler najchętniej ucinał sobie drzemki podczas ciężkiego nocnego dyżuru?",
+    "answer": "W dyżurce na kozetce",
+    "hint": "Pokój personelu, kanapa lekarska."
+  },
+  {
+    "id": 307,
+    "category": "Daleko od noszy",
+    "question": "Jak na nazwisko miał ordynator szpitala Zygmunt?",
+    "answer": "Łubicz",
+    "hint": "Brzmi dokładnie tak samo jak nazwisko rodu z telenoweli 'Klan'."
+  },
+  {
+    "id": 308,
+    "category": "Daleko od noszy",
+    "question": "Jak nazywał się fikcyjny, cudowny lek na wszystko, który Basen wciskał pacjentom za pieniądze?",
+    "answer": "Specyfik Basena",
+    "hint": "Zwykła woda z cukrem lub witamina C nazwana jego nazwiskiem."
+  },
+  {
+    "id": 309,
+    "category": "Daleko od noszy",
+    "question": "Co salowy Kraśniak potrafił zrobić z termometrem tuż przed zmierzeniem gorączki pacjentowi?",
+    "answer": "Oblizać go",
+    "hint": "Skrajnie niehigieniczna czynność z użyciem języka i śliny."
+  },
+  {
+    "id": 310,
+    "category": "Daleko od noszy",
+    "question": "Jaki sport na trawie ordynator Łubicz trenował bezpośrednio przy biurku w gabinecie?",
+    "answer": "Mini-golf",
+    "hint": "Wbijanie małej piłeczki do sztucznego dołka za pomocą kija."
+  },
+  {
+    "id": 311,
+    "category": "Daleko od noszy",
+    "question": "Kto był głównym reżyserem oraz scenarzystą serialu 'Daleko od noszy'?",
+    "answer": "Krzysztof Jaroszyński",
+    "hint": "Znany polski satyryk, twórca wcześniejszych 'Graczyków'."
+  },
+  {
+    "id": 312,
+    "category": "Daleko od noszy",
+    "question": "How nazywał się pacjent-biznesmen, który bez przerwy leżał w bandażach, grany przez Macieja Miecznikowskiego?",
+    "answer": "Zygmunt",
+    "hint": "Wokalista zespołu Leszcze wcielił się w tę zabandażowaną postać."
+  },
+  {
+    "id": 313,
+    "category": "Daleko od noszy",
+    "question": "Co siostra Magda Basen trzymała pod ręką i używała do bicia męża za przewinienia?",
+    "answer": "Wałek do ciasta",
+    "hint": "Drewniane narzędzie kuchenne służące do rozwałkowywania ciasta na stolnicy."
+  },
+  {
+    "id": 314,
+    "category": "Daleko od noszy",
+    "question": "Jak lekarze perfidnie fałszowali statystyki zgonów na oddziale chirurgii?",
+    "answer": "Wypisywali zmarłych jako zdrowych dzień przed śmiercią",
+    "hint": "Absurdalna papierkowa sztuczka biurokratyczna."
+  },
+  {
+    "id": 315,
+    "category": "Daleko od noszy",
+    "question": "Co Kidler nosił pod swoim oficjalnym, białym fartunkiem lekarskim?",
+    "answer": "Hawajskie koszule",
+    "hint": "Kolorowe, jaskrawe ubrania męskie w palmy, kwiaty i papugi."
+  },
+  {
+    "id": 316,
+    "category": "Daleko od noszy",
+    "question": "W jakim polskim mieście znajdował się ten prześmieszny szpital?",
+    "answer": "W Warszawie",
+    "hint": "Stolica kraju."
+  },
+  {
+    "id": 317,
+    "category": "Daleko od noszy",
+    "question": "Jaki klasyczny przyrząd lekarski doktor Zawisza zawsze dumnie nosił zawieszony na szyi?",
+    "answer": "Stetoskop (słuchawki)",
+    "hint": "Służy do osłuchiwania bicia serca i szmerów w płucach pacjenta."
+  },
+  {
+    "id": 318,
+    "category": "Daleko od noszy",
+    "question": "Kto osobiście wykonywał kultową piosenkę czołówkową zaczynającą się od 'Daleko od noszy...'?",
+    "answer": "Piotr Gąsowski",
+    "hint": "Aktor grający doktora Czesława Basena osobiście stanął przed mikrofonem."
+  },
+  {
+    "id": 319,
+    "category": "Daleko od noszy",
+    "question": "Co ordynator Łubicz z pasją kolekcjonował i wieszał na ścianach swojego gabinetu?",
+    "answer": "Poroża jeleni (trofea myśliwskie)",
+    "hint": "Kościane ozdoby z głowy zwierzyny leśnej, związane z polowaniem."
+  },
+  {
+    "id": 320,
+    "category": "Daleko od noszy",
+    "question": "Jak siostra Gerarda testowała czystość mebli i szafek na sali chorych?",
+    "answer": "Przecierała palcem w białej rękawiczce",
+    "hint": "Tradycyjny wojskowo-szpitalny test na obecność najmniejszego kurzu."
+  },
+  {
+    "id": 321,
+    "category": "Daleko od noszy",
+    "question": "Jaki radykalny zabieg chirurdzy wykonywali najchętniej, bo uważali go za najprostszy?",
+    "answer": "Amputację kończyny",
+    "hint": "Chirurgiczne odcięcie ręki lub nogi pacjenta."
+  },
+  {
+    "id": 322,
+    "category": "Daleko od noszy",
+    "question": "Gdzie salowi bezceremonialnie chowali zwłoki, gdy w kostnicy brakowało wolnych chłodni?",
+    "answer": "W windzie",
+    "hint": "Urządzenie służące do pionowego transportu ludzi między piętrami."
+  },
+  {
+    "id": 323,
+    "category": "Daleko od noszy",
+    "question": "Kim z profesji była piękna siostra Karina, zanim przez przypadek trafiła do pielęgniarstwa?",
+    "answer": "Modelką (fotomodelką)",
+    "hint": "Kobieta, która pozuje do zdjęć w magazynach lub chodzi po wybiegach."
+  },
+  {
+    "id": 324,
+    "category": "Daleko od noszy",
+    "question": "Co robiło się bezwzględny Kidler, gdy okazywało się, że pacjent nie ma pieniędzy na łapówkę?",
+    "answer": "Przekładał operację na odległy termin",
+    "hint": "Celowe odwlekanie leczenia w czasie, dopóki chory czegoś nie przyniesie."
+  },
+  {
+    "id": 325,
+    "category": "Daleko od noszy",
+    "question": "Jaki ciepły napój pielęgniarki piły litrami podczas wiecznego plotkowania w kanciapie?",
+    "answer": "Kawę",
+    "hint": "Czarny napój kofeinowy, podawany w szklankach z metalowym koszyczkiem."
+  },
+  {
+    "id": 326,
+    "category": "Daleko od noszy",
+    "question": "Który słynny satyryk o grubym głosie grał postać przebiegłego adwokata szpitala w późniejszych sezonach?",
+    "answer": "Jerzy Kryszak",
+    "hint": "Artysta kabaretowy znany z parodiowania polityków i charakterystycznej fryzury."
+  },
+  {
+    "id": 327,
+    "category": "Daleko od noszy",
+    "question": "Jak lekarze prześmiewczo nazywali salę operacyjną w swoim codziennym żargonie?",
+    "answer": "Rzeźnia (chlastalnia)",
+    "hint": "Miejsce, w którym masowo zabija się i porcjuje zwierzęta na mięso."
+  },
+  {
+    "id": 328,
+    "category": "Daleko od noszy",
+    "question": "Co znajdowało się na dachu tego potężnego budynku szpitalnego?",
+    "answer": "Lądowisko dla helikopterów",
+    "hint": "Specjalna strefa oznaczona literą H dla maszyn lotniczych."
+  },
+  {
+    "id": 329,
+    "category": "Daleko od noszy",
+    "question": "Jak brzmiało sztandarowe, miłosne zdrobnienie doktora Basena do swojej surowej żony Magdy?",
+    "answer": "Myszko",
+    "hint": "Określenie pochodzące od małego polnego gryzonia z długim ogonem."
+  },
+  {
+    "id": 330,
+    "category": "Daleko od noszy",
+    "question": "Jak najczęściej kończyły się brawurowe próby ucieczki pacjenta Nowaka z sali numer 3?",
+    "answer": "Złapaniem na korytarzu i zastrzykiem usypiającym",
+    "hint": "Przyłapanie przez salowych i aplikacja silnego leku igłą prosto w pośladki."
+  },
+  {
+    "id": 331,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się główny bohater serii, który przybył na Ziemię jako niemowlę z planety Vegeta?",
+    "answer": "Son Goku",
+    "hint": "Jego imię Saiyanina to Kakarot."
+  },
+  {
+    "id": 332,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się syn Son Goku, który w walce z Komórczakiem osiągnął poziom Super Saiyanina 2?",
+    "answer": "Son Gohan",
+    "hint": "Pokonał Cella zaraz po śmierci ojca."
+  },
+  {
+    "id": 333,
+    "category": "Dragon Ball Z",
+    "question": "Ile łącznie Smoczych Kul trzeba zebrać, aby przywołać Shenrona?",
+    "answer": "Siedem",
+    "hint": "Jest ich tyle samo, co dni tygodnia."
+  },
+  {
+    "id": 334,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się technika walki polegająca na skumulowaniu energii w dłoniach i wystrzeleniu jej w przeciwnika?",
+    "answer": "Kamehameha",
+    "hint": "Znak rozpoznawczy szkoły Genialnego Żółwia."
+  },
+  {
+    "id": 335,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się bóg zniszczenia, który odwiedza Ziemię w filmie 'Dragon Ball Z: Battle of Gods'?",
+    "answer": "Beerus",
+    "hint": "Fioletowy, egipski kot-bóstwo."
+  },
+  {
+    "id": 336,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się potężny tyran, który zniszczył planetę Vegeta?",
+    "answer": "Freezer",
+    "hint": "Zabił Krillina na planecie Namek."
+  },
+  {
+    "id": 337,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się stworzenie stworzone przez Doktora Gero, które wchłonęło Androidy 17 i 18?",
+    "answer": "Komórczak (Cell)",
+    "hint": "Miał w sobie komórki wszystkich najlepszych wojowników."
+  },
+  {
+    "id": 338,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się najwyższa forma Saiyanina wprowadzona w DBZ, charakteryzująca się długimi, złotymi włosami?",
+    "answer": "Super Saiyanin 3",
+    "hint": "Brak brwi i złote włosy aż do pasa."
+  },
+  {
+    "id": 339,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się magiczny przedmiot, który pozwala wojownikom natychmiastowo zregenerować zdrowie?",
+    "answer": "Fasolka Senzu",
+    "hint": "Zielona roślina lecznicza uprawiana przez Karina."
+  },
+  {
+    "id": 340,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się bóg zniszczenia, który odwiedza Ziemię w filmie 'Dragon Ball Z: Battle of Gods'?",
+    "answer": "Beerus",
+    "hint": "Fioletowy, egipski kot-bóstwo."
+  },
+  {
+    "id": 341,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się technika łączenia dwóch wojowników w jedną potężną postać za pomocą specjalnego tańca?",
+    "answer": "Fuzja",
+    "hint": "Wymaga zsynchronizowanych ruchów i okrzyku w odpowiednim tempie."
+  },
+  {
+    "id": 342,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się zielonoskóry wojownik z planety Namek, który stał się mentorem Gohana?",
+    "answer": "Piccolo",
+    "hint": "Zazwyczaj nosi biały turban i pelerynę z obciążnikami."
+  },
+  {
+    "id": 343,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się miejsce, w którym jeden dzień odpowiada rokowi treningu w świecie zewnętrznym?",
+    "answer": "Komnata Ducha i Czasu",
+    "hint": "Znajduje się w pałacu Kami, panuje tam ogromna grawitacja i zmienna temperatura."
+  },
+  {
+    "id": 344,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się złoczyńca stworzony przez Bibidiego, który potrafi zamieniać ludzi w słodycze?",
+    "answer": "Majin Buu",
+    "hint": "Potwór, który lubił czekoladę i cukierki."
+  },
+  {
+    "id": 345,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się miecz, którym często posługuje się Trunks z przyszłości?",
+    "answer": "Miecz Tapiona",
+    "hint": "Otrzymał go na końcu filmu kinowego z wielkim potworem Hildegarnem."
+  },
+  {
+    "id": 346,
+    "category": "Dragon Ball Z",
+    "question": "Jaki owoc z drzewa bogów zwiększa drastycznie siłę użytkownika?",
+    "answer": "Owoc z drzewa mocy",
+    "hint": "Pojawił się w filmie kinowym z Turlesem, wysysał życie z planety."
+  },
+  {
+    "id": 347,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się ojciec Bulmy, który jest genialnym wynalazcą?",
+    "answer": "Doktor Brief",
+    "hint": "Właściciel Capsule Corp i miłośnik zwierząt."
+  },
+  {
+    "id": 348,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się technika teleportacji, którą Goku nauczył się na planecie Yardrat?",
+    "answer": "Shunkan Ido (Teleportacja)",
+    "hint": "Technika wymagająca przyłożenia palców do czoła i skupienia na energii innej osoby."
+  },
+  {
+    "id": 349,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się planeta, na której Goku walczył z Freezerem?",
+    "answer": "Namek",
+    "hint": "Planeta z trzema słońcami, z której pochodzą twórcy Smoczych Kul."
+  },
+  {
+    "id": 350,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się żona Goku?",
+    "answer": "Chi-Chi",
+    "hint": "Krzykliwa córka Byczego Króla (Gyumao), bardzo dbająca o edukację Gohana."
+  },
+  {
+    "id": 351,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się pies, który został prezydentem Ziemi w świecie Dragon Ball?",
+    "answer": "Prezydent",
+    "hint": "Rządzi światem w anime, nosi okulary i garnitur."
+  },
+  {
+    "id": 352,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się brat Goku, który przybył jako pierwszy na Ziemię?",
+    "answer": "Raditz",
+    "hint": "Miał bardzo długie, czarne włosy, zginął od Makankosappo Piccolo."
+  },
+  {
+    "id": 353,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się najlepszy przyjaciel Goku z czasów dzieciństwa?",
+    "answer": "Krillin",
+    "hint": "Łysy mnich z sześcioma kropkami na czole."
+  },
+  {
+    "id": 354,
+    "category": "Dragon Ball Z",
+    "question": "Kto potrafi zmieniać kształt (np. w nietoperza czy potwora), choć trwa to tylko 5 minut?",
+    "answer": "Oolong",
+    "hint": "Zmiennokształtny prosiak z pierwszej serii, który chodzi w szelkach."
+  },
+  {
+    "id": 355,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się statek, w którym Goku poleciał na Namek?",
+    "answer": "Statek kosmiczny Doktora Briefa",
+    "hint": "Zbudowany z użyciem modułu grawitacyjnego."
+  },
+  {
+    "id": 356,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się forma, którą Goku osiągnął po śmierci Krillina na Namek?",
+    "answer": "Super Saiyanin",
+    "hint": "Legendarna transformacja ze złotymi włosami i zielonymi oczami."
+  },
+  {
+    "id": 357,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się syn Vegety i Bulmy?",
+    "answer": "Trunks",
+    "hint": "Chłopak, który potrafi podróżować w czasie i używa miecza."
+  },
+  {
+    "id": 358,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się główna baza operacyjna Mistrza Roshiego?",
+    "answer": "Wyspa Żółwia (Kame House)",
+    "hint": "Różowy domek z czerwonym dachem na małej wysepce."
+  },
+  {
+    "id": 359,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się postać, która zawsze towarzyszy Mistrzowi Roshiego i potrafi mówić?",
+    "answer": "Żółw morski",
+    "hint": "Gad o imieniu Umigame, przyjaciel domu."
+  },
+  {
+    "id": 360,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się technika kontrolowania energii, której uczą się uczniowie Mistrza Roshiego?",
+    "answer": "Kamehameha",
+    "hint": "Niebieski promień energii tworzony przez złożenie rąk."
+  },
+  {
+    "id": 361,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się rasa, z której pochodzi Freezer?",
+    "answer": "Lodowi Demoni (Rasa Freezera)",
+    "hint": "Rasa tyranów z ogonami potrafiących przeżyć w próżni."
+  },
+  {
+    "id": 362,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się technika tworzenia kuli energii przez Goku, użyta przeciwko Buu?",
+    "answer": "Genki Dama",
+    "hint": "Zbiera siłę życiową od wszystkich istot w galaktyce."
+  },
+  {
+    "id": 363,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się postać, która trenowała Goku w zaświatach?",
+    "answer": "Kaio-sama (Król Kai)",
+    "hint": "Niebieski, niski grubasek w okularach przeciwsłonecznych z czułkami."
+  },
+  {
+    "id": 364,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się złoczyńca, który opętał ciało Vegety w serii GT?",
+    "answer": "Baby",
+    "hint": "Pasożyt z rasy Tsufuru, szukający zemsty na Saiyanach."
+  },
+  {
+    "id": 365,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się technika dzielenia ciała na cztery części, z której korzysta Tien Shinhan?",
+    "answer": "Multi-form (Klonowanie)",
+    "hint": "Technika rozdzielająca wojownika, która jednak dzieli też jego moc przez cztery."
+  },
+  {
+    "id": 366,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się planeta, na której żyje Król Kai?",
+    "answer": "Planeta Kaio-sama",
+    "hint": "Bardzo mała planeta z dziesięciokrotną grawitacją Ziemi, domkiem i jednym drzewem."
+  },
+  {
+    "id": 367,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się postać będąca połączeniem Piccolo i Kami-samy (Wszechmogącego)?",
+    "answer": "Super Nameczanin (Piccolo)",
+    "hint": "Połączył się ponownie ze swoją dobrą połową przed walką z Cellem."
+  },
+  {
+    "id": 368,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się broń, której używa nastoletnia Bulma po pierwszym spotkaniu z Goku?",
+    "answer": "Pistolet / Karabin maszynowy",
+    "hint": "Zwykła broń palna, z której 'dziurawiła' zaskoczonego Goku."
+  },
+  {
+    "id": 369,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się forma, którą przybiera Buu po wchłonięciu Gotenksa?",
+    "answer": "Buutenks (Super Buu Gotenks)",
+    "hint": "Forma różowego potwora nosząca kamizelkę charakterystyczną dla tańca fuzji."
+  },
+  {
+    "id": 370,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się technika zwiększająca siłę i szybkość wielokrotnie, której autorem jest Król Kai?",
+    "answer": "Kaioken",
+    "hint": "Aura staje się czerwona, a ciało jest narażone na ogromne obciążenie."
+  },
+  {
+    "id": 371,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się planeta, na której Goku nauczył się Kaiokena?",
+    "answer": "Planeta Kaio-sama",
+    "hint": "Goku przebył Wężową Drogę, aby tam dotrzeć."
+  },
+  {
+    "id": 372,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się postać, która jest androidem kochającym naturę i ptaki?",
+    "answer": "Android 16",
+    "hint": "Wysoki, rudy robot w zielonej zbroi, zniszczony przez Cella."
+  },
+  {
+    "id": 373,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się siostra Androida 17?",
+    "answer": "Android 18",
+    "hint": "Potężna blondynka, która w przyszłości została żoną Krillina."
+  },
+  {
+    "id": 374,
+    "category": "Dragon Ball Z",
+    "question": "Kto był twórcą morderczych Androidów dla Armii Czerwonej Wstęgi?",
+    "answer": "Doktor Gero (Android 20)",
+    "hint": "Starzec z białymi włosami, który przeniósł swój własny mózg do mechanicznego ciała."
+  },
+  {
+    "id": 375,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się technika zatrzymywania czasu (pomijania ułamków sekund) z Super?",
+    "answer": "Time Skip (Tokitobashi)",
+    "hint": "Flagowa technika zabójcy Hita z 6. Wszechświata."
+  },
+  {
+    "id": 376,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się postać, która jest połączeniem Goku i Vegety poprzez magiczne kolczyki?",
+    "answer": "Vegetto",
+    "hint": "Połączenie przy pomocy kolczyków Potara należących do Kaioshinów."
+  },
+  {
+    "id": 377,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się postać, która jest połączeniem Goku i Vegety poprzez taniec fuzji?",
+    "answer": "Gogeta",
+    "hint": "Postać ta pojawia się m.in. w filmie z Janembą i Brollym."
+  },
+  {
+    "id": 378,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się słynny turniej sztuk walki odbywający się na Ziemi?",
+    "answer": "Tenkaichi Budokai",
+    "hint": "Arena w kształcie kwadratu z trawy, wyjście poza jej obszar oznacza natychmiastową przegraną."
+  },
+  {
+    "id": 379,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się forma, którą osiąga Goku w filmie 'Resurrection F'?",
+    "answer": "Super Saiyan Blue (SSGSS)",
+    "hint": "Poziom boski połączony z Super Saiyaninem, włosy zmieniają kolor na błękitny."
+  },
+  {
+    "id": 380,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się postać, która pilnuje wejścia do pałacu Kami i służy ziemskim bogom?",
+    "answer": "Pan Popo",
+    "hint": "Ciemnoskóry dżin z turbanem na głowie, podróżujący na latającym dywanie."
+  },
+  {
+    "id": 381,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się człowiek, który znalazł w lesie niemowlę z ogonem i zaopiekował się nim?",
+    "answer": "Dziadek Gohan",
+    "hint": "Zginął przypadkiem zadeptany przez Goku pod postacią Oozaru."
+  },
+  {
+    "id": 382,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się technika tworzenia wizualnych iluzji przy pomocy ogromnej szybkości?",
+    "answer": "Afterimage (Zanzouken - Powidok)",
+    "hint": "Zostawia ślad ciała w powietrzu, by zmylić przeciwnika."
+  },
+  {
+    "id": 383,
+    "category": "Dragon Ball Z",
+    "question": "Który bohater jako pierwszy zszatkował Freezera mieczem?",
+    "answer": "Trunks z przyszłości",
+    "hint": "Zrobił to zaraz po przylocie mecha-Freezera na Ziemię."
+  },
+  {
+    "id": 384,
+    "category": "Dragon Ball Z",
+    "question": "Jaki był oryginalny cel stworzenia Androidów przez Armię Czerwonej Wstęgi?",
+    "answer": "Zemsta i zabicie Son Goku",
+    "hint": "Chodziło o wyrównanie rachunków za to, że mały Goku zniszczył ich organizację."
+  },
+  {
+    "id": 385,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się atak Vegety, podczas którego składa dłonie i strzela fioletowym promieniem?",
+    "answer": "Galick Gun",
+    "hint": "Użył tego podczas pierwszej walki z Goku na Ziemi, kontrując potrójnego Kaiokena."
+  },
+  {
+    "id": 386,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się zdolność całkowitego leczenia ran, posiadaną m.in. przez małego Nameczanina na Namek?",
+    "answer": "Leczenie (Zdolność Dende)",
+    "hint": "Wykorzystuje to Dende po przyłożeniu rąk do rannego Z-Wojownika."
+  },
+  {
+    "id": 387,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się przywódca wszystkich Nameczan, twórca oryginalnych Smoczych Kul z Namek?",
+    "answer": "Wielki Wódz (Najstarszy / Guru)",
+    "hint": "Ogromny, otyły starzec siedzący na wysokim krześle, potrafiący odblokować ukryty potencjał."
+  },
+  {
+    "id": 388,
+    "category": "Dragon Ball Z",
+    "question": "Gdzie znajduje się pałac Wszechmogącego na Ziemi?",
+    "answer": "Zawieszony w powietrzu nad wieżą Korina",
+    "hint": "Wysoka lokacja w chmurach, do której początkowo można było dotrzeć dzięki Magicznemu Kijowi."
+  },
+  {
+    "id": 389,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się morderczy atak w kształcie żółtej tarczy energii (np. używany przez Krillina)?",
+    "answer": "Kienzan",
+    "hint": "Wirujący dysk, który potrafi przeciąć niemal wszystko, nawet ogon Freezera."
+  },
+  {
+    "id": 390,
+    "category": "Dragon Ball Z",
+    "question": "Jak nazywa się ojciec Vegety?",
+    "answer": "Król Vegeta",
+    "hint": "Rządził planetą zniszczoną przez Freezera, nosił czerwoną pelerynę z herbem rasy."
+  },
+  {
+    "id": 391,
+    "category": "Popkultura 90/2000",
+    "question": "Jaki film z 1997 roku opowiadał o romansie na pokładzie tonącego liniowca?",
+    "answer": "Titanic",
+    "hint": "Na dziobie statku bohaterowie krzyczeli 'I'm the king of the world!'."
+  },
+  {
+    "id": 392,
+    "category": "Popkultura 90/2000",
+    "question": "Jak nazywała się postać grana przez Keanu Reevesa w 'Matrixie'?",
+    "answer": "Neo (Thomas Anderson)",
+    "hint": "Wybraniec, który potrafił zatrzymywać kule i musiał wybrać między dwiema pigułkami."
+  },
+  {
+    "id": 393,
+    "category": "Popkultura 90/2000",
+    "question": "Jaki zespół wylansował hit 'Wannabe' w 1996 roku?",
+    "answer": "Spice Girls",
+    "hint": "Słynny brytyjski girlsband m.in. z Victorią Beckham w składzie."
+  },
+  {
+    "id": 394,
+    "category": "Popkultura 90/2000",
+    "question": "Jak nazywała się postać grana przez Bruce'a Willisa w 'Szklanej pułapce'?",
+    "answer": "John McClane",
+    "hint": "Policjant, który boso chodził po szkle w wieżowcu Nakatomi Plaza."
+  },
+  {
+    "id": 395,
+    "category": "Popkultura 90/2000",
+    "question": "Jaki serial o nastolatkach w Beverly Hills był hitem lat 90.?",
+    "answer": "Beverly Hills, 90210",
+    "hint": "Tytuł zawiera słynny kod pocztowy w Kalifornii, grali tam Dylan, Kelly i Brandon."
+  },
+  {
+    "id": 396,
+    "category": "Popkultura 90/2000",
+    "question": "Kto śpiewał hit 'I Will Always Love You' w filmie 'Bodyguard'?",
+    "answer": "Whitney Houston",
+    "hint": "Potężny kobiecy wokal, piosenka była w rzeczywistości coverem utworu Dolly Parton."
+  },
+  {
+    "id": 397,
+    "category": "Popkultura 90/2000",
+    "question": "Jaka postać z gier (i filmów) jest symbolem archeologii, grobowców i dwóch pistoletów?",
+    "answer": "Lara Croft",
+    "hint": "Brytyjska arystokratka poszukująca starożytnych artefaktów (Tomb Raider)."
+  },
+  {
+    "id": 398,
+    "category": "Popkultura 90/2000",
+    "question": "Jak nazywał się główny bohater serialu 'Przyjaciele', grany przez Davida Schwimmera?",
+    "answer": "Ross Geller",
+    "hint": "Z zawodu paleontolog, brat Moniki, miał 3 rozwody."
+  },
+  {
+    "id": 399,
+    "category": "Popkultura 90/2000",
+    "question": "Jaki film science-fiction z 1996 roku przedstawiał inwazję obcych na Ziemię?",
+    "answer": "Dzień Niepodległości",
+    "hint": "Will Smith i Jeff Goldblum kontra wielkie latające spodki."
+  },
+  {
+    "id": 400,
+    "category": "Popkultura 90/2000",
+    "question": "Jak nazywał się zespół, którego liderem był Kurt Cobain?",
+    "answer": "Nirvana",
+    "hint": "Grungowy zespół z Seattle, twórcy albumu 'Nevermind'."
+  },
+  {
+    "id": 401,
+    "category": "Popkultura 90/2000",
+    "question": "W jakim stroju wystąpiła Britney Spears w teledysku 'Baby One More Time'?",
+    "answer": "W mundurku szkolnym",
+    "hint": "Koszula zawiązana na brzuchu, warkocze i spódniczka."
+  },
+  {
+    "id": 402,
+    "category": "Popkultura 90/2000",
+    "question": "Jak nazywała się postać grana przez Johnny'ego Deppa w 'Piratach z Karaibów'?",
+    "answer": "Jack Sparrow",
+    "hint": "Ekscentryczny pirat poruszający się zawsze lekko chwiejnym krokiem."
+  },
+  {
+    "id": 403,
+    "category": "Popkultura 90/2000",
+    "question": "Jaki serial opowiadał o przygodach dwóch agentów FBI badających zjawiska paranormalne?",
+    "answer": "Z Archiwum X (The X-Files)",
+    "hint": "Agent Mulder i agentka Scully. Hasło: 'The truth is out there'."
+  },
+  {
+    "id": 404,
+    "category": "Popkultura 90/2000",
+    "question": "Kto był absolutnym 'królem popu' w latach 90.?",
+    "answer": "Michael Jackson",
+    "hint": "Twórca Moonwalka, białej rękawiczki i albumu Thriller."
+  },
+  {
+    "id": 405,
+    "category": "Popkultura 90/2000",
+    "question": "Jak nazywał się film o magii i szkole czarodziejów z 2001 roku?",
+    "answer": "Harry Potter i Kamień Filozoficzny",
+    "hint": "Chłopiec z blizną w kształcie błyskawicy po raz pierwszy jedzie do Hogwartu."
+  },
+  {
+    "id": 406,
+    "category": "Popkultura 90/2000",
+    "question": "Jaki zespół wylansował kultowy utwór 'Smells Like Teen Spirit'?",
+    "answer": "Nirvana",
+    "hint": "Piosenka z charakterystycznym teledyskiem na sali gimnastycznej pełnej cheerleaderek."
+  },
+  {
+    "id": 407,
+    "category": "Popkultura 90/2000",
+    "question": "Jak nazywał się główny bohater trylogii 'Władca Pierścieni'?",
+    "answer": "Frodo Baggins",
+    "hint": "Hobbit, który musiał zanieść magiczny Pierścień z Shire do Mordoru."
+  },
+  {
+    "id": 408,
+    "category": "Popkultura 90/2000",
+    "question": "Jaki artysta rapowy wydał hit 'Stan' w 2000 roku?",
+    "answer": "Eminem",
+    "hint": "Raper z Detroit, w utworze tym gościnnie słychać wokal Dido."
+  },
+  {
+    "id": 409,
+    "category": "Popkultura 90/2000",
+    "question": "Jak nazywała się postać grana przez Hugh Jackmana w serii 'X-Men'?",
+    "answer": "Wolverine (Logan)",
+    "hint": "Mutant ze szkieletem z adamantium, szponami i czynnikiem regeneracji."
+  },
+  {
+    "id": 410,
+    "category": "Popkultura 90/2000",
+    "question": "Jaki film animowany z 1994 roku opowiadał historię po sawannie z przesłaniem 'Hakuna Matata'?",
+    "answer": "Król Lew",
+    "hint": "Głównym bohaterem był Simba, który uciekł po śmierci ojca Mufasy."
+  },
+  {
+    "id": 411,
+    "category": "Popkultura 90/2000",
+    "question": "Jak nazywał się popularny w latach 90. serial o ratownikach wodnych w czerwonych strojach?",
+    "answer": "Słoneczny patrol (Baywatch)",
+    "hint": "W obsadzie byli m.in. Pamela Anderson i David Hasselhoff."
+  },
+  {
+    "id": 412,
+    "category": "Popkultura 90/2000",
+    "question": "Kto był legendarnym wokalistą zespołu Queen?",
+    "answer": "Freddie Mercury",
+    "hint": "Ikona muzyki rockowej z charakterystycznym wąsem i wielkim głosem."
+  },
+  {
+    "id": 413,
+    "category": "Popkultura 90/2000",
+    "question": "Jaki film zapoczątkował modę na czarne płaszcze, długie okulary i zielony, spływający kod?",
+    "answer": "Matrix",
+    "hint": "Zawierał dylemat wyboru między czerwoną a niebieską pigułkami."
+  },
+  {
+    "id": 414,
+    "category": "Popkultura 90/2000",
+    "question": "Jak nazywał się popularny w latach 90. serial o nastolatkach w małym miasteczku Capeside?",
+    "answer": "Jezioro marzeń (Dawson's Creek)",
+    "hint": "Główni bohaterowie to Dawson, Joey, Pacey i Jen."
+  },
+  {
+    "id": 415,
+    "category": "Popkultura 90/2000",
+    "question": "Jaki zespół śpiewał hit 'Everybody (Backstreet's Back)'?",
+    "answer": "Backstreet Boys",
+    "hint": "Teledysk z wielkim nawiedzonym domem, mumiami, wilkołakiem i wampirami."
+  },
+  {
+    "id": 416,
+    "category": "Popkultura 90/2000",
+    "question": "Kto był reżyserem kultowego filmu 'Pulp Fiction' z 1994 roku?",
+    "answer": "Quentin Tarantino",
+    "hint": "Twórca znany z brutalnej akcji, świetnych dialogów i filmów jak 'Wściekłe Psy'."
+  },
+  {
+    "id": 417,
+    "category": "Popkultura 90/2000",
+    "question": "Jak nazywał się serial o młodej, ekscentrycznej prawniczce z Bostonu?",
+    "answer": "Ally McBeal",
+    "hint": "Bohaterka grana przez Calistę Flockhart często widywała w biurze tańczące niemowlę."
+  },
+  {
+    "id": 418,
+    "category": "Popkultura 90/2000",
+    "question": "Jaki artysta wylansował hit 'Smooth Criminal'?",
+    "answer": "Michael Jackson",
+    "hint": "Teledysk w klimatach gangsterskich z charakterystycznym, nienaturalnym pochyleniem ciała wbrew grawitacji."
+  },
+  {
+    "id": 419,
+    "category": "Popkultura 90/2000",
+    "question": "Jak nazywała się postać młodego, biednego artysty grana przez Leonardo DiCaprio w 'Titanicu'?",
+    "answer": "Jack Dawson",
+    "hint": "Namalował Rose w samym naszyjniku z diamentem, a potem utonął w lodowatej wodzie."
+  },
+  {
+    "id": 420,
+    "category": "Popkultura 90/2000",
+    "question": "Jaki zespół wylansował wielki hit 'I Want It That Way' w 1999 roku?",
+    "answer": "Backstreet Boys",
+    "hint": "Słynny boysbandowy teledysk nakręcony na płycie lotniska na tle wielkich, białych samolotów."
+  }
+]
