@@ -1,20 +1,32 @@
 [
   {
     "category": "Lata 90",
-    "question": "Jaki napój był hitem w latach 90. w Polsce?",
+    "question": "Jaki był najpopularniejszy napój w Polsce w latach 90.?",
     "options": ["Mirinda", "Polo Cocta", "Cola Cao", "Oranżada"],
     "answer": "Polo Cocta"
   },
   {
     "category": "Lata 90",
-    "question": "Jak nazywały się plastikowe krążki z postaciami?",
+    "question": "Jak nazywały się plastikowe krążki z postaciami, które zbieraliśmy?",
     "options": ["Tazosy", "Kapsle", "Żetony", "Pionki"],
     "answer": "Tazosy"
   },
   {
     "category": "Gry",
-    "question": "W co grał każdy posiadacz Pegasus?",
-    "options": ["Super Mario", "Contra", "Tetris", "Wszystkie"],
-    "answer": "Wszystkie"
+    "question": "W co grał każdy posiadacz konsoli Pegasus?",
+    "options": ["Super Mario", "Contra", "Tetris", "Wszystkie z wymienionych"],
+    "answer": "Wszystkie z wymienionych"
+  },
+  {
+    "category": "Telewizja",
+    "question": "Kto był głównym bohaterem serialu 'Świat według Kiepskich'?",
+    "options": ["Marian Paździoch", "Ferdek Kiepski", "Arnold Boczek", "Waldemar Kiepski"],
+    "answer": "Ferdek Kiepski"
+  },
+  {
+    "category": "Gry",
+    "question": "Która gra była symbolem wczesnego 3D na PlayStation?",
+    "options": ["Crash Bandicoot", "Spyro", "Rayman", "Tomb Raider"],
+    "answer": "Crash Bandicoot"
   }
 ]
