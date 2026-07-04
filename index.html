@@ -7,23 +7,85 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
 <div class="container">
     <div id="navbar" class="navbar hidden">
         <div class="user-profile">
             <span id="nav-avatar" style="font-size: 24px;"></span>
             <div><div id="nav-username" style="font-weight: bold;"></div></div>
         </div>
-        <button id="btn-logout" style="width: auto; background: var(--danger); color: white;">Wyloguj</button>
+        <button id="btn-logout" style="width: auto; padding: 5px 10px; margin: 0; font-size: 12px; background: var(--danger); color: white;">Wyloguj</button>
     </div>
 
-    <div id="screen-auth" class="screen active"><h1>QuizWorld Login</h1><input type="email" id="auth-email" placeholder="Email"><input type="password" id="auth-pass" placeholder="Hasło"><button id="btn-login">Zaloguj</button><a href="#" id="link-register">Rejestracja</a></div>
-    <div id="register-form" class="screen hidden"><h3>Awatar</h3><div class="avatar-selection"><span class="avatar-option selected" data-avatar="👨‍🚀">👨‍🚀</span><span class="avatar-option" data-avatar="🥷">🥷</span></div><input type="text" id="reg-username" placeholder="Nick"><input type="email" id="reg-email" placeholder="Email"><input type="password" id="reg-pass" placeholder="Hasło"><button id="btn-register">Stwórz</button></div>
-    <div id="screen-dashboard" class="screen"><h2>Pokoje</h2><button id="btn-show-create-room">➕ Nowy Pokój</button><div id="room-list"></div></div>
-    <div id="screen-create-room" class="screen"><h2>Tworzenie</h2><select id="room-category"><option value="Wszystkie">Wszystkie</option><option value="Lata 90">Lata 90</option></select><input type="number" id="room-q-count" value="5"><button id="btn-create-room-confirm">Stwórz</button></div>
-    <div id="screen-room" class="screen"><h2 id="room-view-title"></h2><button id="btn-start-my-quiz">▶️ START</button><div id="room-players-list"></div><button class="secondary" id="btn-leave-room">Wyjdź</button></div>
-    <div id="screen-quiz" class="screen"><div id="quiz-progress-text"></div><div class="question-box" id="quiz-question-text"></div><div id="quiz-answer-buttons" style="display:grid; grid-template-columns: 1fr 1fr; gap: 10px;"></div></div>
-    <div id="screen-results" class="screen"><h2>Wyniki</h2><div id="waiting-message">⏳ Czekam na resztę...</div><div id="podium-container" class="hidden">...podium...</div><div id="final-leaderboard"></div><button id="btn-return-to-dash">Wróć</button></div>
+    <div id="screen-auth" class="screen active">
+        <h1>QuizWorld Login</h1>
+        <div id="login-form">
+            <input type="email" id="auth-email" placeholder="Email">
+            <input type="password" id="auth-pass" placeholder="Hasło">
+            <button id="btn-login">Zaloguj się</button>
+            <p style="text-align:center; font-size: 14px;">Nie masz konta? <a href="#" id="link-register" style="color:var(--accent-color);">Zarejestruj się</a></p>
+        </div>
+
+        <div id="register-form" class="screen hidden">
+            <h3>Wybierz Awatar</h3>
+            <div class="avatar-selection">
+                <span class="avatar-option selected" data-avatar="👨‍🚀">👨‍🚀</span>
+                <span class="avatar-option" data-avatar="🥷">🥷</span>
+                <span class="avatar-option" data-avatar="🧙‍♂️">🧙‍♂️</span>
+            </div>
+            <input type="text" id="reg-username" placeholder="Twój Nick">
+            <input type="text" id="reg-tagline" placeholder="Tagline">
+            <input type="email" id="reg-email" placeholder="Email">
+            <input type="password" id="reg-pass" placeholder="Hasło">
+            <button id="btn-register">Stwórz konto</button>
+            <button class="secondary" id="btn-cancel-register">Wróć</button>
+        </div>
+    </div>
+
+    <div id="screen-dashboard" class="screen">
+        <h2>Dostępne Pokoje</h2>
+        <button id="btn-show-create-room">➕ Stwórz nowy pokój</button>
+        <div id="room-list" style="margin-top: 20px;"></div>
+    </div>
+
+    <div id="screen-create-room" class="screen">
+        <h2>Ustawienia Pokoju</h2>
+        <select id="room-category">
+            <option value="Wszystkie">Wszystkie kategorie</option>
+            <option value="Lata 90">Lata 90</option>
+        </select>
+        <input type="number" id="room-q-count" value="5" min="1" max="20">
+        <input type="number" id="room-max-players" value="5" min="2" max="10">
+        <button id="btn-create-room-confirm">Stwórz i Dołącz 🚀</button>
+        <button class="secondary" id="btn-back-dashboard">Anuluj</button>
+    </div>
+
+    <div id="screen-room" class="screen">
+        <h2 id="room-view-title">Pokój</h2>
+        <div style="text-align: center; margin-bottom: 20px;">
+            <button id="btn-start-my-quiz" style="font-size: 20px; padding: 15px;">▶️ ZACZNIJ SWÓJ QUIZ</button>
+        </div>
+        <h3>Gracze w pokoju:</h3>
+        <div id="room-players-list"></div>
+        <button class="secondary" id="btn-leave-room" style="margin-top: 30px;">Wyjdź z pokoju</button>
+    </div>
+
+    <div id="screen-quiz" class="screen">
+        <div id="quiz-progress-text" style="text-align: center; margin-bottom: 10px;"></div>
+        <div class="progress-bar-container"><div id="quiz-progress-bar" class="progress-bar"></div></div>
+        <div class="question-box" id="quiz-question-text"></div>
+        <div id="quiz-answer-buttons" style="display:grid; grid-template-columns: 1fr 1fr; gap: 10px;"></div>
+    </div>
+
+    <div id="screen-results" class="screen">
+        <h2>Wyniki</h2>
+        <div id="waiting-message" style="text-align: center; color: var(--warning); margin-bottom: 20px;">⏳ Czekamy aż inni skończą...</div>
+        <div id="podium-container" class="hidden">...podium...</div>
+        <div id="final-leaderboard"></div>
+        <button id="btn-return-to-dash" style="margin-top: 30px;">Wróć do listy</button>
+    </div>
 </div>
+
 <script type="module" src="game.js"></script>
 </body>
 </html>
