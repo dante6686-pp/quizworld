@@ -11,8 +11,8 @@
 <div class="container">
     <div id="navbar" class="navbar hidden">
         <div class="user-profile">
-            <span id="nav-avatar"></span>
-            <span id="nav-username" style="font-weight: bold;"></span>
+            <span id="nav-avatar" style="font-size: 24px;"></span>
+            <div><div id="nav-username" style="font-weight: bold;"></div></div>
         </div>
         <button id="btn-logout" class="secondary" style="width: auto; padding: 5px 10px;">Wyloguj</button>
     </div>
@@ -26,45 +26,87 @@
 
     <div id="screen-auth" class="screen">
         <h1>Logowanie</h1>
-        <input type="email" id="auth-email" placeholder="Email">
-        <input type="password" id="auth-pass" placeholder="Hasło">
-        <button id="btn-login">Zaloguj</button>
-        <button class="secondary" onclick="switchScreen('screen-home')">Wróć</button>
+        <div id="login-form">
+            <input type="email" id="auth-email" placeholder="Email">
+            <input type="password" id="auth-pass" placeholder="Hasło">
+            <button id="btn-login">Zaloguj się</button>
+            <p style="text-align:center; font-size: 14px;">Nie masz konta? <a href="#" id="link-register" style="color:var(--accent-color);">Zarejestruj się</a></p>
+        </div>
+
+        <div id="register-form" class="hidden">
+            <h3>Wybierz Awatar</h3>
+            <div class="avatar-selection">
+                <span class="avatar-option selected" data-avatar="👨‍🚀">👨‍🚀</span>
+                <span class="avatar-option" data-avatar="🥷">🥷</span>
+                <span class="avatar-option" data-avatar="🧙‍♂️">🧙‍♂️</span>
+            </div>
+            <input type="text" id="reg-username" placeholder="Twój Nick">
+            <input type="text" id="reg-tagline" placeholder="Tagline (opcjonalnie)">
+            <input type="email" id="reg-email" placeholder="Email">
+            <input type="password" id="reg-pass" placeholder="Hasło">
+            <button id="btn-register">Stwórz konto</button>
+            <button class="secondary" id="btn-cancel-register">Wróć</button>
+        </div>
     </div>
 
     <div id="screen-dashboard" class="screen">
         <h2>Panel Gracza</h2>
         <button id="btn-show-create-room">➕ Stwórz pokój</button>
-        <div id="room-list"></div>
+        <div id="room-list" style="margin-top: 20px;"></div>
+    </div>
+
+    <div id="screen-create-room" class="screen">
+        <h2>Ustawienia Pokoju</h2>
+        <label>Kategoria:</label>
+        <select id="room-category">
+            <option value="Wszystkie">Wszystkie kategorie</option>
+            <option value="Lata 90">Lata 90</option>
+            <option value="Gry">Gry</option>
+            <option value="Telewizja">Telewizja</option>
+        </select>
+        <label>Ilość pytań:</label>
+        <input type="number" id="room-q-count" value="5" min="1" max="20">
+        <button id="btn-create-room-confirm">Stwórz i Dołącz 🚀</button>
+        <button class="secondary" id="btn-back-dashboard">Anuluj</button>
     </div>
 
     <div id="screen-room" class="screen">
         <h2 id="room-view-title">Pokój</h2>
-        <button id="btn-start-my-quiz">▶️ START QUIZU</button>
+        <div style="text-align: center; margin-bottom: 20px;">
+            <button id="btn-start-my-quiz" style="font-size: 20px; padding: 15px;">▶️ ZACZNIJ SWÓJ QUIZ</button>
+        </div>
+        <h3>Tabela Graczy:</h3>
         <div id="room-players-list"></div>
-        <button class="secondary" id="btn-leave-room">Wyjdź</button>
+        <button class="secondary" id="btn-leave-room" style="margin-top: 30px;">Wyjdź z pokoju</button>
     </div>
 
     <div id="screen-quiz" class="screen">
-        <div class="question-box" id="quiz-question-text"></div>
-        <div id="quiz-answer-buttons" style="display:grid; grid-template-columns: 1fr 1fr; gap: 10px;"></div>
+        <div id="quiz-progress-text" style="text-align: center; margin-bottom: 10px; font-weight: bold; color: var(--accent-color);"></div>
+        <div class="progress-bar-container">
+            <div id="quiz-progress-bar" class="progress-bar"></div>
+        </div>
+        <div class="question-box" id="quiz-question-text">Treść pytania...</div>
+        <div id="quiz-answer-buttons" style="display:grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+            </div>
     </div>
 
     <div id="screen-results" class="screen">
-        <h2>Wyniki</h2>
-        <div id="waiting-message">⏳ Czekamy na resztę...</div>
-        <div id="podium-container" class="hidden"><h3>Podium:</h3></div>
-        <div id="final-leaderboard"></div>
-        <button id="btn-return-to-dash">Wróć do panelu</button>
+        <h2>🏆 Wyniki Pokoju</h2>
+        <div id="waiting-message" style="text-align: center; color: var(--warning); margin-bottom: 20px;">
+            ⏳ Czekamy aż pozostali gracze skończą quiz...
+        </div>
+        <div id="podium-container" class="hidden">
+            <h3 style="color: var(--success);">Gra Zakończona!</h3>
+        </div>
+        <div id="final-leaderboard" style="margin-top: 20px;"></div>
+        <button id="btn-return-to-dash" style="margin-top: 30px;">Wróć do listy pokoi</button>
+    </div>
+    
+    <div id="debug-log" style="background: black; color: #0f0; padding: 10px; margin-top: 20px; font-family: monospace; font-size: 12px; height: 150px; overflow-y: auto; border: 1px solid #333;">
+        LOGI SYSTEMOWE:
     </div>
 </div>
 
-<div id="debug-log" style="background: black; color: #0f0; padding: 10px; margin: 20px; font-family: monospace; border: 2px solid red;">
-    LOGI STARTOWE:
-</div>
 <script type="module" src="game.js"></script>
-
-
-
 </body>
 </html>
