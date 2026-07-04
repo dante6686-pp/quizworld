@@ -1,5 +1,5 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js";
-import { getDatabase, ref, set, get, update, onValue, push } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-database.js";
+import { getDatabase, ref, set, get, update, onValue, push, remove } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-database.js";
 import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-auth.js";
 
 // =========================================================
@@ -58,7 +58,7 @@ async function fetchQuestions() {
     }
 }
 
-// --- UI LOGOWANIA / REJESTRACJI ---
+// --- LOGOWANIE / REJESTRACJA ---
 document.querySelectorAll('.avatar-option').forEach(el => {
     el.addEventListener('click', (e) => {
         document.querySelectorAll('.avatar-option').forEach(a => a.classList.remove('selected'));
@@ -130,7 +130,8 @@ function listenToAllRooms() {
         const rooms = snapshot.val();
         for (const roomId in rooms) {
             const room = rooms[roomId];
-            if (!room || room.status === 'finished') continue; // Ignorujemy zakończone
+            // Filtr: ignoruj puste lub zakończone
+            if (!room || room.status === 'finished' || !room.hostName) continue;
             
             const playersCount = room.players ? Object.keys(room.players).length : 0;
             const isFull = playersCount >= room.maxPlayers;
@@ -140,7 +141,7 @@ function listenToAllRooms() {
             roomDiv.innerHTML = `
                 <div class="room-info">
                     <span class="room-title">Pokój: ${room.hostName}</span>
-                    <span class="room-meta">Kategoria: ${room.category} | ${playersCount}/${room.maxPlayers} graczy</span>
+                    <span class="room-meta">${room.category} | ${playersCount}/${room.maxPlayers} graczy</span>
                 </div>
             `;
             roomDiv.addEventListener('click', () => joinRoom(roomId, room, isFull));
@@ -149,10 +150,10 @@ function listenToAllRooms() {
     });
 }
 
-// --- TWORZENIE POKOJU ---
 document.getElementById('btn-show-create-room').addEventListener('click', () => switchScreen('screen-create-room'));
 document.getElementById('btn-back-dashboard').addEventListener('click', () => switchScreen('screen-dashboard'));
 
+// --- TWORZENIE POKOJU ---
 document.getElementById('btn-create-room-confirm').addEventListener('click', async () => {
     await fetchQuestions();
     const category = document.getElementById('room-category').value;
@@ -190,13 +191,12 @@ async function joinRoom(roomId, roomData, isFull) {
     listenToCurrentRoom();
 }
 
-// --- POCZEKALNIA I GRA ---
+// --- POCZEKALNIA I SYNCHRONIZACJA ---
 function listenToCurrentRoom() {
     onValue(ref(db, `rooms/${currentRoomId}`), (snapshot) => {
         if(!snapshot.exists()) return;
         currentRoomData = snapshot.val();
         
-        // Render tabeli graczy
         const list = document.getElementById('room-players-list');
         if(list) {
             list.innerHTML = '';
@@ -206,12 +206,6 @@ function listenToCurrentRoom() {
             }
         }
 
-        // Czy wszyscy skończyli?
-        const allFinished = Object.values(currentRoomData.players).every(p => p.status === 'completed');
-        if (allFinished && currentRoomData.status !== 'finished') {
-            update(ref(db, `rooms/${currentRoomId}`), { status: 'finished' });
-        }
-        
         if (currentRoomData.status === 'finished') {
             switchScreen('screen-results');
             document.getElementById('waiting-message').classList.add('hidden');
@@ -221,6 +215,7 @@ function listenToCurrentRoom() {
     });
 }
 
+// --- GRA ---
 document.getElementById('btn-start-my-quiz').addEventListener('click', async () => {
     roomQuestions = currentRoomData.questions;
     myLocalProgress = currentRoomData.players[currentUser.uid].progress || 0;
@@ -231,15 +226,16 @@ document.getElementById('btn-start-my-quiz').addEventListener('click', async () 
 
 function loadNextAsyncQuestion() {
     if (myLocalProgress >= roomQuestions.length) {
-        update(ref(db, `rooms/${currentRoomId}/players/${currentUser.uid}`), { status: 'completed', progress: roomQuestions.length });
-        switchScreen('screen-results');
+        finishMyQuiz();
         return;
     }
+    document.getElementById('quiz-progress-text').innerText = `Pytanie ${myLocalProgress + 1} / ${roomQuestions.length}`;
+    document.getElementById('quiz-progress-bar').style.width = `${((myLocalProgress) / roomQuestions.length) * 100}%`;
     document.getElementById('quiz-question-text').innerText = roomQuestions[myLocalProgress].question;
     document.getElementById('quiz-real-answer').innerText = roomQuestions[myLocalProgress].answer;
 }
 
-// Obsługa przycisków testowych
+// Obsługa przycisków
 document.getElementById('test-btn-correct').addEventListener('click', async () => {
     myLocalScore++; myLocalProgress++;
     await update(ref(db, `rooms/${currentRoomId}/players/${currentUser.uid}`), { progress: myLocalProgress, score: myLocalScore });
@@ -252,11 +248,30 @@ document.getElementById('test-btn-wrong').addEventListener('click', async () => 
     loadNextAsyncQuestion();
 });
 
+async function finishMyQuiz() {
+    await update(ref(db, `rooms/${currentRoomId}/players/${currentUser.uid}`), { status: 'completed', progress: roomQuestions.length });
+    
+    // Sprawdź czy wszyscy skończyli
+    const players = Object.values(currentRoomData.players);
+    if (players.every(p => p.status === 'completed')) {
+        await update(ref(db, `rooms/${currentRoomId}`), { status: 'finished' });
+    }
+    switchScreen('screen-results');
+}
+
 function renderRealLeaderboard(players) {
     players.sort((a, b) => b.score - a.score);
     const list = document.getElementById('final-leaderboard');
     list.innerHTML = players.map((p, i) => `<div class="player-row"><span>${i+1}. ${p.username}</span><span>${p.score} pkt</span></div>`).join('');
 }
 
-document.getElementById('btn-leave-room').addEventListener('click', () => switchScreen('screen-dashboard'));
-document.getElementById('btn-return-to-dash').addEventListener('click', () => switchScreen('screen-dashboard'));
+// --- WYJŚCIE Z POKOJU ---
+document.getElementById('btn-leave-room').addEventListener('click', async () => {
+    if (currentRoomId) {
+        await remove(ref(db, `rooms/${currentRoomId}/players/${currentUser.uid}`));
+        currentRoomId = null;
+        location.reload();
+    }
+});
+
+document.getElementById('btn-return-to-dash').addEventListener('click', () => location.reload());
