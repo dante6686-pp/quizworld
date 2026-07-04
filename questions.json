@@ -1,8 +1,20 @@
 [
   {
     "category": "Lata 90",
-    "question": "Jaki był najpopularniejszy napój w Polsce w latach 90.?",
-    "options": ["Mirinda", "Cola Cao", "Polo Cocta", "Oranżada"],
+    "question": "Jaki napój był hitem w latach 90. w Polsce?",
+    "options": ["Mirinda", "Polo Cocta", "Cola Cao", "Oranżada"],
     "answer": "Polo Cocta"
+  },
+  {
+    "category": "Lata 90",
+    "question": "Jak nazywały się plastikowe krążki z postaciami?",
+    "options": ["Tazosy", "Kapsle", "Żetony", "Pionki"],
+    "answer": "Tazosy"
+  },
+  {
+    "category": "Gry",
+    "question": "W co grał każdy posiadacz Pegasus?",
+    "options": ["Super Mario", "Contra", "Tetris", "Wszystkie"],
+    "answer": "Wszystkie"
   }
 ]
