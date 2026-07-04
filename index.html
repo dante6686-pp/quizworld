@@ -3,68 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quisent - Asynchronous Multiplayer</title>
-    <style>
-        :root {
-            --bg-color: #0f172a;
-            --card-color: #1e293b;
-            --accent-color: #38bdf8;
-            --text-color: #f8fafc;
-            --success: #4ade80;
-            --danger: #f87171;
-            --warning: #facc15;
-            --private: #c084fc;
-        }
-
-        * { box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
-        body { background-color: var(--bg-color); color: var(--text-color); margin: 0; padding: 20px; display: flex; justify-content: center; min-height: 100vh; }
-
-        .container { background-color: var(--card-color); padding: 30px; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.5); width: 100%; max-width: 700px; border: 1px solid rgba(255,255,255,0.05); }
-
-        h1, h2, h3 { color: var(--accent-color); text-align: center; margin-top: 0; }
-        .screen { display: none; }
-        .screen.active { display: block; }
-        .hidden { display: none !important; }
-
-        input, select, button { width: 100%; padding: 12px; margin-bottom: 15px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.2); background-color: rgba(0,0,0,0.3); color: white; font-size: 16px; outline: none; }
-        input:focus, select:focus { border-color: var(--accent-color); }
-        button { background-color: var(--accent-color); color: #0f172a; font-weight: bold; cursor: pointer; border: none; transition: 0.2s; }
-        button:hover { opacity: 0.9; transform: translateY(-2px); }
-        button.secondary { background-color: transparent; border: 2px solid var(--accent-color); color: var(--accent-color); }
-
-        /* Avatars */
-        .avatar-selection { display: flex; justify-content: space-around; margin-bottom: 20px; }
-        .avatar-option { font-size: 40px; cursor: pointer; opacity: 0.5; transition: 0.2s; }
-        .avatar-option.selected { opacity: 1; transform: scale(1.2); filter: drop-shadow(0 0 10px var(--accent-color)); }
-
-        /* Room List */
-        .room-item { background: rgba(0,0,0,0.4); border-radius: 8px; padding: 15px; margin-bottom: 10px; display: flex; justify-content: space-between; align-items: center; border: 1px solid rgba(255,255,255,0.05); cursor: pointer; transition: 0.2s; }
-        .room-item:hover { border-color: var(--accent-color); }
-        .room-info { display: flex; flex-direction: column; }
-        .room-title { font-weight: bold; font-size: 18px; margin-bottom: 5px; }
-        .room-meta { font-size: 13px; color: #94a3b8; }
-        .room-status { font-size: 14px; font-weight: bold; }
-        .status-full { color: var(--danger); }
-        .status-open { color: var(--success); }
-        .badge-private { background: var(--private); color: white; padding: 2px 8px; border-radius: 10px; font-size: 12px; margin-left: 10px; }
-
-        /* Gameplay */
-        .progress-bar-container { background: #000; height: 10px; border-radius: 5px; margin-bottom: 20px; overflow: hidden; }
-        .progress-bar { background: var(--accent-color); height: 100%; width: 0%; transition: width 0.3s; }
-        .player-row { display: flex; justify-content: space-between; align-items: center; padding: 12px; border-bottom: 1px solid rgba(255,255,255,0.1); }
-        .player-completed { color: var(--success); font-weight: bold; }
-        
-        /* Podium */
-        .podium { display: flex; justify-content: center; align-items: flex-end; gap: 15px; margin: 30px 0; height: 200px; }
-        .podium-place { display: flex; flex-direction: column; align-items: center; width: 100px; }
-        .podium-bar { background: var(--accent-color); width: 100%; text-align: center; color: #000; font-weight: bold; padding-top: 10px; border-radius: 8px 8px 0 0; }
-        .place-1 .podium-bar { height: 150px; background: #fbbf24; }
-        .place-2 .podium-bar { height: 110px; background: #9ca3af; }
-        .place-3 .podium-bar { height: 80px; background: #b45309; }
-
-        .navbar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 10px; }
-        .user-profile { display: flex; align-items: center; gap: 10px; }
-    </style>
+    <title>QuizWorld</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -82,7 +22,7 @@
     </div>
 
     <div id="screen-auth" class="screen active">
-        <h1>Quisent Login</h1>
+        <h1>QuizWorld Login</h1>
         
         <div id="login-form">
             <input type="email" id="auth-email" placeholder="Email">
@@ -99,7 +39,7 @@
                 <span class="avatar-option" data-avatar="🧙‍♂️">🧙‍♂️</span>
                 <span class="avatar-option" data-avatar="🧟">🧟</span>
             </div>
-            <input type="text" id="reg-username" placeholder="Twój Nick (np. Player1)">
+            <input type="text" id="reg-username" placeholder="Twój Nick">
             <input type="text" id="reg-tagline" placeholder="Krótki tagline (opcjonalnie)">
             <input type="email" id="reg-email" placeholder="Email">
             <input type="password" id="reg-pass" placeholder="Hasło (min. 6 znaków)">
@@ -122,8 +62,15 @@
         <label>Kategoria:</label>
         <select id="room-category">
             <option value="Wszystkie">Wszystkie kategorie</option>
-            <option value="Lata 90">Lata 90</option>
-            <option value="Gry i Tech">Gry i Technologie</option>
+            <option value="Telewizja i Popkultura">Telewizja i Popkultura</option>
+            <option value="Gry i Technologie">Gry i Technologie</option>
+            <option value="Smaki Dzieciństwa">Smaki Dzieciństwa</option>
+            <option value="Podwórko i Styl Życia">Podwórko i Styl Życia</option>
+            <option value="Świat według Kiepskich">Świat według Kiepskich</option>
+            <option value="13 posterunek">13 posterunek</option>
+            <option value="Daleko od noszy">Daleko od noszy</option>
+            <option value="Dragon Ball Z">Dragon Ball Z</option>
+            <option value="Popkultura 90/2000">Popkultura 90/2000</option>
         </select>
 
         <label>Ilość pytań (długość gry):</label>
@@ -154,7 +101,7 @@
     </div>
 
     <div id="screen-room" class="screen">
-        <h2 id="room-view-title">Pokój #1234</h2>
+        <h2 id="room-view-title">Pokój</h2>
         
         <div style="text-align: center; margin-bottom: 20px;">
             <button id="btn-start-my-quiz" style="font-size: 20px; padding: 15px;">▶️ ZACZNIJ SWÓJ QUIZ</button>
@@ -170,19 +117,32 @@
     <div id="screen-quiz" class="screen">
         <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
             <span id="quiz-progress-text">Pytanie 1/10</span>
-            <span id="quiz-category">Kategoria</span>
+            <span id="quiz-category" class="category-label" style="margin-bottom:0;">Kategoria</span>
         </div>
         <div class="progress-bar-container">
             <div id="quiz-progress-bar" class="progress-bar"></div>
         </div>
         
-        <div style="background: rgba(0,0,0,0.3); padding: 25px; border-radius: 8px; text-align: center; font-size: 20px; margin-bottom: 20px;" id="quiz-question-text">
+        <div class="question-box" id="quiz-question-text">
             Treść pytania...
         </div>
+
+        <div class="hint-box" id="quiz-hint-container">
+            <button id="btn-quiz-show-hint" class="btn-hint">💡 Pokaż podpowiedź</button>
+            <div id="quiz-hint-text" class="hint-text-content hidden"></div>
+        </div>
         
-        <div style="display: flex; gap: 10px;">
-            <button id="test-btn-wrong" style="background: var(--danger); color: #fff;">Test: Źle</button>
-            <button id="test-btn-correct" style="background: var(--success); color: #fff;">Test: Dobrze</button>
+        <button id="btn-quiz-check" style="background-color: #f8fafc; color: #0f172a; font-size: 18px; padding: 15px;">Sprawdź odpowiedź ➡️</button>
+
+        <div id="quiz-answer-eval" class="hidden">
+            <div class="answer-box">
+                <span style="font-size: 12px; display: block; opacity: 0.7; margin-bottom: 4px;">PRAWIDŁOWA ODPOWIEDŹ TO:</span>
+                <span id="quiz-real-answer" style="color:var(--text-color);">...</span>
+            </div>
+            <div class="btn-game-container">
+                <button id="btn-quiz-wrong" class="btn-wrong">❌ Źle</button>
+                <button id="btn-quiz-correct" class="btn-correct">✅ Dobrze</button>
+            </div>
         </div>
     </div>
 
@@ -195,25 +155,25 @@
 
         <div id="podium-container" class="hidden">
             <div class="podium">
-                <div class="podium-place place-2">
+                <div class="podium-place place-2" id="podium-2-wrapper">
                     <span id="podium-2-avatar" style="font-size: 30px;"></span>
-                    <span id="podium-2-name">Gracz 2</span>
+                    <span id="podium-2-name" style="text-align:center;">Gracz 2</span>
                     <div class="podium-bar">🥈<br><span id="podium-2-score">0</span></div>
                 </div>
-                <div class="podium-place place-1">
+                <div class="podium-place place-1" id="podium-1-wrapper">
                     <span id="podium-1-avatar" style="font-size: 40px;"></span>
-                    <span id="podium-1-name">Gracz 1</span>
+                    <span id="podium-1-name" style="text-align:center;">Gracz 1</span>
                     <div class="podium-bar">🥇<br><span id="podium-1-score">0</span></div>
                 </div>
-                <div class="podium-place place-3">
+                <div class="podium-place place-3" id="podium-3-wrapper">
                     <span id="podium-3-avatar" style="font-size: 30px;"></span>
-                    <span id="podium-3-name">Gracz 3</span>
+                    <span id="podium-3-name" style="text-align:center;">Gracz 3</span>
                     <div class="podium-bar">🥉<br><span id="podium-3-score">0</span></div>
                 </div>
             </div>
         </div>
 
-        <h3>Pełna Lista Wyników</h3>
+        <h3 style="margin-top:20px;">Pełna Lista Wyników</h3>
         <div id="final-leaderboard">
             </div>
 
@@ -222,364 +182,6 @@
 
 </div>
 
-<script type="module">
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js";
-    import { getDatabase, ref, set, get, update, onValue, push } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-database.js";
-    import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-auth.js";
-
-    // =========================================================
-    // WAŻNE: TUTAJ WKLEJ SWOJĄ KONFIGURACJĘ Z KONSOLI FIREBASE
-    // =========================================================
-    const firebaseConfig = {
-      apiKey: "AIzaSyBeSs0i1oKNUeEbCCi8mWEs6WfxukWAebA",
-      authDomain: "quisent-8b6cd.firebaseapp.com",
-      databaseURL: "https://quisent-8b6cd-default-rtdb.europe-west1.firebasedatabase.app",
-      projectId: "quisent-8b6cd",
-      storageBucket: "quisent-8b6cd.firebasestorage.app",
-      messagingSenderId: "537252295249",
-      appId: "1:537252295249:web:7174d90b51d794ef973e70",
-      measurementId: "G-KL93NQKPZ3"
-    };
-    // =========================================================
-
-    const app = initializeApp(firebaseConfig);
-    const db = getDatabase(app);
-    const auth = getAuth(app);
-
-    // --- ZMIENNE GLOBALNE ---
-    let currentUser = null;
-    let currentRoomId = null;
-    let selectedAvatar = '👨‍🚀';
-    let myLocalProgress = 0;
-    let myLocalScore = 0;
-    let roomQuestions = [];
-
-    // --- NAWIGACJA (Routing) ---
-    function switchScreen(screenId) {
-        document.querySelectorAll('.screen').forEach(s => s.classList.add('hidden'));
-        document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
-        document.getElementById(screenId).classList.remove('hidden');
-        document.getElementById(screenId).classList.add('active');
-    }
-
-    // --- UI LOGOWANIA / REJESTRACJI ---
-    document.querySelectorAll('.avatar-option').forEach(el => {
-        el.addEventListener('click', (e) => {
-            document.querySelectorAll('.avatar-option').forEach(a => a.classList.remove('selected'));
-            e.target.classList.add('selected');
-            selectedAvatar = e.target.getAttribute('data-avatar');
-        });
-    });
-
-    document.getElementById('link-register').addEventListener('click', () => {
-        document.getElementById('login-form').classList.add('hidden');
-        document.getElementById('register-form').classList.remove('hidden');
-    });
-
-    document.getElementById('btn-cancel-register').addEventListener('click', () => {
-        document.getElementById('register-form').classList.add('hidden');
-        document.getElementById('login-form').classList.remove('hidden');
-    });
-
-    // --- REJESTRACJA ---
-    document.getElementById('btn-register').addEventListener('click', async () => {
-        const email = document.getElementById('reg-email').value.trim();
-        const pass = document.getElementById('reg-pass').value;
-        const username = document.getElementById('reg-username').value.trim();
-        const tagline = document.getElementById('reg-tagline').value.trim();
-
-        if(!email || !pass || !username) { alert("Wypełnij wymagane pola!"); return; }
-
-        try {
-            const userCredential = await createUserWithEmailAndPassword(auth, email, pass);
-            const user = userCredential.user;
-
-            await set(ref(db, 'users/' + user.uid), {
-                username: username,
-                avatar: selectedAvatar,
-                tagline: tagline,
-                currency: 0
-            });
-
-            alert("Konto założone! Możesz się teraz zalogować.");
-            document.getElementById('btn-cancel-register').click(); 
-        } catch (error) {
-            console.error("Błąd rejestracji:", error);
-            alert("Błąd: " + error.message);
-        }
-    });
-
-    // --- LOGOWANIE ---
-    document.getElementById('btn-login').addEventListener('click', async () => {
-        const email = document.getElementById('auth-email').value.trim();
-        const pass = document.getElementById('auth-pass').value;
-
-        if(!email || !pass) { alert("Wpisz email i hasło!"); return; }
-
-        try {
-            const userCredential = await signInWithEmailAndPassword(auth, email, pass);
-            const user = userCredential.user;
-
-            const snapshot = await get(ref(db, 'users/' + user.uid));
-            
-            if(snapshot.exists()) {
-                currentUser = { uid: user.uid, ...snapshot.val() };
-                updateNavbar();
-                switchScreen('screen-dashboard');
-                listenToAllRooms();
-            } else {
-                alert("Błąd pobierania profilu użytkownika.");
-            }
-        } catch (error) {
-            console.error("Błąd logowania:", error);
-            alert("Błędny email lub hasło!");
-        }
-    });
-
-    function updateNavbar() {
-        document.getElementById('navbar').classList.remove('hidden');
-        document.getElementById('nav-avatar').innerText = currentUser.avatar;
-        document.getElementById('nav-username').innerText = currentUser.username;
-        document.getElementById('nav-currency').innerText = `💰 ${currentUser.currency || 0} G-Coins`;
-    }
-
-    // --- WYLOGOWANIE ---
-    document.getElementById('btn-logout').addEventListener('click', async () => {
-        try {
-            await signOut(auth);
-            currentUser = null;
-            document.getElementById('navbar').classList.add('hidden');
-            switchScreen('screen-auth');
-        } catch (error) {
-            console.error("Błąd wylogowywania:", error);
-        }
-    });
-
-    // --- NASŁUCHIWANIE I RENDEROWANIE POKOI NA DASHBOARDZIE ---
-    function listenToAllRooms() {
-        onValue(ref(db, 'rooms'), (snapshot) => {
-            const roomList = document.getElementById('room-list');
-            roomList.innerHTML = '';
-            
-            if (!snapshot.exists()) {
-                roomList.innerHTML = '<p style="text-align:center; color:#94a3b8;">Brak aktywnych pokoi. Stwórz pierwszy!</p>';
-                return;
-            }
-
-            const rooms = snapshot.val();
-            for (const roomId in rooms) {
-                const room = rooms[roomId];
-                const playersCount = room.players ? Object.keys(room.players).length : 0;
-                const isFull = playersCount >= room.maxPlayers;
-                
-                const roomDiv = document.createElement('div');
-                roomDiv.className = 'room-item';
-                
-                roomDiv.innerHTML = `
-                    <div class="room-info">
-                        <span class="room-title">Pokój: ${room.hostName} ${room.isPrivate ? '<span class="badge-private">🔒 HASŁO</span>' : ''}</span>
-                        <span class="room-meta">Kategoria: ${room.category} | Pytań: ${room.questionCount} | Czas: ${room.timeLimit}h</span>
-                    </div>
-                    <div class="room-status ${isFull ? 'status-full' : 'status-open'}">
-                        ${playersCount}/${room.maxPlayers} ${isFull ? '(Pełny)' : ''}
-                    </div>
-                `;
-
-                roomDiv.addEventListener('click', () => joinRoom(roomId, room, isFull));
-                roomList.appendChild(roomDiv);
-            }
-        });
-    }
-
-    // --- TWORZENIE NOWEGO POKOJU ---
-    document.getElementById('btn-show-create-room').addEventListener('click', () => {
-        switchScreen('screen-create-room');
-    });
-
-    document.getElementById('btn-back-dashboard').addEventListener('click', () => {
-        switchScreen('screen-dashboard');
-    });
-
-    document.getElementById('room-privacy').addEventListener('change', (e) => {
-        if(e.target.value === 'private') document.getElementById('room-password-container').classList.remove('hidden');
-        else document.getElementById('room-password-container').classList.add('hidden');
-    });
-
-    document.getElementById('btn-create-room-confirm').addEventListener('click', async () => {
-        const category = document.getElementById('room-category').value;
-        const qCount = parseInt(document.getElementById('room-q-count').value);
-        const maxPlayers = parseInt(document.getElementById('room-max-players').value);
-        const timeLimit = parseInt(document.getElementById('room-time-limit').value);
-        const isPrivate = document.getElementById('room-privacy').value === 'private';
-        const password = document.getElementById('room-password').value;
-
-        if (isPrivate && !password) { alert("Wpisz hasło dla prywatnego pokoju!"); return; }
-
-        const newRoomRef = push(ref(db, 'rooms')); 
-        currentRoomId = newRoomRef.key;
-
-        const roomData = {
-            hostId: currentUser.uid,
-            hostName: currentUser.username,
-            status: 'open',
-            category: category,
-            questionCount: qCount,
-            maxPlayers: maxPlayers,
-            timeLimit: timeLimit,
-            isPrivate: isPrivate,
-            password: isPrivate ? password : "",
-            createdAt: Date.now(),
-            players: {}
-        };
-
-        roomData.players[currentUser.uid] = {
-            username: currentUser.username,
-            avatar: currentUser.avatar,
-            progress: 0,
-            score: 0,
-            status: 'waiting'
-        };
-
-        await set(newRoomRef, roomData);
-        
-        document.getElementById('room-view-title').innerText = `Pokój: ${currentRoomId.slice(-5)} ${isPrivate ? '🔒' : '🌍'}`;
-        switchScreen('screen-room');
-        listenToCurrentRoom();
-    });
-
-    // --- LOGIKA DOŁĄCZANIA DO ISTNIEJĄCEGO POKOJU ---
-    async function joinRoom(roomId, roomData, isFull) {
-        const isAlreadyInRoom = roomData.players && roomData.players[currentUser.uid];
-
-        if (isFull && !isAlreadyInRoom) {
-            alert("Ten pokój jest już pełny!");
-            return;
-        }
-
-        if (roomData.isPrivate && !isAlreadyInRoom) {
-            const userPass = prompt("Pokój jest prywatny. Podaj hasło:");
-            if (userPass !== roomData.password) {
-                alert("Nieprawidłowe hasło!");
-                return;
-            }
-        }
-
-        currentRoomId = roomId;
-
-        if (!isAlreadyInRoom) {
-            await update(ref(db, `rooms/${roomId}/players/${currentUser.uid}`), {
-                username: currentUser.username,
-                avatar: currentUser.avatar,
-                progress: 0,
-                score: 0,
-                status: 'waiting'
-            });
-        }
-
-        document.getElementById('room-view-title').innerText = `Pokój: ${roomId.slice(-5)} ${roomData.isPrivate ? '🔒' : '🌍'}`;
-        switchScreen('screen-room');
-        listenToCurrentRoom();
-    }
-
-    // --- NOCLECH / POCZEKALNIA POKOJU ---
-    function listenToCurrentRoom() {
-        onValue(ref(db, `rooms/${currentRoomId}`), (snapshot) => {
-            if(!snapshot.exists()) return;
-            const room = snapshot.val();
-            
-            const list = document.getElementById('room-players-list');
-            list.innerHTML = '';
-            
-            for (const playerId in room.players) {
-                const player = room.players[playerId];
-                const isMe = playerId === currentUser.uid;
-                
-                list.innerHTML += `
-                    <div class="player-row">
-                        <span class="user-profile"><span style="font-size:20px;">${player.avatar}</span> ${player.username} ${isMe ? '(Ty)' : ''}</span>
-                        <span style="color: ${player.status === 'completed' ? 'var(--success)' : 'var(--warning)'};">
-                            ${player.status === 'completed' ? 'Ukończono' : `Pytań: ${player.progress}/${room.questionCount}`}
-                        </span>
-                    </div>
-                `;
-            }
-        });
-    }
-
-    // --- WYJŚCIE Z POKOJU ---
-    document.getElementById('btn-leave-room').addEventListener('click', () => {
-        currentRoomId = null;
-        switchScreen('screen-dashboard');
-    });
-
-    // --- ROZPOCZĘCIE WŁASNEGO QUIZU ---
-    document.getElementById('btn-start-my-quiz').addEventListener('click', async () => {
-        myLocalProgress = 0;
-        myLocalScore = 0;
-        roomQuestions = [ { q: "Ile to 2+2?" }, { q: "Stolica Polski?" }, { q: "Największa planeta?" } ]; 
-        
-        await update(ref(db, `rooms/${currentRoomId}/players/${currentUser.uid}`), { status: 'in_progress' });
-        switchScreen('screen-quiz');
-        loadNextAsyncQuestion();
-    });
-
-    function loadNextAsyncQuestion() {
-        if (myLocalProgress >= roomQuestions.length) {
-            finishMyQuiz();
-            return;
-        }
-        
-        const qTotal = roomQuestions.length;
-        document.getElementById('quiz-progress-text').innerText = `Pytanie ${myLocalProgress + 1} / ${qTotal}`;
-        document.getElementById('quiz-progress-bar').style.width = `${((myLocalProgress) / qTotal) * 100}%`;
-        document.getElementById('quiz-question-text').innerText = roomQuestions[myLocalProgress].q;
-    }
-
-    async function handleAnswer(isCorrect) {
-        if (isCorrect) myLocalScore++;
-        myLocalProgress++;
-        
-        await update(ref(db, `rooms/${currentRoomId}/players/${currentUser.uid}`), { 
-            progress: myLocalProgress, 
-            score: myLocalScore 
-        });
-
-        loadNextAsyncQuestion();
-    }
-
-    document.getElementById('test-btn-correct').addEventListener('click', () => handleAnswer(true));
-    document.getElementById('test-btn-wrong').addEventListener('click', () => handleAnswer(false));
-
-    async function finishMyQuiz() {
-        await update(ref(db, `rooms/${currentRoomId}/players/${currentUser.uid}`), { status: 'completed' });
-        switchScreen('screen-results');
-        
-        setTimeout(() => {
-            document.getElementById('waiting-message').classList.add('hidden');
-            document.getElementById('podium-container').classList.remove('hidden');
-            renderFinalLeaderboardMock();
-        }, 1500); 
-    }
-
-    function renderFinalLeaderboardMock() {
-        document.getElementById('podium-1-name').innerText = currentUser.username;
-        document.getElementById('podium-1-score').innerText = myLocalScore + " pkt";
-        document.getElementById('podium-1-avatar').innerText = currentUser.avatar;
-
-        const list = document.getElementById('final-leaderboard');
-        list.innerHTML = `
-            <div class="player-row" style="background: rgba(255,255,255,0.05); border-radius: 8px;">
-                <span>1. ${currentUser.avatar} ${currentUser.username}</span>
-                <span class="player-completed">${myLocalScore} pkt</span>
-            </div>
-        `;
-    }
-
-    document.getElementById('btn-return-to-dash').addEventListener('click', () => {
-        currentRoomId = null;
-        switchScreen('screen-dashboard');
-    });
-
-</script>
+<script type="module" src="game.js"></script>
 </body>
 </html>
